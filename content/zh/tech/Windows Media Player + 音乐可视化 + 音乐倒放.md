@@ -15,11 +15,11 @@ Windows Media Player 是 Windows 自带的多媒体播放器，虽然长得土�
 
 ## 预览
 
-<video src="/videos/taylor-swift-style.mp4" controls></video>
+![taylor-swift-style.mp4](/videos/taylor-swift-style.mp4)
 
 ## 可视化
 
-要下载的话，官网点[这里](https://www.soundspectrum.com/)，如下图，随便点一个下载`Free Trial`版就行，选 Windows Media Player，然后可能要填个表，邮箱年龄啥的，乱填一下就好了。
+要下载的话，官网点[这里](https://www.soundspectrum.com/)，如下图，随便点一个下载 `Free Trial` 版就行，选 Windows Media Player，然后可能要填个表，邮箱年龄啥的，乱填一下就好了。
 
 ![music-visualization.png](/images/music-visualization.png "下载界面")
 
@@ -29,7 +29,7 @@ Windows Media Player 是 Windows 自带的多媒体播放器，虽然长得土�
 
 把一首歌倒着放，感觉很怪，但有时也很赞。接触到这个，是因为 Coldplay 一首最深情的 The Scientist [正序版 MV](http://v.yinyuetai.com/video/h5/707065)，正序的 MV，[倒序](https://www.zhihu.com/question/19929125)的音乐，却仍是满满的深情。
 
-使用 GoldWave 可以实现把一首歌倒序，当然如果你用其它音频处理的软件也行，只要你会就行。首先点击下载 [goldwave-cn.zip (11.0MB)](https://github.com/reuixiy/reuixiy.github.io/raw/master/uploads/goldwave-cn.zip)，然后解压缩啥的自己鼓捣，双击`.exe`结尾的程序打开，最后按下列步骤操作。
+使用 GoldWave 可以实现把一首歌倒序，当然如果你用其它音频处理的软件也行，只要你会就行。首先点击下载 <a href="/uploads/goldwave-cn.zip" target="_blank">goldwave-cn.zip (11.0MB)</a>，然后解压缩啥的自己鼓捣，双击 `.exe` 结尾的程序打开，最后按下列步骤操作。
 
 ![goldwave-1.png](/images/goldwave-1.png "打开文件")
 
@@ -41,6 +41,6 @@ Windows Media Player 是 Windows 自带的多媒体播放器，虽然长得土�
 
 ![goldwave-5.png](/images/goldwave-5.png "保存")
 
-···
+---
 
 空间巨浪席卷大脑，nothing but a shape, can you understand it?

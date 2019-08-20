@@ -59,7 +59,7 @@ weight = 1
 languageCode = "zh-CN"
 hasCJKLanguage= true
 title = "reuixiy"
-copyright = ""
+copyright = "在保留本文作者及本文链接的前提下，非商业用途随意转载分享。"
 [languages.zh-cn.params]
 lineHeight = 2
 
@@ -355,15 +355,15 @@ smallestFontSize = 1
 
 # Unit: em
 # You can leave it empty ("") to fallback to default value: 42
-listWidth = 30
+listWidth = 36
 displayListTitle = true
 # https://gohugo.io/functions/format/
-listDateFormat = "January 2"
+listDateFormat = "2006-01-02"
 # left / right
 listDatePosition = "right"
-groupByMonth = true
+groupByMonth = false
 chineseZodiac = true
-i18nYear = true
+i18nYear = false
 i18nMonth = true
 
 # Taxonomy List
@@ -397,7 +397,7 @@ hideThemeToggleInHome = false
 # black and white on a white background. Also, you can set
 # `true` here and set `false` in Front Matter which will
 # overwrite what you have set here.
-darkImage = true
+darkImage = false
 
 # Web App
 # https://realfavicongenerator.net/
@@ -429,14 +429,14 @@ enableServiceWorker = true
 # I suggest you set `katex: true` in post’s Front Matter instead of here
 enableKaTeX = false
 
-enableComments = true
-enableDisqus = true
+enableComments = false
+enableDisqus = false
 disqusShortname = "meme-5"
 
 enableGoogleAnalytics = true
 # `gtag` or `analytics`
 trackingCodeType = "gtag"
-trackingID = "UA-145421897-1"
+trackingID = "UA-100434861-1"
 
 googleSiteVerification = ""
 
@@ -462,7 +462,7 @@ postWidth = 36
 original = true
 
 # Post Meta
-enablePostMeta = true
+enablePostMeta = false
 # Works for home layout `posts` only
 enablePostMetaInHome = true
 postMetaDateFormat = "January 2"
@@ -482,20 +482,20 @@ displayReadingTime = true
 readingTimeIcon = "clock"
 
 # Table of Contents
-enableTOC = true
+enableTOC = false
 displayTOCTitle = true
 linkHeadingsToTOC = true
 
 # Headings Anchor / Section Sign (Add section sign before headings)
 enableHeadingsAnchor = true
 # RegEX format, Defaut: 1-6 (1|2|3|4|5|6), h1-h6
-headingsOpt = "2"
+headingsOpt = ""
 # `anchorIcon` has a higher priority than `anchorSymbol`
 # Default: §
 anchorSymbol = "#"
 anchorIcon = "link"
 enableAnchorLink = true
-enableAnchorAutoHide = false
+enableAnchorAutoHide = true
 
 # Image / Video
 # If true, will replace `title` with caption.
@@ -505,8 +505,8 @@ captionPrefix = "◎ "
 # Image / Video Hosting
 # Only support absolute URLs relative to root,
 # eg: /../../*.jpg
-enableHost = false
-hostURL = "https://io-oi.me/"
+enableHost = true
+hostURL = "https://io-oi.oss-cn-shanghai.aliyuncs.com/"
 headAlso = false
 
 # Footnote
@@ -534,8 +534,8 @@ lineHeight = 2
 # Any value is not set, fallback to `fontFamilyBody` it will.
 # If you use SVG as your Site Brand, then leave this value empty.
 fontFamilySiteBrand = ""
-fontFamilyPostTitle = ""
-fontFamilyHeadings = ""
+fontFamilyTitle = "'Cinzel Decorative', 'Noto Serif SC', serif"
+fontFamilyHeadings = "'Cinzel Decorative', 'Noto Serif SC', serif"
 fontFamilyCode = "'Source Code Pro', 'Noto Serif SC', monospace"
 fontFamilyQuote = ""
 fontFamilyTOC = ""
@@ -544,17 +544,17 @@ fontFamilyFooter = ""
 fontFamilyBody = "'EB Garamond', 'Noto Serif SC', serif"
 
 # https://fonts.google.com/
-fontsLink = 'https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,700,700i|Noto+Serif+SC:400,500,700|Source+Code+Pro:400,400i,700,700i&display=swap&subset=chinese-simplified'
+fontsLink = 'https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,700,700i|Noto+Serif+SC:400,700|Source+Code+Pro:400,400i,700,700i|Cinzel+Decorative:700&display=swap&subset=chinese-simplified'
 
 enableChinesePunctuationGlyphCorrection = true
 
 # Post title and headings
-enableSmallCap = true
+enableSmallCap = false
 
 # Post first paragraph
 enableDropCap = true
 # Every paragraph after `<hr />` or `---` in Markdown
-enableDropCapAfterHr = true
+enableDropCapAfterHr = false
 deleteHrBeforeDropCap = false
 
 enableParagraphIndent = true
@@ -565,16 +565,17 @@ enableJustify = true
 
 # Post Copyright
 enablePostCopyright = true
+displayPostCopyright = false
 
 enablePostUpdatedBadge = true
-displayUpdatedBadge = true
+displayUpdatedBadge = false
 enableBadgeTitle = true
 badgeTitlePrefix = "Updated @ "
 
-enablePostGitInfo = true
-repoURL = "https://github.com/reuixiy/meme-test"
+enablePostGitInfo = false
+repoURL = "https://github.com/reuixiy/io-oi.me"
 # or https://github.com/reuixiy/meme-test/edit/master
-repoEditURL = "https://github.com/reuixiy/meme-test/blob/master"
+repoEditURL = "https://github.com/reuixiy/io-oi.me/blob/master"
 gitIcon = "code-branch"
 displayCommitHash = true
 displayCommitMessage = true
@@ -587,12 +588,12 @@ editIcon = "edit"
 editText = "Edit Me?"
 
 # Related Posts
-enableRelatedPosts = true
+enableRelatedPosts = false
 relatedPostsNumber = 5
 relatedPostsIcon = "plus-circle"
 
 # Post tags
-enablePostTags = true
+enablePostTags = false
 postTagsIcon = "tag"
 
 # Post minimal footer
@@ -605,8 +606,8 @@ enableAboutPageMinimalFooter = true
 #       Therefore, you will get a newer post if you click
 #       prev on the left; you will get a older post if
 #       you click next on the right.
-enablePostNav = true
-postNavInSection = false
+enablePostNav = false
+postNavInSection = true
 
 # Syntax Highlight
 enableHighlight = true
@@ -625,8 +626,8 @@ iconBetweenYearAndAuthor = "heart"
 iconColor = "#f06292"
 iconAnimation = true
 displayPoweredBy = true
-displaySiteCopyright = true
-customFooter = "[CC-BY-NC](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh)"
+displaySiteCopyright = false
+customFooter = "[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)"
 
 # Multilingual
 enableLangToggle = true

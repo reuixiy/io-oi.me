@@ -22,7 +22,7 @@ slug = "titanic"
 
 ![titanic-pity.jpg](/images/titanic-pity.jpg)
 
-> ...the longing for love, the search for knowledge, and unbearable pity for the suffering of mankind.
+> ...the longing for love, the search for knowledge, and unbearable pity for the suffering of mankind.  
 — *Bertrand Russell: What I Have Lived For*
 
 有可能是我很久之前就在电视上看过，也有可能「泰坦尼克号」在我的词典中即象征着悲剧，眼看爱情故事趋于完满却知道其最终仍会葬身于冰山之旁时，自己开始感受到了同情，并在沉没之时扩宽了、加深了，转化成了对泰坦尼克号全体遇难者的深深同情，震撼心灵！

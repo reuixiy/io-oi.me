@@ -1,0 +1,34 @@
+[build]
+publish = "public"
+command = "npm run build"
+
+[context.production.environment]
+HUGO_VERSION = "0.55.6"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+  from = "https://io-oi.netlify.com/*"
+  to = "https://io-oi.me/:splat"
+  force = true
+[[redirects]]
+  from = "/technology/computer/computer-aided-art/2017/06/09/hexo-next-optimization.html"
+  to = "/tech/hexo-next-optimization/"
+[[redirects]]
+  from = "/technology/internet/zeronet/2017/09/01/first-exploration-of-the-zeronet.html"
+  to = "/tech/first-exploration-of-the-zeronet/"
+[[redirects]]
+  from = "/technology/computer/system-software/2018/12/11/hello-arch-linux.html"
+  to = "/tech/hello-arch-linux/"
+[[redirects]]
+  from = "/technology/computer/computer-aided-art/2018/05/30/speed-up-hexo.html"
+  to = "/tech/speed-up-hexo/"
+[[redirects]]
+  from = "/technology/computer/computer-aided-art/2018/07/18/custom-domains-on-github-pages.html"
+  to = "/tech/custom-domains-on-github-pages/"
+[[redirects]]
+  from = "/beautiful/share/2018/12/11/noto-serif-sc-added-on-google-fonts.html"
+  to = "/tech/noto-serif-sc-added-on-google-fonts/"
+[[redirects]]
+  from = "/the-philosophy-of-web-typography/text-indent-or-margin.html"
+  to = "/tech/the-philosophy-of-web-typography-text-indent-or-margin/"
