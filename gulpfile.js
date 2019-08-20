@@ -16,7 +16,7 @@ gulp.task("hugo-build", shell.task(["hugo --gc --minify"]));
 
 gulp.task("generate-service-worker", () => {
     return workbox.generateSW({
-        cacheId: "hugo-theme-meme",
+        cacheId: "reuixiy",
         swDest: "./public/sw.js",
         clientsClaim: true,
         skipWaiting: true,
@@ -77,6 +77,17 @@ gulp.task("generate-service-worker", () => {
                 handler: "cacheFirst",
                 options: {
                     cacheName: "static-libs",
+                    expiration: {
+                        maxEntries: 1000,
+                        maxAgeSeconds: 60 * 60 * 24 * 365
+                    }
+                }
+            },
+            {
+                urlPattern: new RegExp('^https:\/\/io-oi\.oss-cn-shanghai\.aliyuncs\.com'),
+                handler: "cacheFirst",
+                options: {
+                    cacheName: "oss",
                     expiration: {
                         maxEntries: 1000,
                         maxAgeSeconds: 60 * 60 * 24 * 365
