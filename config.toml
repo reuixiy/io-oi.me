@@ -568,7 +568,7 @@ enableDropCap = true
 enableDropCapAfterHr = false
 deleteHrBeforeDropCap = false
 
-enableParagraphIndent = true
+enableParagraphIndent = false
 # margin or indent, globe setting, Front Matter: indent
 paragraphStyle = "margin"
 
