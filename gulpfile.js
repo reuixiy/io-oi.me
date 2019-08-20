@@ -84,7 +84,7 @@ gulp.task("generate-service-worker", () => {
                 }
             },
             {
-                urlPattern: new RegExp('^https:\/\/io-oi\.oss-cn-shanghai\.aliyuncs\.com\/images\/*'),
+                urlPattern: new RegExp('^https:\/\/io-oi\.oss-cn-shanghai\.aliyuncs\.com\/images'),
                 handler: "cacheFirst",
                 options: {
                     cacheName: "oss",
