@@ -33,7 +33,7 @@ gulp.task("generate-service-worker", () => {
         },
         runtimeCaching: [
             {
-                urlPattern: /\.(?:png|jpg|jpeg|gif|bmp|webp|svg|ico)$/,
+                urlPattern: /.*\.(?:png|jpg|jpeg|gif|bmp|webp|svg|ico)$/,
                 handler: "cacheFirst",
                 options: {
                     cacheName: "image",
@@ -77,17 +77,6 @@ gulp.task("generate-service-worker", () => {
                 handler: "cacheFirst",
                 options: {
                     cacheName: "static-libs",
-                    expiration: {
-                        maxEntries: 1000,
-                        maxAgeSeconds: 60 * 60 * 24 * 365
-                    }
-                }
-            },
-            {
-                urlPattern: new RegExp('^https:\/\/io-oi\.oss-cn-shanghai\.aliyuncs\.com(.*)(?:png|jpg|jpeg|gif|bmp|webp|svg|ico)$'),
-                handler: "cacheFirst",
-                options: {
-                    cacheName: "oss",
                     expiration: {
                         maxEntries: 1000,
                         maxAgeSeconds: 60 * 60 * 24 * 365
