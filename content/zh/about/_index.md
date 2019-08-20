@@ -27,6 +27,6 @@ Sweep the streets I used to own</i></p>
 2. 分类方式，最基本的就是 [category 和 tag](/tech/categories+tags/)
 3. 页面布局，欣赏的人自然懂
 
-最重要的是自己这个小白可以折腾得起，并且适合我这个极简主义者 + 完美主义者。开始搭建时，就希望治疗我这个懒癌晚期患者，给我继续书写的动力，结果嘛，还是有点点用的。另：博客的框架是 [Hexo](https://hexo.io/)，主题基于 [NexT](https://github.com/iissnan/hexo-theme-next)（[v6](https://github.com/theme-next/hexo-theme-next)），部署在 [GitHub Pages](https://github.com/reuixiy/reuixiy.github.io) 和 [Netlify](https://www.netlify.com/) 上。博客还采用了 [Google Analytics](https://analytics.google.com/) 来为网站提供数据统计服务和 [Google Fonts](https://fonts.google.com/) 来为网站提供字体服务，但由于国内网络环境对此不太友好，因此分别使用了 [Giuem](https://www.giuem.com/google-analytics-loading-optimize/) 的解决方案和[烧饼博客](https://sb.sb/)的[镜像地址](https://fonts.loli.net/)，在此特别感谢 : )
+最重要的是自己这个小白可以折腾得起，并且适合我这个极简主义者 + 完美主义者。开始搭建时，就希望治疗我这个懒癌晚期患者，给我继续书写的动力，结果嘛，还是有点点用的。另：博客的框架是 [Hugo](https://gohugo.io/)，主题是 [MemE](https://github.com/reuixiy/hugo-theme-meme)，源码在 [GitHub](https://github.com/reuixiy/io-oi.me) 上，部署在 [Netlify](https://app.netlify.com/sites/io-oi/deploys) 上。
 
 最后，本博客使用了 PWA 技术，你可以通过浏览器添加本博客到你的手机主屏或电脑桌面，随时随地查看本博客。如果你想订阅本博客的话，推荐 RSS，虽然博客也有个<a href="/images/qrcode-wechat-reuixiy.svg" target="_blank">微信订阅号</a>。如果你也..爱智慧..，可以去我的[另一个博客](https://yixiuer.me/)逛一逛，看你能不能找到本博客的首页诗句的出处。如果你觉得我的文章对你有用，或者喜欢我写的文章，欢迎<a href="/images/qrcode-wechat-reward.png" target="_blank">微信</a>╱<a href="/images/qrcode-alipay-reward.jpg" target="_blank">支付宝</a>赞赏，随意赞赏😃...
