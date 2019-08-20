@@ -70,6 +70,10 @@ weight = 2
 languageCode = "en-US"
 title = "reuixiy"
 copyright = ""
+[languages.en-us.taxonomies]
+# category = "categories"
+# tag = "tags"
+# name = "names"
 [languages.en-us.params]
 lineHeight = 1.618
 postWidth = 28
@@ -373,7 +377,7 @@ displayTaxonomyTermCount = true
 mainSections = ["life", "tech"]
 
 # Post Sections
-postSections = ["life", "tech", "poetry"]
+postSections = ["life", "tech"]
 
 # Feed
 feedSections = ["life", "tech"]
