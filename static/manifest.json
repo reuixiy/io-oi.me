@@ -3,7 +3,7 @@
     "short_name": "reuixiy",
     "icons": [
         {
-            "src": "/images/avatar.png",
+            "src": "/icons/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
