@@ -5,7 +5,7 @@ description = "淹没于深海"
 
 <hr class="coldplay" />
 
-<video poster="/images/coldplay.jpg" src="/videos/coldplay-swallowed-in-the-sea-live.mp4" controls></video>
+<video src="/videos/coldplay-swallowed-in-the-sea-live.mp4" poster="/images/coldplay.jpg" controls></video>
 
 <div style="text-align: center">❤ evoL ni eveileB</div>
 

@@ -5,7 +5,7 @@ description = "Look at the stars, look how they shine for you."
 
 <hr class="coldplay" />
 
-<video poster="/images/coldplay.jpg" src="/videos/coldplay-yellow-live.mp4" controls></video>
+<video src="/videos/coldplay-yellow-live.mp4" poster="/images/coldplay.jpg" controls></video>
 
 <div style="text-align: center">❤ evoL ni eveileB</div>
 
