@@ -631,7 +631,7 @@ iconColor = "#f06292"
 iconAnimation = true
 displayPoweredBy = true
 displaySiteCopyright = false
-customFooter = "[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)"
+customFooter = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)"
 
 # Multilingual
 enableLangToggle = true
