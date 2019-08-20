@@ -1,5 +1,5 @@
 {
-  "name": "meme-test",
+  "name": "reuixiy",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reuixiy/meme-test.git"
+    "url": "git+https://github.com/reuixiy/io-oi.me.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/reuixiy/meme-test/issues"
+    "url": "https://github.com/reuixiy/io-oi.me/issues"
   },
-  "homepage": "https://github.com/reuixiy/meme-test#readme",
+  "homepage": "https://github.com/reuixiy/io-oi.me#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0",
