@@ -473,6 +473,9 @@ postWidth = 36
 # If one post is not original, set in that post’s Front Matter.
 original = true
 
+# Post Description
+displayPostDescription = true
+
 # Post Meta
 enablePostMeta = false
 # Works for home layout `posts` only
