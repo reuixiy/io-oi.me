@@ -4,6 +4,7 @@ date = "2019-08-20T18:10:05+08:00"
 tags = ["hugo", "hexo"]
 darkImage = true
 katex = true
+gitinfo = true
 +++
 
 转眼间，博客将近荒废了两个月🤪... Anyway，从今天起，本博客就是「自豪地由 [Hugo](https://gohugo.io/) 驱动」了！🎉🎉 Farewell, Hexo~ 🐢

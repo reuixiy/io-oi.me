@@ -589,6 +589,7 @@ enableBadgeTitle = true
 badgeTitlePrefix = "Updated @ "
 
 enablePostGitInfo = true
+displayPostGitInfo = false
 repoURL = "https://github.com/reuixiy/io-oi.me"
 # or https://github.com/reuixiy/io-oi.me/edit/master
 repoEditURL = "https://github.com/reuixiy/io-oi.me/blob/master"

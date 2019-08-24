@@ -5,6 +5,7 @@ tags = ["hexo"]
 slug = "hexo-mathjax-svg"
 katex = true
 dropCap = false
+gitinfo = true
 +++
 
 ![hexo-mathjax-svg.jpg](/images/hexo-mathjax-svg.jpg)

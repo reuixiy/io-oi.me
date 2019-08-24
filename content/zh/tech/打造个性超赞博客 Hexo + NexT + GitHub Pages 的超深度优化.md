@@ -4,6 +4,7 @@ date = "2017-06-09T01:36:42+08:00"
 tags = ["hexo"]
 toc = true
 slug = "hexo-next-optimization"
+gitinfo = true
 +++
 
 ![hexo-next-optimization-title.jpg](/images/hexo-next-optimization-title.jpg "Coldplay")
