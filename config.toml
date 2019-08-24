@@ -588,9 +588,9 @@ displayUpdatedBadge = false
 enableBadgeTitle = true
 badgeTitlePrefix = "Updated @ "
 
-enablePostGitInfo = false
+enablePostGitInfo = true
 repoURL = "https://github.com/reuixiy/io-oi.me"
-# or https://github.com/reuixiy/meme-test/edit/master
+# or https://github.com/reuixiy/io-oi.me/edit/master
 repoEditURL = "https://github.com/reuixiy/io-oi.me/blob/master"
 gitIcon = "code-branch"
 displayCommitHash = true
