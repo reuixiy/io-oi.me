@@ -790,7 +790,7 @@ kid3 | 音频元数据编辑软件 | Mp3tag
 aria2 | 强大的多线程下载工具 | *
 youtube-dl | YouTube 视频下载工具 | *
 baidupcs-go-git | 百度网盘下载工具 | *
-ncmdump-go | 网易云音乐的`.ncm`格式转换工具 | *
+ncmdump-go | 网易云音乐的 `.ncm` 格式转换工具 | *
 code | Visual Studio Code | *
 
 ```bash
