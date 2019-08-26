@@ -5,6 +5,7 @@ tags = ["hexo"]
 slug = "hexo-mathjax-svg"
 katex = true
 dropCap = false
+gitinfo = true
 +++
 
 ![hexo-mathjax-svg.jpg](/images/hexo-mathjax-svg.jpg)
@@ -82,6 +83,8 @@ gulp.task('mathjax', function() {
 本地无法在浏览器直接 `hexo s` 查看预览，但可以 `gulp mathjax` 后去 public 文件夹下找到相应文件并用浏览器打开预览。当然，这样预览过于麻烦了，所以建议直接用 [Mathjax 官网的 Live Demo](https://www.mathjax.org/#demo) 预览，部署前再用上面这种方法确认一遍即可。
 
 ## 效果展示
+
+注意：我已从 Hexo [迁移](/tech/powered-by-hugo/)到 Hugo，下面的公式是由 [${\KaTeX}$](https://katex.org/) 在线渲染的，而非 SVG。
 
 爱因斯坦场方程：
 
