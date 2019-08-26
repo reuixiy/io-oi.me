@@ -3,6 +3,7 @@ title = "加速 Hexo 博客"
 date = "2018-05-30T13:10:50+08:00"
 tags = ["hexo"]
 slug = "speed-up-hexo"
+gitinfo = true
 +++
 
 ![speed-up-hexo.png](/images/speed-up-hexo.png)
