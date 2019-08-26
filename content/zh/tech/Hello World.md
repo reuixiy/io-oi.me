@@ -5,6 +5,7 @@ tags = ["hexo"]
 description = "for testing something new only"
 slug = "test"
 dropCap = false
+gitinfo = true
 +++
 
 ![hello-world.jpg](/images/hello-world.jpg)
