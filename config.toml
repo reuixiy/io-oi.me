@@ -12,7 +12,7 @@ pluralizeListTitles = false
 
 summaryLength = 42
 
-enableRobotsTXT = true
+enableRobotsTXT = false
 
 pygmentsCodefences = true
 pygmentsUseClasses = true
