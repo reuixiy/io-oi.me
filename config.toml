@@ -319,11 +319,13 @@ siteBrandBackgroundImage = "linear-gradient(90deg, #f79533 0, #f37055 15%, #ef4e
 
 # poetry, footage, posts
 homeLayout = "poetry"
+
 # Layout poetry settings
 # Markdown supported
 homePoetry = ["暗夜中", "渴望一束光的关怀", "在白天", "却更渴望黑洞的吞噬", "因为好奇心，想看看黑暗中有什么"]
 # Unit: em
 homeLinksPadding = 1
+
 # Layout footage settings
 homePoster = "/images/reflection-of-tree-at-night-10s-720p.jpg"
 homeVideoWebm = "/videos/reflection-of-tree-at-night-10s-720p.webm"
@@ -340,7 +342,7 @@ homeLinksDelimiter = "·"
 siteLogo = "/icons/apple-touch-icon.png"
 # For HTML meta
 siteDescription = "这是 reuixiy 的生活与技术博客！怎么记住 reuixiy 呢？其实就是「一休儿」的拼音，只不过顺序是从右往左……"
-# If not set, will use site all taxonomies term as default
+# If not set, will use site’s all taxonomy terms as default
 siteKeywords = []
 # Keep this format, change the number
 siteCreatedTime = "2017-05-27T15:13:14+08:00"
@@ -418,7 +420,7 @@ darkImage = false
 # safari-pinned-tab.svg, favicon.ico, site.webmanifest and delete others
 # Move to ~/blog/static/icons/
 # Move favicon.ico site.webmanifest to ~/blog/static/
-# Change site.webmanifest to manifest.json
+# Rename site.webmanifest to manifest.json
 # See https://github.com/w3c/manifest/issues/689
 # See https://github.com/OneSignal/OneSignal-Website-SDK/issues/332
 # Check and Modify manifest.json (/icons path)
@@ -636,7 +638,7 @@ backToTopIcon = "arrow-up"
 displayBackToTopInHome = false
 
 # Footer
-# Note: Home layout `poetry` and `footage`, and 404 page have no footer.
+# Note: Home layout `poetry`, `footage`, and 404 page have no footer.
 enableFooter = true
 displayCopyrightSymbol = true
 displaySiteCreatedYear = true
