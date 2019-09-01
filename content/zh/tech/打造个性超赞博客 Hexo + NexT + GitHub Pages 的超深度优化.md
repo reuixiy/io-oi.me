@@ -1621,7 +1621,9 @@ githubEmojis:
 没错，加入的是 `idName` 这行而非 `className` 这行，为什么我要这样写？因为要编辑文件：
 
 1. Ctrl + F 搜索 `class`，全部替换为 `id`。
-2. Ctrl + F 搜索 `title`，更改相关代码，如下：
+2. Ctrl + F 搜索 `title`，更改相关代码。
+
+如下：
 
 ```diff
 # 文件位置：~/blog/node_modules/hexo-filter-github-emojis/index.js
