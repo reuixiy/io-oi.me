@@ -548,6 +548,7 @@ lineHeight = 2
 # Any value is not set, fallback to `fontFamilyBody` it will.
 # If you use SVG as your Site Brand, then leave this value empty.
 fontFamilySiteBrand = ""
+fontFamilyMenu = ""
 fontFamilyTitle = "'Cinzel Decorative', 'Noto Serif SC', serif"
 fontFamilyHeadings = "'Cinzel Decorative', 'Noto Serif SC', serif"
 fontFamilyCode = "'Source Code Pro', 'Noto Serif SC', monospace"
@@ -604,6 +605,7 @@ editText = "Edit Me?"
 
 # Related Posts
 enableRelatedPosts = false
+displayRelatedPosts = false
 relatedPostsNumber = 5
 relatedPostsIcon = "plus-circle"
 
