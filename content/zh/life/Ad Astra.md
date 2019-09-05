@@ -15,7 +15,7 @@ slug = "ad-astra"
 
 回到开头的最后一个名字—— [Jim Bridenstine](https://twitter.com/JimBridenstine)，他是现在的 NASA 局长，一位政治家。为什么他也加入了我的偶像列表呢？因为他近期的作为、演讲，以及他表现出的坚定信心。在人类登月 50 周年之际，美国最近推出新的登月计划，计划在 2024 年前再次踏上月球，且将留在月球，而不是去月球远足几次，仅留下一些脚印。
 
-在这个世界，还有什么能比新大陆更令人神往呢？在这个时代，还有什么能比跨越太空海洋更令人振奋呢？新航海时代，[Ad astra](https://en.wikipedia.org/wiki/Ad_astra_(phrase)).
+在这个世界，还有什么能比新大陆更令人神往呢？在这个时代，还有什么能比跨越太空海洋更令人振奋呢？新航海时代，[Ad astra](https://en.wikipedia.org/wiki/Ad_astra_(phrase))
 
 ---
 
