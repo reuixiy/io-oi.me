@@ -1,7 +1,7 @@
 {
   "name": "reuixiy",
   "version": "1.0.0",
-  "description": "",
+  "description": "Blog of Mine",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,9 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/reuixiy/io-oi.me.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["blog", "hugo", "hugo-theme-meme"],
+  "author": "reuixiy",
+  "license": "CC BY-NC-SA 4.0",
   "bugs": {
     "url": "https://github.com/reuixiy/io-oi.me/issues"
   },
