@@ -5,7 +5,7 @@ date = "2018-12-11T15:12:04+08:00"
 slug = "noto-serif-sc-added-on-google-fonts"
 +++
 
-![noto-serif-sc-added-on-google-fonts.png](/images/noto-serif-sc-added-on-google-fonts.png "Google Fonts 网站出现了简体字")
+![noto-serif-sc-added-on-google-fonts.png](/images/noto-serif-sc-added-on-google-fonts.png "Google Fonts 网站出现了汉字")
 
 就在昨天，一次偶然，我打开了 [Google Fonts](https://fonts.google.com) 的网站，眼前一亮！惊奇地发现了被英文字母包围的汉字！什么？Google Fonts 居然支持汉字了！？是的，查阅相关资料后，根据国外的这个网站上的两篇文章：
 
