@@ -14,76 +14,17 @@ gulp.task("clean", function () {
 
 gulp.task("hugo-build", shell.task(["hugo --gc --minify"]));
 
-gulp.task("generate-service-worker", () => {
-    return workbox.generateSW({
-        cacheId: "reuixiy",
-        swDest: "./public/sw.js",
-        clientsClaim: true,
-        skipWaiting: true,
-        ignoreUrlParametersMatching: [/./],
-        offlineGoogleAnalytics: true,
-        cleanupOutdatedCaches: true,
-        globDirectory: "./public",
+gulp.task('generate-service-worker', () => {
+    return workbox.injectManifest({
+        swSrc: './sw-template.js',
+        swDest: './public/sw.js',
+        globDirectory: './public',
         globPatterns: [
-            "**/*.{html,css,js,json,woff2}",
+            "**/*.{html,css,js,json,woff2}"
         ],
-        maximumFileSizeToCacheInBytes: 50 * 1024 * 1024,
-        modifyUrlPrefix: {
+        modifyURLPrefix: {
             "": "/"
-        },
-        runtimeCaching: [
-            {
-                urlPattern: /.*\.(?:png|jpg|jpeg|gif|bmp|webp|svg|ico)$/,
-                handler: "cacheFirst",
-                options: {
-                    cacheName: "image",
-                    expiration: {
-                        maxEntries: 1000,
-                        maxAgeSeconds: 60 * 60 * 24 * 365
-                    }
-                }
-            },
-            {
-                urlPattern: /\.(?:eot|ttf|woff|woff2)$/,
-                handler: "cacheFirst",
-                options: {
-                    cacheName: "font",
-                    expiration: {
-                        maxEntries: 1000,
-                        maxAgeSeconds: 60 * 60 * 24 * 365
-                    }
-                }
-            },
-            {
-                urlPattern: new RegExp('^https:\/\/fonts\.googleapis\.com'),
-                handler: "staleWhileRevalidate",
-                options: {
-                    cacheName: "google-fonts-stylesheets"
-                }
-            },
-            {
-                urlPattern: new RegExp('^https:\/\/fonts\.gstatic\.com'),
-                handler: "cacheFirst",
-                options: {
-                    cacheName: "google-fonts-webfonts",
-                    expiration: {
-                        maxEntries: 1000,
-                        maxAgeSeconds: 60 * 60 * 24 * 365
-                    }
-                }
-            },
-            {
-                urlPattern: new RegExp('^https:\/\/cdn\.jsdelivr\.net'),
-                handler: "cacheFirst",
-                options: {
-                    cacheName: "static-libs",
-                    expiration: {
-                        maxEntries: 1000,
-                        maxAgeSeconds: 60 * 60 * 24 * 365
-                    }
-                }
-            }
-        ]
+        }
     });
 });
 
