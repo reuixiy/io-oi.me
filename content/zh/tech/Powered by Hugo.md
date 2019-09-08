@@ -15,7 +15,7 @@ gitinfo = true
 
 ![home-poetry-en.png](/images/home-poetry-en.png "仓促地翻译了一下博客的首页诗句")
 
-然而，也并不是所有的功能都迁移了过来。比如：~~Service Worker 后台更新完成后的提示，~~代码块高亮的顶部文字。关于 Service Worker，本博客[之前](/tech/speed-up-hexo/)是通过 [hexo-service-worker](https://github.com/zoumiaojiang/hexo-service-worker) 这个插件来实现的，其通过 sw-precache 实现文件的预缓存，而现在博客是通过 gulp 来实现的，通过 [Workbox](https://developers.google.com/web/tools/workbox/) 实现文件的预缓存，因此可以说是一种升级，但可惜我的技术不足，~~没有实现~~（已实现）更新完后的「通知」功能已实现，见。至于代码块高亮的顶部文字，之前由于还年轻，以为这是 Markdown 的原生语法，故在文章中大量使用，现在[知道](https://daringfireball.net/projects/markdown/)这并不是原生语法，故我想着也没必要去实现，毕竟这样其实会给文章未来的迁移带来很大麻烦……
+然而，也并不是所有的功能都迁移了过来。比如：Service Worker 后台更新完成后的提示，代码块高亮的顶部文字。关于 Service Worker，本博客[之前](/tech/speed-up-hexo/)是通过 [hexo-service-worker](https://github.com/zoumiaojiang/hexo-service-worker) 这个插件来实现的，其通过 sw-precache 实现文件的预缓存，而现在博客是通过 gulp 来实现的，通过 [Workbox](https://developers.google.com/web/tools/workbox/) 实现文件的预缓存，因此可以说是一种升级，但可惜我的技术不足，~~没有实现~~（[已实现](https://github.com/reuixiy/io-oi.me/commit/9a68b156fbc10280acc3b35caf6b1ec5e4d863c8)）更新完后的「通知」功能。至于代码块高亮的顶部文字，之前由于还年轻，以为这是 Markdown 的原生语法，故在文章中大量使用，现在[知道](https://daringfireball.net/projects/markdown/)这并不是原生语法，故我想着也没必要去实现，毕竟这样其实会给文章未来的迁移带来很大麻烦……
 
 ---
 
