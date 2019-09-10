@@ -19,13 +19,16 @@ workbox.precaching.precacheAndRoute([]);
 workbox.precaching.cleanupOutdatedCaches();
 
 workbox.routing.registerRoute(
-    /\.(?:png|jpg|jpeg|gif|bmp|webp|svg|ico)$/,
+    /.*\.(?:png|jpg|jpeg|gif|bmp|webp|svg|ico)$/,
     new workbox.strategies.CacheFirst({
         cacheName: "images",
         plugins: [
             new workbox.expiration.Plugin({
                 maxEntries: 1000,
                 maxAgeSeconds: 60 * 60 * 24 * 30
+            }),
+            new workbox.cacheableResponse.Plugin({
+                statuses: [0, 200]
             })
         ]
     })
@@ -39,6 +42,9 @@ workbox.routing.registerRoute(
             new workbox.expiration.Plugin({
                 maxEntries: 1000,
                 maxAgeSeconds: 60 * 60 * 24 * 30
+            }),
+            new workbox.cacheableResponse.Plugin({
+                statuses: [0, 200]
             })
         ]
     })
@@ -58,6 +64,9 @@ workbox.routing.registerRoute(
             new workbox.expiration.Plugin({
                 maxEntries: 1000,
                 maxAgeSeconds: 60 * 60 * 24 * 30
+            }),
+            new workbox.cacheableResponse.Plugin({
+                statuses: [0, 200]
             })
         ]
     })
@@ -71,6 +80,9 @@ workbox.routing.registerRoute(
             new workbox.expiration.Plugin({
                 maxEntries: 1000,
                 maxAgeSeconds: 60 * 60 * 24 * 30
+            }),
+            new workbox.cacheableResponse.Plugin({
+                statuses: [0, 200]
             })
         ]
     })
