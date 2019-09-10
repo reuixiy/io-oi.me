@@ -127,22 +127,4 @@ workbox.routing.registerRoute(
     })
 );
 
-// External Videos
-workbox.routing.registerRoute(
-    /^https:\/\/io-oi\.oss-cn-shanghai\.aliyuncs\.com\/videos\/.*/,
-    new workbox.strategies.CacheFirst({
-        cacheName: "external-videos",
-        plugins: [
-            new workbox.expiration.Plugin({
-                maxEntries: 1000,
-                maxAgeSeconds: 60 * 60 * 24 * 30
-            }),
-            new workbox.cacheableResponse.Plugin({
-                statuses: [200]
-            }),
-            new workbox.rangeRequests.Plugin()
-        ]
-    })
-);
-
 workbox.googleAnalytics.initialize({});
