@@ -35,24 +35,6 @@ workbox.routing.registerRoute(
     })
 );
 
-// Videos
-workbox.routing.registerRoute(
-    /\.(?:mp4|webm|ogg)$/,
-    new workbox.strategies.CacheFirst({
-        cacheName: "videos",
-        plugins: [
-            new workbox.expiration.Plugin({
-                maxEntries: 1000,
-                maxAgeSeconds: 60 * 60 * 24 * 30
-            }),
-            new workbox.cacheableResponse.Plugin({
-                statuses: [200]
-            }),
-            new workbox.rangeRequests.Plugin()
-        ]
-    })
-);
-
 // Fonts
 workbox.routing.registerRoute(
     /\.(?:eot|ttf|woff|woff2)$/,
