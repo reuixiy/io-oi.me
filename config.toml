@@ -379,7 +379,7 @@ i18nMonth = true
 # Taxonomy List
 displayTaxonomyTermCount = true
 
-# Overwrite Hugo’s default value
+# Override Hugo’s default value
 mainSections = ["life", "tech"]
 
 # Post Sections
@@ -390,7 +390,7 @@ feedSections = ["life", "tech"]
 # If `true`, will add content to Atom; If `false`, won’t.
 # Note: By default, will add summary to Atom as `summary`,
 # and if Front Matter have a description, description
-# will overwrite summary as `summary`
+# will override summary as `summary`
 includeContent = true
 
 # Dark Mode
@@ -406,7 +406,7 @@ hideThemeToggleInHome = false
 # Front Matter instead of here, unless all your images are
 # black and white on a white background. Also, you can set
 # `true` here and set `false` in Front Matter which will
-# overwrite what you have set here.
+# override what you have set here.
 darkImage = false
 
 # Web App
