@@ -12,6 +12,9 @@ hr.coldplay {
     background-size: cover;
     background-repeat: no-repeat;
     height: 3px;
+    &::after {
+        content: none;
+    }
 }
 .coldplay-footer {
     text-align: right;
