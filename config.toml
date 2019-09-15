@@ -652,6 +652,9 @@ enableLangToggle = true
 autoHideLangToggle = true
 hideLangToggleInHome = false
 
+# Style & Script
+enableFingerprint = false
+
 # 404
 fofPoster = "/images/flying-clouds-720p.jpg"
 fofVideoWebm = "https://io-oi.oss-cn-shanghai.aliyuncs.com/videos/flying-clouds-720p.webm"
