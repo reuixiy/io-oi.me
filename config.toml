@@ -665,6 +665,6 @@ hideLangToggleInHome = false
 enableFingerprint = false
 
 # 404
-fofPoster = "./images/flying-clouds-720p.jpg"
+fofPoster = "https://ipfs.io/ipns/io-oi.me/images/flying-clouds-720p.jpg"
 fofVideoWebm = "https://ipfs.io/ipns/io-oi.me/videos/flying-clouds-720p.webm"
 fofVideoMp4 = "https://ipfs.io/ipns/io-oi.me/videos/flying-clouds-720p.mp4"
