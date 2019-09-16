@@ -4,7 +4,7 @@ date = "2019-06-02T22:55:00+08:00"
 keywords = ["about", "关于此博客", "reuixiy"]
 +++
 
-<video src="/videos/coldplay-viva-la-vida-live.mp4" poster="/images/viva-la-vida.jpg" controls></video>
+<video src="QmZgXJwFNRAyUEuU36jReXtyjESeTWEGZpcJGuWSnbRTf1" poster="../images/viva-la-vida.jpg" controls></video>
 
 <h2 id="Viva-La-Vida" class="about-title">Viva La Vida</h2>
 

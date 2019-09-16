@@ -9,7 +9,7 @@ slug = "robot-do-you-have-your-freestyle"
 
 关于未来，人类的想象力从未停止。在伟大科幻作家阿西莫夫的笔下，机器人有了情感和一些人类没有的特殊能力；《终结者》的机器人 T800 想要将人类赶尽杀绝；《超能陆战队》的超暖大白，俘虏了多少人的心😘... 下面这个视频是[红杉资本](https://www.sequoiacap.com/china/)最近发布的《看见未来已到来》，写得很赞，有种熟悉的情怀！
 
-![robot-do-you-have-your-freestyle.mp4](/videos/robot-do-you-have-your-freestyle.mp4)
+<video src="QmcqHCy2VRNd5ZMuvLKgaF4j7JU9bA8BvaTzcBaB9A4sEH" controls></video>
 
 <p style="text-align:center">儿时仰望银河星系<br>
 感受科学万有引力<br>

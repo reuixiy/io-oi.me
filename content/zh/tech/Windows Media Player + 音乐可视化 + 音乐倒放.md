@@ -15,7 +15,7 @@ Windows Media Player 是 Windows 自带的多媒体播放器，虽然长得土�
 
 ## 预览
 
-![taylor-swift-style.mp4](/videos/taylor-swift-style.mp4)
+<video src="QmZ9hxcYpuxEeg7WvPLVbStQe2gT7pmXohJ1yk9ts5YfmP" controls></video>
 
 ## 可视化
 

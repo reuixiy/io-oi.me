@@ -5,7 +5,7 @@ description = "Coming back as we are..."
 
 <hr class="coldplay" />
 
-<video src="/videos/coldplay-the-scientist-live.mp4" poster="/images/coldplay.jpg" controls></video>
+<video src="QmbfRCRufLSNK6oqRQ4zMLSFJNFGpn19R75zLU54c9LAdS" controls></video>
 
 <div style="text-align: center">❤ evoL ni eveileB</div>
 

@@ -6,4 +6,4 @@ description = "膜拜丹尼大神"
 slug = "danny-macaskill-s-wee-day-out"
 +++
 
-<video src="/videos/danny-macaskill-s-wee-day-out.mp4" poster="/images/danny-macaskill-s-wee-day-out.jpg" controls></video>
+<video src="QmRSVv1cew5PUvXQBKotLgaurKG9bWSNQr3V8fSRUwb74r" controls></video>

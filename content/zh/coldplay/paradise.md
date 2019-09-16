@@ -5,7 +5,7 @@ description = "无论是谁的世界，内心都有一个童话般的神圣天�
 
 <hr class="coldplay" />
 
-<video src="/videos/coldplay-paradise.mp4" poster="/images/coldplay.jpg" controls></video>
+<video src="QmSxf7GzGPK6RJjVXJEcPjqk47sqqt6WF25GLD7zdUowZ5" controls></video>
 
 <div style="text-align: center">❤ evoL ni eveileB</div>
 

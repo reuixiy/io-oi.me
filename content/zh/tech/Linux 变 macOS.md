@@ -11,7 +11,7 @@ slug = "make-linux-looks-like-macos"
 
 ## 视频预览
 
-![make-linux-looks-like-macos.mp4](/videos/make-linux-looks-like-macos.mp4)
+<video src="QmX4oWx1HhpXvx1ToPZvRB2Dua9dFJcXkjS9QScxXkDDvR" controls></video>
 
 ## 题外话
 

@@ -5,7 +5,7 @@ description = "Lights will guide you home"
 
 <hr class="coldplay" />
 
-<video src="/videos/coldplay-fix-you-live.mp4" poster="/images/coldplay.jpg" controls></video>
+<video src="QmXc6iyrXweAbYT1SkJZLDFWeQkgtv1GDQLDcBjhi1J5qv" controls></video>
 
 <div style="text-align: center">❤ evoL ni eveileB</div>
 

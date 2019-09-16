@@ -35,7 +35,7 @@ slug = "hello-arch-linux"
 
 ## 视频预览
 
-![arch-linux-preview.mp4](/videos/arch-linux-preview.mp4)
+<video src="QmTLQwySHcpa3rd8duaqi6zdsATzmSzeNL9kUhP9Ena6Sc" controls></video>
 
 ## 安装配置
 

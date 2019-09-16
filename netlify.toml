@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "npm run build"
+command = "npm run build && npm run ipfs-deploy"
 
 [context.production.environment]
 HUGO_VERSION = "0.58.1"

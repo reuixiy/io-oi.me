@@ -5,6 +5,8 @@ title = "reuixiy"
 defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = false
 
+relativeURLs = true
+
 enableGitInfo = true
 
 pluralizeListTitles = false
@@ -516,12 +518,19 @@ enableAnchorAutoHide = true
 enableCaption = true
 captionPrefix = "◎ "
 
-# Image / Video Hosting
+# Image Hosting
 # Only support absolute URLs relative to root,
 # eg: /../../*.jpg
-enableHost = true
-hostURL = "https://io-oi.oss-cn-shanghai.aliyuncs.com/"
+enableImageHost = false
+imageHostURL = "https://example.com/"
+# Use host URL for head meta tags also
 headAlso = false
+
+# Video Hosting
+# Only support absolute URLs relative to root,
+# eg: /../../*.mp4
+enableVideoHost = true
+videoHostURL = "https://video.dtube.top/ipfs/"
 
 # Footnote
 # Footnote Ref with Square Brackets `[]`
@@ -656,6 +665,6 @@ hideLangToggleInHome = false
 enableFingerprint = false
 
 # 404
-fofPoster = "/images/flying-clouds-720p.jpg"
-fofVideoWebm = "https://io-oi.oss-cn-shanghai.aliyuncs.com/videos/flying-clouds-720p.webm"
-fofVideoMp4 = "https://io-oi.oss-cn-shanghai.aliyuncs.com/videos/flying-clouds-720p.mp4"
+fofPoster = "./images/flying-clouds-720p.jpg"
+fofVideoWebm = "https://ipfs.io/ipns/io-oi.me/videos/flying-clouds-720p.webm"
+fofVideoMp4 = "https://ipfs.io/ipns/io-oi.me/videos/flying-clouds-720p.mp4"

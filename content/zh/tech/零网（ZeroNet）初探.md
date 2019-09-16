@@ -5,7 +5,7 @@ tags = ["zeronet"]
 slug = "first-exploration-of-the-zeronet"
 +++
 
-![first-exploration-of-the-zeronet.mp4](/videos/first-exploration-of-the-zeronet.mp4)
+<video src="QmRJasFuuyKG1RUEsz7k9A2ai6F7KHQwUXVYLaq4DXfkBc" controls></video>
 
 听说有个暗网，现在接触了个零网……打开之后，首先感觉界面很棒，骚气的紫色，加上渐变，让人眼前一亮 (๑•̀ㅂ•́)و✧～网页下拉，很赞有木有，不过最让人眼前一亮的是右上角的小东东，鼠标按住它往左拉，会出现一个侧栏。别的不说，光是这 UI 就值得体验一下🐱！
 

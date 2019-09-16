@@ -6,7 +6,7 @@ slug = "nike-dream-crazy"
 dropCap = false
 +++
 
-![nike-dream-crazy.mp4](/videos/nike-dream-crazy.mp4)
+<video src="QmavxN4RALUFQKAFoka3tTpmBTop1izsy78i5tptF1tHjK" controls></video>
 
 Don’t ask if your dreams are crazy.  
 Ask if they’re crazy enough.  
