@@ -324,16 +324,16 @@ homePoetry = ["暗夜中", "渴望一束光的关怀", "在白天", "却更渴�
 homeLinksPadding = 1
 
 # Layout footage settings
-homePoster = "/images/reflection-of-tree-at-night-10s-720p.jpg"
-homeVideoWebm = "/videos/reflection-of-tree-at-night-10s-720p.webm"
-homeVideoMp4 = "/videos/reflection-of-tree-at-night-10s-720p.mp4"
-homeLogo = "/icons/android-chrome-512x512.png"
-homeLogoLink = "/life/"
-homeTitle = "一休儿的哲学博客"
-homeMotto = "易·象·辞"
-homeDescription = "一个关于哲学的博客，目标是构建一个宏大的体系"
-homeKeywords = "关键词：真理、形而上学、哲学、物理、诗歌、酒神、尼采、《查拉图斯特拉如是说》、神话、未来、科幻、赛博朋克、反乌托邦、去中心化、开源、太空"
-homeLinksDelimiter = "·"
+homePoster = ""
+homeVideoWebm = ""
+homeVideoMp4 = ""
+homeLogo = ""
+homeLogoLink = ""
+homeTitle = ""
+homeMotto = ""
+homeDescription = ""
+homeKeywords = ""
+homeLinksDelimiter = ""
 
 # URL, For JSON-LD, Twitter Cards, Open Graph
 siteLogo = "/icons/apple-touch-icon.png"
