@@ -94,7 +94,7 @@ workbox.routing.registerRoute(
 
 // External Images
 workbox.routing.registerRoute(
-    /^https:\/\/ipfs\.io\/ipns\/io-oi\.me\/(?:images|icons)\/.*/,
+    /^https:\/\/gateway\.pinata\.cloud\/ipns\/io-oi\.me\/(?:images|icons)\/.*/,
     new workbox.strategies.CacheFirst({
         cacheName: "external-images",
         plugins: [
