@@ -5,6 +5,7 @@ tags = ["hexo"]
 toc = true
 slug = "hexo-next-optimization"
 gitinfo = true
+aliases = ["/technology/computer/computer-aided-art/2017/06/09/hexo-next-optimization.html"]
 +++
 
 ![hexo-next-optimization-title.jpg](/images/hexo-next-optimization-title.jpg "Coldplay")

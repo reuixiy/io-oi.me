@@ -5,6 +5,7 @@ date = "2018-12-11T01:46:06+08:00"
 toc = true
 description = "Keep it Simple"
 slug = "hello-arch-linux"
+aliases = ["/technology/computer/system-software/2018/12/11/hello-arch-linux.html"]
 +++
 
 ![hello-arch-linux.jpg](/images/hello-arch-linux.jpg)

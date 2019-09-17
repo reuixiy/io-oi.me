@@ -4,6 +4,7 @@ date = "2018-05-30T13:10:50+08:00"
 tags = ["hexo"]
 slug = "speed-up-hexo"
 gitinfo = true
+aliases = ["/technology/computer/computer-aided-art/2018/05/30/speed-up-hexo.html"]
 +++
 
 ![speed-up-hexo.png](/images/speed-up-hexo.png)

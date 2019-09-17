@@ -4,6 +4,7 @@ tags = ["hexo"]
 date = "2018-07-18T10:21:39+08:00"
 description = "今年 5 月 1 号，GitHub Pages 支持自定义域名 Enforce HTTPS 了，并且有原生的 CDN 支持"
 slug = "custom-domains-on-github-pages"
+aliases = ["/technology/computer/computer-aided-art/2018/07/18/custom-domains-on-github-pages.html"]
 +++
 
 ![custom-domains-on-github-pages.png](/images/custom-domains-on-github-pages.png "HTTPS")

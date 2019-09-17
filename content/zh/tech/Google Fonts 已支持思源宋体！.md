@@ -3,6 +3,7 @@ title = "Google Fonts 已支持思源宋体！"
 tags = ["hexo", "typography"]
 date = "2018-12-11T15:12:04+08:00"
 slug = "noto-serif-sc-added-on-google-fonts"
+aliases = ["/beautiful/share/2018/12/11/noto-serif-sc-added-on-google-fonts.html"]
 +++
 
 ![noto-serif-sc-added-on-google-fonts.png](/images/noto-serif-sc-added-on-google-fonts.png "Google Fonts 网站出现了汉字")

@@ -3,6 +3,7 @@ title = "零网（ZeroNet）初探"
 date = "2017-09-01T09:33:18+08:00"
 tags = ["zeronet"]
 slug = "first-exploration-of-the-zeronet"
+aliases = ["/technology/internet/zeronet/2017/09/01/first-exploration-of-the-zeronet.html"]
 +++
 
 <video src="QmRJasFuuyKG1RUEsz7k9A2ai6F7KHQwUXVYLaq4DXfkBc" controls></video>
