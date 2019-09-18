@@ -123,7 +123,7 @@ OK！由于我是直接部署 `public` 到 Netlify，而非持续集成，因此
 
 ## 参考
 
-[Deployment | Hexo](https://hexo.io/docs/deployment.html#Netlify)  
+[Deployment | Hexo](https://hexo.io/docs/other-deployments#Netlify)  
 [Hexo 持续部署最佳实践：Netlify+IDEA+GitHub | SegmentFault 思否](https://segmentfault.com/a/1190000017472270)  
 [Hexo、Netlify 搭建静态网站 | www.ferock.net](https://www.ferock.net/hexo-netlify快速搭建个人博客/)
 
