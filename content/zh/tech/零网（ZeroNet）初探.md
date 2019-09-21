@@ -1,7 +1,7 @@
 +++
 title = "零网（ZeroNet）初探"
 date = "2017-09-01T09:33:18+08:00"
-tags = ["zeronet"]
+tags = ["zeronet", "decentralized"]
 slug = "first-exploration-of-the-zeronet"
 aliases = ["/technology/internet/zeronet/2017/09/01/first-exploration-of-the-zeronet.html"]
 +++
