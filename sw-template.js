@@ -109,4 +109,18 @@ workbox.routing.registerRoute(
     })
 );
 
+// Videos
+workbox.routing.registerRoute(
+    /^https:\/\/gateway\.pinata\.cloud\/ipns\/io-oi\.me\/videos\/.*/,
+    new workbox.strategies.CacheOnly({
+        cacheName: "videos",
+        plugins: [
+            new workbox.cacheableResponse.Plugin({
+                statuses: [200]
+            }),
+            new workbox.rangeRequests.Plugin()
+        ]
+    })
+);
+
 workbox.googleAnalytics.initialize({});
