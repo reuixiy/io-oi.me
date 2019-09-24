@@ -1,6 +1,6 @@
 +++
 title = "Titanic"
-tags = ["movies", "love", "pity"]
+tags = ["movies", "love", "sympathy"]
 date = "2019-06-30T23:19:33+08:00"
 description = "一个凄美的爱情故事，一艘大船的恢宏气势，一场灾难的悲痛哀伤"
 slug = "titanic"
