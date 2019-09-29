@@ -264,13 +264,6 @@ weight = 2
 pre = "external"
 identifier = "twitter"
 
-[[menu.socials]]
-url = "https://music.163.com/user/home?id=86590096"
-name = "Music"
-weight = 3
-pre = "external"
-identifier = "music"
-
 [[menu.links]]
 url = "/"
 name = "HOME"
@@ -284,13 +277,6 @@ name = "Coldplay"
 weight = 2
 pre = "internal"
 identifier = "coldplay"
-
-[[menu.links]]
-url = "/atom.xml"
-name = "Feed"
-weight = 3
-pre = "external"
-identifier = "feed"
 
 [params]
 enableHeader = true
