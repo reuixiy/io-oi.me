@@ -11,7 +11,7 @@ slug = "how-to-install-gnome-shell-extensions"
 
 ## 源码包安装（推荐）
 
-这种安装方式的好处是可以获取到插件的最新版本。怎么操作呢？直接 `git clone` 其源码，然后按照 README 中的说明自己编译安装，大部分直接 `make install` 即可，少部分可能要自己手动操作一下，详见各自的 README。
+这种安装方式的好处就是可以获取到插件的最新版本。要怎么操作呢？直接 `git clone` 其源码，然后按照 README 中的说明自己编译安装，大部分直接 `make install` 即可，少部分可能要自己手动操作一下，详见各自的 README。
 
 ## 浏览器插件安装
 
