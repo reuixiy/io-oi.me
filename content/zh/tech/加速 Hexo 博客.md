@@ -1,7 +1,7 @@
 +++
 title = "加速 Hexo 博客"
 date = "2018-05-30T13:10:50+08:00"
-tags = ["hexo"]
+tags = ["hexo", "pwa"]
 slug = "speed-up-hexo"
 gitinfo = true
 aliases = ["/technology/computer/computer-aided-art/2018/05/30/speed-up-hexo.html"]
