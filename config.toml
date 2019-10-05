@@ -599,8 +599,8 @@ editIcon = "edit"
 editText = "Edit Me?"
 
 # Related Posts
-enableRelatedPosts = false
-displayRelatedPosts = false
+enableRelatedPosts = true
+displayRelatedPosts = true
 relatedPostsNumber = 5
 relatedPostsIcon = "plus-circle"
 
@@ -618,7 +618,7 @@ enableAboutPageMinimalFooter = true
 #       Therefore, you will get a newer post if you click
 #       prev on the left; you will get a older post if
 #       you click next on the right.
-enablePostNav = false
+enablePostNav = true
 postNavInSection = true
 
 # Syntax Highlight
