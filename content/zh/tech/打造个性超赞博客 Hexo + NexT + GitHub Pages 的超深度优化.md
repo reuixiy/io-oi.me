@@ -1586,8 +1586,9 @@ Markdown 的目标是实现「易读易写」。
 
 这是写文章必须掌握的技能哦，一开始可能比较懵，因为大脑没有相关概念，无法将 Markdown 语法「翻译」成相应样式，不过多写几篇就好啦🙊。
 
-1. [Markdown 语法说明](http://markdown.tw/)
-2. [Markdown 教程](https://kennylee26.gitbooks.io/markdown/content/index.html)
+1. [Markdown Syntax Documentation](https://daringfireball.net/projects/markdown/syntax)
+2. [Markdown 语法说明](http://markdown.tw/)
+3. [Markdown 教程](https://kennylee26.gitbooks.io/markdown/content/index.html)
 
 #### 我个人的总结
 
