@@ -279,7 +279,7 @@ IPFS_DEPLOY_CLOUDFLARE__RECORD=_dnslink.example.com
 
 ```
 ~/blog $ git add -A
-~/blog $ git commit -m "Deploy to IPFS reuixiy/io-oi.me#1"
+~/blog $ git commit -m "Deploy to IPFS"
 ~/blog $ git push -u origin master
 ```
 
