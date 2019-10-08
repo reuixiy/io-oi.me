@@ -6,7 +6,7 @@ keywords = ["about", "关于此博客", "reuixiy"]
 
 <video src="QmZgXJwFNRAyUEuU36jReXtyjESeTWEGZpcJGuWSnbRTf1" poster="../images/viva-la-vida.jpg" controls></video>
 
-<h2 id="Viva-La-Vida" class="about-title">Viva La Vida</h2>
+<h2 id="viva-la-vida">Viva La Vida</h2>
 
 <p style="text-align:center"><i>I used to rule the world<br>
 Seas would rise when I gave the word<br>
