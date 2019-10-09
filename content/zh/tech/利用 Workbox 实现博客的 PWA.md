@@ -70,7 +70,7 @@ gulp.task("uglify", function () {
         gulp.src("./public/sw.js"),
         uglify(),
         gulp.dest("./public")
-  );
+    );
 });
 
 gulp.task("build", gulp.series("generate-service-worker", "uglify"));
@@ -207,7 +207,7 @@ workbox.googleAnalytics.initialize({});
 ~/blog $ ./node_modules/gulp/bin/gulp.js build
 ```
 
-你可以手动检查一下生成的 `sw.js` 文件（在 `public` 文件夹内）。当然，你也可以本地 F12 调试一下，Hugo 的话 `hugo server -D --renderToDisk`，Hexo 的话直接 `hexo s`。
+你可以手动检查一下生成的 `sw.js` 文件（在 `public` 文件夹内）。当然，你也可以本地 F12 调试一下，Hugo 的话 `hugo server -D --renderToDisk --environment production`，Hexo 的话直接 `hexo s`。
 
 ---
 

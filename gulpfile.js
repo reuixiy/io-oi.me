@@ -24,7 +24,7 @@ gulp.task("uglify", function () {
         gulp.src("./public/sw.js"),
         uglify(),
         gulp.dest("./public")
-  );
+    );
 });
 
 gulp.task("build", gulp.series("generate-service-worker", "uglify"));
