@@ -96,7 +96,7 @@ font:
 /* 文件位置：~/blog/themes/next/source/css/_custom/custom.styl */
 
 .post-body {
-    color: #000;
+    color: #333;
 }
 ```
 
