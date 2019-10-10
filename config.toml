@@ -516,7 +516,7 @@ headAlso = false
 # Only support absolute URLs relative to root,
 # eg: /../../*.mp4
 enableVideoHost = true
-videoHostURL = "https://video.dtube.top/ipfs/"
+videoHostURL = "https://gateway.pinata.cloud/ipfs/"
 
 # Footnote
 # Footnote Ref with Square Brackets `[]`
