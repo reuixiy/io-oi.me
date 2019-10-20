@@ -1733,7 +1733,7 @@ a.fancybox{
 为什么要将插件源码里的 `class` 改为 `id`？ | 按下 F12 可看到，开启 fancyBox 后，NexT 会为默认的图片标签（`img`）加上一个 `fancybox`的 `class`，里面有一个样式：`display: block !important;`，因为我们要让 emoji 显示在文字之间（`display: inline;`），但是由于默认的 `class` 已经加了 `!important`，所以必须用样式规则的应用优先权高于 `class` 的 `id`。
 为什么要删除插件源码里的 `title`？ | 因为开启 fancyBox 后，NexT 会将图片的 `title` 显示在图片下方，显然不满足 emoji 的显示要求。
 为什么要修改 `.post-body a` 的样式？ | 因为开启 fancyBox 后，NexT 会将图片标签包裹在一个 `a` 标签内，而 `a` 标签是有下划线的，emoji 下面竟然有根线？显然不满足要求。
-加进 `custom.styl` 的其它一大堆代码是什么鬼？ | 补 bugs😑...
+加进 `custom.styl` 的其它一大堆代码是什么鬼？ | 补 bugs 😑...
 
 ### 插入音乐和视频
 
