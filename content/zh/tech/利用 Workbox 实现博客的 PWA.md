@@ -230,7 +230,7 @@ workbox.googleAnalytics.initialize({});
                 newWorker.addEventListener('statechange', () => {
                     if (newWorker.state === 'installed') {
                         if (navigator.serviceWorker.controller) {
-                            showNotify();
+                            showNotification();
                         }
                     }
                 });
@@ -238,7 +238,7 @@ workbox.googleAnalytics.initialize({});
         });
     }
     
-    function showNotify() {
+    function showNotification() {
         document.querySelector('meta[name=theme-color]').content = '#000';
         document.getElementById('app-refresh').className += ' app-refresh-show';
     }
