@@ -80,7 +80,7 @@ identifier = "about"
 [languages.en-us.params]
 homePoetry = ["In the dark night", "Longing for a light of care", "In the daylight", "Desiring for the swallow of a black hole", "’Cause curiosity — seeks for what’s in the darkness"]
 lineHeight = 1.618
-enableSmallCap = true
+enableSmallCaps = true
 postWidth = 28
 enableJustify = false
 enableChinesePunctuationGlyphCorrection = false
@@ -559,7 +559,7 @@ fontsLink = 'https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,700,70
 enableChinesePunctuationGlyphCorrection = true
 
 # Post headings and contents title
-enableSmallCap = false
+enableSmallCaps = false
 
 # Post first paragraph
 enableDropCap = true
