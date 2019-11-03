@@ -58,7 +58,7 @@ languageName = "中文"
 contentDir = "content/zh"
 weight = 1
 languageCode = "zh-CN"
-hasCJKLanguage= true
+hasCJKLanguage = true
 copyright = "在保留本文作者及本文链接的前提下，非商业用途随意转载分享。"
 
 [languages.en-us]
