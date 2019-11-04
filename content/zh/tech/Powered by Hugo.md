@@ -2,7 +2,6 @@
 title = "Powered by Hugo"
 date = "2019-08-20T18:10:05+08:00"
 tags = ["hugo", "hexo"]
-darkImage = true
 katex = true
 gitinfo = true
 +++
