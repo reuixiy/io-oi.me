@@ -487,7 +487,7 @@ deploy:
 
 ### 主题配置文件
 
-如果你的主题不是 NexT，那么请另 Google。建议先查看 [NexT 官方文档](http://theme-next.iissnan.com/getting-started.html)（[最新版](https://theme-next.org/docs/)），写得很好，多逗留会没坏处。由于文件过长，为了保证文章阅读效果，我把文件放在了 [GitHub](https://github.com/reuixiy/blog-files/blob/master/_config.yml)。另外，我把我没有配置的差不多都删了，有问题可以多 Google。如果里面有些设置你还想进一步自定义，比如进一步自定义页脚文字的顺序，折腾完本文[第 5 节](#进阶-高级功能配置)你就会了😉。
+如果你的主题不是 NexT，那么请另 Google。建议先查看 [NexT 官方文档](http://theme-next.iissnan.com/getting-started.html)（[最新版](https://theme-next.org/docs/)），写得很好，多逗留会没坏处。由于文件过长，为了保证文章阅读效果，我把文件放在了 [GitHub](https://github.com/reuixiy/reuixiy.github.io/blob/master/_config.yml)。另外，我把我没有配置的差不多都删了，有问题可以多 Google。如果里面有些设置你还想进一步自定义，比如进一步自定义页脚文字的顺序，折腾完本文[第 5 节](#进阶-高级功能配置)你就会了😉。
 
 ### 动态背景
 
@@ -542,7 +542,7 @@ deploy:
 
 ### 附上我的 custom.styl
 
-由于文件过长，为了保证文章阅读效果，我把文件放在了 [GitHub](https://github.com/reuixiy/blog-files/blob/master/custom.styl)。请先找对元素，不然可能会制造出新 bug，建议大家修改一个，就加个注释，方便以后调试修改。注意：一定是先 F12 找到要自定义的元素，调试成自己喜欢的值，然后再复制到 `custom.styl`，而不是直接复制我给出的，我给出的仅供参考。
+由于文件过长，为了保证文章阅读效果，我把文件放在了 [GitHub](https://github.com/reuixiy/reuixiy.github.io/blob/master/custom.styl)。请先找对元素，不然可能会制造出新 bug，建议大家修改一个，就加个注释，方便以后调试修改。注意：一定是先 F12 找到要自定义的元素，调试成自己喜欢的值，然后再复制到 `custom.styl`，而不是直接复制我给出的，我给出的仅供参考。
 
 ### 修改字体
 
@@ -781,7 +781,7 @@ ATTENTION：由 Google Analytics（分析）的[工作原理](https://support.go
 
 ```diff
 <!-- 文件位置：~/blog/themes/next/layout/category.swig -->
-<!-- 无 + 号版：https://github.com/reuixiy/blog-files/blob/master/category.swig -->
+<!-- 无 + 号版：https://github.com/reuixiy/reuixiy.github.io/blob/master/category.swig -->
 
     {% for post in page.posts %}
 +
