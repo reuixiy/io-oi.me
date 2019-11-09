@@ -1,7 +1,7 @@
 +++
 title = "使用 SSH 连接到 GitHub（多帐号）"
 date = "2019-10-07T20:19:20+08:00"
-tags = ["git", "hugo"]
+tags = ["git"]
 slug = "ssh-with-multiple-github-accounts"
 gitinfo = true
 +++
