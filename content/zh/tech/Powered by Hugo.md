@@ -20,6 +20,6 @@ gitinfo = true
 
 接下来，就来说说我开发的这个主题吧。主题的名字叫 [MemE](https://github.com/reuixiy/hugo-theme-meme)，含义是希望博客以及文章能够像[模因](https://t.me/yixiuer/413)一样传播、影响，当然，希望这个主题也是如此，并给你带来欢乐。至于功能、页面的元素，都是可配置的，且除了上文所提以及你所见的功能之外，还有 JSON-LD、${\KaTeX}$、首字下沉、段首缩排、Git 版本信息、相关文章等等。值得一提的是，主题为首页提供三种布局，除了本博客这种，还有我的[另一个博客](https://yixiuer.me/)的首页样式，以及常规的文章摘要视图。另外，由于我的博客之前的主题是基于 [NexT](https://github.com/theme-next/hexo-theme-next) 更改的，因此 MemE 也是继承了 NexT 的一些布局和样式的。
 
-如何使用这个主题？如何自定义？如何使用 Hugo？如何从 Hexo 迁移到 Hugo？如何通过 Netlify 实现持续集成？主题的文档仍在码字中，我也将陆续写出几篇通俗易懂的教程，希望能够普及下 Hugo。当然，如果你比较心急，想马上探索 Hugo 和 MemE，可以自行去查看我在 GitHub 上的 [meme-test](https://github.com/reuixiy/meme-test) 和 [io-oi.me](https://github.com/reuixiy/io-oi.me) 这两个仓库，以作参考。
+如何使用这个主题？如何自定义？如何使用 Hugo？如何从 Hexo 迁移到 Hugo？如何通过 Netlify 实现持续集成？主题的文档仍在码字中，我也将陆续写出几篇通俗易懂的教程，希望能够普及下 Hugo。当然，如果你比较心急，想马上探索 Hugo 和 MemE，可以自行去查看本博客在 GitHub 上的[仓库](https://github.com/reuixiy/io-oi.me)，以作参考。
 
 最后，如果你之前访问过我的博客或者添加过我的博客到桌面，那么请多刷新几次（或手动删除本站的缓存）以浏览最新版本，且建议科学上网后访问，速度会快很多！至于通过 RSS 订阅的读者，由于博客更换了模板且文章的 URL 也变了（删除了 `.html` 后缀），所以你可能会发现本站的全部文章都为未读状态，在这里给你们说声抱歉😁...
