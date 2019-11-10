@@ -8,6 +8,8 @@ dropCap = false
 toc = true
 +++
 
+![meme-lighthouse-report.png](/images/meme-lighthouse-report.png "Lighthouse 测试报告")
+
 ## 前言
 
 MemE 是一个强大且可高度定制的 [GoHugo](https://gohugo.io/) 博客主题，专为个人博客设计。MemE 主题专注于优雅、简约、现代，以及代码的正确性。MemE 主题对习惯了 Hexo 的用户非常友好，是从 Hexo 迁移到 Hugo 的不错选择。
@@ -211,7 +213,7 @@ title = "归档"
 
 ## 定制
 
-在 MemE 中，你可以方便的自定义样式、模板，但需要注意的是：..千万不要..直接修改 MemE 的文件！这样是非常不利于主题的更新的，如果你想要自定义主题的一些样式、模板，直接在站点下新建相应的文件即可覆盖主题的模板。此外，如果你只是想要自定义自己的样式，推荐在站点的 `assets/_custom/costom.styl`（没有自建）文件中添加。
+在 MemE 中，你可以方便的自定义样式、模板，但需要注意的是：..千万不要..直接修改 MemE 的文件！这样是非常不利于主题的更新的，如果你想要自定义主题的一些样式、模板，直接在站点下新建相应的文件即可覆盖主题的模板。此外，如果你只是想要自定义自己的样式，推荐直接在站点的 `assets/_custom/costom.styl` 文件（没有自建）中添加。
 
 ## 支持的 Front Matter
 
