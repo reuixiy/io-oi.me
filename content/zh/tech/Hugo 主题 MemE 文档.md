@@ -194,7 +194,7 @@ title = "归档"
 
 当然，这样自定义的是浅色模式的代码高亮样式，如果你想自定义深色模式的，则将 `light` 修改为 `dark`，并将生成的文件内的 `.chroma` 全部替换为 `.chroma-dark`。
 
-### KaTeX 提示
+### KaTeX 使用提示
 
 由于 Markdown 与 LaTeX 的语法冲突，有时需要添加反斜杆（`\`）以将一些字符转义，比如：
 
@@ -204,6 +204,14 @@ title = "归档"
 ### 多语言站点
 
 在 Hugo 中，可以方便地实现多语言站点，在 MemE 中，你甚至可以为站点的不同语言配置不同的样式。你可以在[本博客的配置文件](https://github.com/reuixiy/io-oi.me/blob/master/config.toml)的底部找到相关代码。
+
+## 组件
+
+在强大的 Hugo 中有一个叫[主题组件](https://gohugo.io/hugo-modules/theme-components/)的东西，说白了就是你可以同时使用多个主题。你可以使用这个功能添加一些别人写好的[短代码](https://gohugo.io/content-management/shortcodes/)（类似 Hexo 中的标签插件），比如：如果你喜欢 NexT 中的 [Note 标签](https://theme-next.org/docs/tag-plugins/note) 并想将它迁移到 MemE，可以直接通过 [hugo-notice](https://github.com/martignoni/hugo-notice) 这个主题组件实现。
+
+## 定制
+
+在 MemE 中，你可以方便的自定义样式、模板，但需要注意的是：..千万不要..直接修改 MemE 的文件！这样是非常不利于主题的更新的，如果你想要自定义主题的一些样式、模板，直接在站点下新建相应的文件即可覆盖主题的模板。此外，如果你只是想要自定义自己的样式，推荐在站点的 `assets/_custom/costom.styl`（没有自建）文件中添加。
 
 ## 支持的 Front Matter
 
