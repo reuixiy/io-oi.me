@@ -12,7 +12,7 @@ toc = true
 
 ## 前言
 
-MemE 是一个强大且可高度定制的 [GoHugo](https://gohugo.io/) 博客主题，专为个人博客设计。MemE 主题专注于优雅、简约、现代，以及代码的正确性。MemE 主题对习惯了 Hexo 的用户非常友好，是从 Hexo 迁移到 Hugo 的不错选择。
+[MemE](https://github.com/reuixiy/hugo-theme-meme) 是一个强大且可高度定制的 [GoHugo](https://gohugo.io/) 博客主题，专为个人博客设计。MemE 主题专注于优雅、简约、现代，以及代码的正确性。MemE 主题对习惯了 Hexo 的用户非常友好，是从 Hexo 迁移到 Hugo 的不错选择。
 
 为什么要起名为 MemE 呢？这四个字母的含义是基于这个单词本身的，即希望你的博客以及文章能够像[模因](https://t.me/yixiuer/413)一样传播、影响。当然，希望这个主题也是如此，并给你带来欢乐。至于这四个字母的形式（**M**em**E**），则是受 Taylor Swift 的 [ME!](https://www.youtube.com/watch?v=FuXNumBwDOM) 中的「you can’t spell “awesome” without “me”」启发。同时，这两个字母的大写就将这个单词分成了两部分——ME 和 em，中间两个字母组成 em，这也给人一种可爱的感觉。此外，em 也是 me 的反写，这又是我非常喜欢的形式！
 
