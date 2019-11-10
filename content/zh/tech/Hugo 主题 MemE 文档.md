@@ -209,7 +209,7 @@ title = "归档"
 
 ## 组件
 
-在强大的 Hugo 中有一个叫[主题组件](https://gohugo.io/hugo-modules/theme-components/)的东西，说白了就是你可以同时使用多个主题。你可以使用这个功能添加一些别人写好的[短代码](https://gohugo.io/content-management/shortcodes/)（类似 Hexo 中的标签插件），比如：如果你喜欢 NexT 中的 [Note 标签](https://theme-next.org/docs/tag-plugins/note) 并想将它迁移到 MemE，可以直接通过 [hugo-notice](https://github.com/martignoni/hugo-notice) 这个主题组件实现。
+在强大的 Hugo 中有一个叫[主题组件](https://gohugo.io/hugo-modules/theme-components/)的东西，说白了就是你可以同时使用多个主题。你可以使用这个功能添加一些别人写好的[短代码](https://gohugo.io/content-management/shortcodes/)（类似 Hexo 中的标签插件），比如：如果你喜欢 NexT 中的 [Note 标签](https://theme-next.org/docs/tag-plugins/note)并想将它迁移到 MemE，可以直接通过 [hugo-notice](https://github.com/martignoni/hugo-notice) 这个主题组件实现。
 
 ## 定制
 
