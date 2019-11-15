@@ -16,6 +16,10 @@ aliases = ["/technology/computer/computer-aided-art/2017/06/09/hexo-next-optimiz
 
 说明：博客近期改版，如果你想要查看之前的版本，可以查看[快照](https://web.archive.org/web/20190226111008/https://reuixiy.github.io/technology/computer/computer-aided-art/2017/06/09/hexo-next-optimization.html)。文章较长，但目录和标题是相互链接的，可..双向..跳转。
 
+---
+
+**最后说明**：很久没看 Hexo 和 NexT 了，发现最新版的 NexT 已经改变太多了，连 `custom.styl` 都没了，而 Hexo 的文档还是那样的残缺……也就是说，此篇文章在快速的互联网时代已接近过时了，特别是文中介绍的..部署..方式和..定制..方式。目前现代的部署方式是..持续集成..，目前现代的定制方式是..覆盖..而非直接修改主题的文件，而主题则是直接以 Git 的 `submodule` 的方式安装和维护的……如果你还要继续使用 Hexo 和 NexT，推荐参考我在 GitHub 上发现的[这个仓库](https://github.com/lei2rock/blog)。当然，我是..强烈推荐..直接使用 [Hugo](https://gohugo.io/) 的，它更简单也更快速，目前本博客就是使用的 Hugo，主题是 [MemE](/tech/documentation-of-hugo-theme-meme/)。
+
 ## 必读 写在前面
 
 本文主要内容是 NexT 主题的个性化定制和一些细节的优化。搭建的过程，已有的优化，Markdown 的使用，都直接贴出大佬的文章链接。
