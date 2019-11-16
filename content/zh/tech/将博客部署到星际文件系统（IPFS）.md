@@ -266,7 +266,7 @@ IPFS_DEPLOY_CLOUDFLARE__RECORD=_dnslink.example.com
 
 2️⃣ 这是一些环境的设置，如果你使用的是 Hugo，则加上，否则可以删除。
 
-3️⃣ 将 Netlify 给我们提供的子域名重定向到我们自己的域名，加上有利于 SEO，请将 `io-oi` 和 `io-oi.me` 替换为你自己的值。
+3️⃣ 将 Netlify 给我们提供的子域名重定向到我们自己的域名，加上有利于 SEO，请将 `io-oi`[^11]和 `io-oi.me` 替换为你自己的值。
 
 如果你对这个文件还有疑问，可以参考 Netlify 的文档：
 
@@ -344,11 +344,11 @@ Gateway (readonly) server listening on /ip4/127.0.0.1/tcp/8080
 
 3️⃣ IPFS Gateway 服务，如果你阅读了上文，对它应该不陌生，这也意味着你此时可以直接通过 http://127.0.0.1:8080/ipns/io-oi.me/ 来访问我的博客😝！当然，初次访问可能要等待较长时间。
 
-接下来，我们就来将我们的文件「发布」出去👨‍💻，访问 `https://cloudflare-ipfs.com/ipfs/Hash`[^11]。稍等片刻，你的文件就成功地「发布」到 Cloudflare 的 IPFS Gateway 的服务器上了。这时，你应该就能明白我为什么要在「发布」两字左右加上引号了，因为这是..被动..而不是主动的🤪。什么意思呢？打个比方：你在街上发传单，你将传单一张一张递给路人，这叫做发布。而现在的情况呢，你在街上发传单，突然你发现一个路人老远老远就对着你大喊🗣：给我一张传单啊！同时快速冲到你面前并直接抽一张就跑了😳，而你只是站在那😳，这当然不能叫发布了🙃。
+接下来，我们就来将我们的文件「发布」出去👨‍💻，访问 `https://cloudflare-ipfs.com/ipfs/Hash`[^12]。稍等片刻，你的文件就成功地「发布」到 Cloudflare 的 IPFS Gateway 的服务器上了。这时，你应该就能明白我为什么要在「发布」两字左右加上引号了，因为这是..被动..而不是主动的🤪。什么意思呢？打个比方：你在街上发传单，你将传单一张一张递给路人，这叫做发布。而现在的情况呢，你在街上发传单，突然你发现一个路人老远老远就对着你大喊🗣：给我一张传单啊！同时快速冲到你面前并直接抽一张就跑了😳，而你只是站在那😳，这当然不能叫发布了🙃。
 
 ---
 
-但是，细心的你可能会发现一个问题，你的博客每修改一次，SSG 生成的文件夹的 Hash 值（IPFS 地址）就会改变一次，我总不能每更新一次博客就去通知一遍读者我博客的最新 IPFS 地址吧😨！何况这也是完全不可能的啊😰！是的，IPFS 考虑到了这个问题，并提出了 [IPNS](https://docs.ipfs.io/guides/concepts/ipns/) 的解决方案[^12]。运行以下命令：
+但是，细心的你可能会发现一个问题，你的博客每修改一次，SSG 生成的文件夹的 Hash 值（IPFS 地址）就会改变一次，我总不能每更新一次博客就去通知一遍读者我博客的最新 IPFS 地址吧😨！何况这也是完全不可能的啊😰！是的，IPFS 考虑到了这个问题，并提出了 [IPNS](https://docs.ipfs.io/guides/concepts/ipns/) 的解决方案[^13]。运行以下命令：
 
 ```
 $ ipfs name publish --lifetime 999999h --ttl 300s <hash>
@@ -487,5 +487,6 @@ $ ipfs repo gc
 [^8]: 来源：https://medium.com/pinata/dedicated-ipfs-networks-c692d53f938d
 [^9]: 突然想到也不是必须，如果你有一个服务器的话（树莓派其实就行），让它一直运行 `ipfs daemon`，然后写一个脚本定时发起一个包含了你最新版博客的 Hash 值的 GET 请求（比如：`curl -m 42 "https://ipfs.io/ipfs/$hash"`）到所有的 [Public IPFS Gateway](https://ipfs.github.io/public-gateway-checker/)，这样你的博客就不会被清除了。你甚至可以直接将你的博客放到树莓派上，然后写一个脚本将一切流程自动化。这样的架构，与直接将树莓派作为网站的服务器，然后通过内网穿透工具实现公网访问相比，现代了不少！不过注意这样并不匿名，因为 DHT 会将你的 IP 地址[直接暴露](https://www.reddit.com/r/ipfs/comments/5q9v7p/eli5_can_anyone_track_my_ip_if_i_share_a_file/)。
 [^10]: DTube 会将你的视频上传到它的 IPFS 集群（相当于 CDN）上。需要注意的是，目前 DTube 的上传功能好像还不太稳定，如果出现点击上传后没反应或者压根没有上传，请刷新页面后重试。另外，我发现目前如果你上传没有音频的视频，上传后 DTube 没有反应。我目前的解决方案是使用文中提到的[这个地址](https://globalupload.io/)上传并获取到 Hash 值，然后通过访问 `https://video.dtube.top/ipfs/Hash` 实现 DTube 上的同步。当然，为了保证文件的可访问性，还是建议通过 Pinata [上传](https://www.pinata.cloud/pinataupload)。
-[^11]: 用你的[添加](#添加)后得到的 Hash 值替换 `Hash`，你也可以将 `cloudflare-ipfs.com` 替换为任何 [IPFS Gateway](https://ipfs.github.io/public-gateway-checker/) 地址。
-[^12]: 另一个解决方案就是 [DNSLink](https://dnslink.io/)，我在上文提到过，它目前可用于生产环境，但依赖于现有的中心化的域名系统。
+[^11]: 如果你没有自定义 Netlify 的子域名，那么这个是默认的一个很丑的字符串。
+[^12]: 用你的[添加](#添加)后得到的 Hash 值替换 `Hash`，你也可以将 `cloudflare-ipfs.com` 替换为任何 [IPFS Gateway](https://ipfs.github.io/public-gateway-checker/) 地址。
+[^13]: 另一个解决方案就是 [DNSLink](https://dnslink.io/)，我在上文提到过，它目前可用于生产环境，但依赖于现有的中心化的域名系统。
