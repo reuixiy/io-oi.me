@@ -73,7 +73,7 @@ Hugo 中是不区分站点和主题的配置文件的，Hugo 中只有一个位�
 
 迁移博客过程中最重要的莫过于保证文章的 URL 不变，不然，这将会非常不利于 SEO。好不容易有一篇文章出现在 Google 相关搜索结果的前排，却因为 URL 的变化导致原链接 404 从而导致该文章从 Google 的索引中移除，这一定会是非常令人沮丧的😶。
 
-当你从 Hexo 迁移到 Hugo 时，如果你在 Hexo 中的站点配置文件 `_config.yml` 的 `permalink` 中只使用了 `:year`、`:month`、`:day`、`:title` 变量的话，那么文章的 URL 是能够平滑地迁移到 Hugo 的，见 [URL Management](https://gohugo.io/content-management/urls/)。同时，提醒一点，Hexo 中的文章中的 *Front Matter* 中的 [`permalink`](https://io-oi.me/tech/hexo-next-optimization/#文章的模版文件) 在 Hugo 中对应的是 `slug`。
+当你从 Hexo 迁移到 Hugo 时，如果你在 Hexo 中的站点配置文件 `_config.yml` 的 `permalink` 中只使用了 `:year`、`:month`、`:day`、`:title` 变量的话，那么文章的 URL 是能够平滑地迁移到 Hugo 的，见 [URL Management](https://gohugo.io/content-management/urls/)。同时，提醒一点，Hexo 中的文章中的 *Front Matter* 中的 [`permalink`](/tech/hexo-next-optimization/#文章的模版文件) 在 Hugo 中对应的是 `slug`。
 
 但是，对于某些用户（比如我）在迁移时则可能会有一些麻烦，比如在 Hexo 中使用了 `:category`、`:id`、`:abbrlink` 变量，以及 `.html` 后缀。下面就来讲讲这些情况的解决之道。
 
