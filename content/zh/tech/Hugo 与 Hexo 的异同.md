@@ -129,15 +129,15 @@ slug = "raspberry-pi"
 +++
 ```
 
-这样就解决了 URL 内的中文标签的别名问题。但还有一种特殊情况，就是你添加的标签内有一些特殊符号，比如 `Raspberry Pi（树莓派）`。此时，你在 `tags` 文件夹内新建的文件夹的名字就不能是标签的名字本身，而必须是 Hugo「[链接化](https://gohugo.io/functions/urlize/)」后的标签名，比如 `raspberry-pi树莓派`。然后，在上面添加了 `slug` 的基础上，再手动添加一行 `title = "Raspberry Pi（树莓派）"` 以修正标题。此外，如果你在配置文件 `config.toml` 中设置了 `disablePathToLower`，那么新建的文件夹的名字就应该是 `Raspberry-Pi树莓派`。
+这样就解决了 URL 内的中文标签的别名问题。但还有一种特殊情况，就是你添加的标签如果比较..复杂..[^7]，比如 `Raspberry Pi（树莓派）`。那么此时，你在 `tags` 文件夹内新建的文件夹的名字就不能是标签的名字本身，而必须是 Hugo「[链接化](https://gohugo.io/functions/urlize/)」后的标签名，比如 `raspberry-pi树莓派`。然后，在上面添加了 `slug` 的基础上，再手动添加一行 `title = "Raspberry Pi（树莓派）"` 以修正标题。此外，如果你在配置文件 `config.toml` 中设置了 `disablePathToLower`，那么新建的文件夹的名字就应该是 `Raspberry-Pi树莓派`。
 
-这里再来说一说 URL 中的英文字符的大小写的问题。在 Hexo 中如果你添加一个 `Raspberry Pi` 标签，那么它的 URL 是 `Raspberry-Pi`，但在 Hugo 中它的 URL 会变成 `raspberry-pi`，即将大写字母处理成了使 URL 更美观的小写字母。这也意味着当你从 Hexo 迁移到 Hugo 时，你的一些包含大写字母的原链接会 404，如果你想避免这个情况，你可以在配置文件 `config.toml` 的..顶部..加上 `disablePathToLower = true`。但我还是不建议这样做，因为全小写的 URL 的确会更美观，即使这会导致原链接 404，但重要的是..文章..的链接，而非某一标签页面。
+这里再来说一说 URL 中的英文字符的大小写的问题。在 Hexo 中如果你添加一个 `Raspberry Pi` 标签，那么它的 URL 是 `Raspberry-Pi`，但在 Hugo 中它的 URL 会变成 `raspberry-pi`，即将大写字母处理成了使 URL 更美观的小写字母。这也意味着当你从 Hexo 迁移到 Hugo 时，你的一些包含大写字母的原链接会 404，如果你想避免这个情况，你可以在配置文件 `config.toml` 的..顶部..加上 `disablePathToLower = true`。但我还是不建议这样做，因为全小写的 URL 的确会更美观，即使这会导致原链接 404，但重要的是..文章的链接..，而非某一标签页面。
 
-最后，对于以上方法，我只能保证在 [MemE](/tech/documentation-of-hugo-theme-meme/) 主题中是正常工作的。此外，MemE 主题只支持复杂的中文标签名，不支持..复杂的..[^7]中文部类名，不支持复杂的分区名。
+最后，对于以上方法，我只能保证在 [MemE](/tech/documentation-of-hugo-theme-meme/) 主题中是正常工作的。此外，MemE 主题支持复杂的中文标签名，支持复杂的中文部类名，支持复杂的中文分区名。
 
 ---
 
-对于分区，我推荐直接使用小写英文命名。当然，如果你要用中文也可以，但请用..简单的..中文名。然后，如果你想要使分区的 URL 为英文，比如你想使「系列」分区的 URL 为 `/series/` 而非 `/系列/`，那么你需要先在「系列」文件夹下新建一个 `_index.md` 文件，然后加上以下内容：
+对于分区，我推荐直接使用小写英文命名，然后通过新建相应的 `_index.md` 并添加 `title` 以修正标题。当然，如果你要用中文也可以，但建议用..简单..的中文名。然后，如果你想要使分区的 URL 却为英文，比如：你想使「系列」分区的 URL 为 `/series/` 而非 `/系列/`，那么你需要先在「系列」文件夹下新建一个 `_index.md` 文件，然后加上以下内容：
 
 ```t
 +++
