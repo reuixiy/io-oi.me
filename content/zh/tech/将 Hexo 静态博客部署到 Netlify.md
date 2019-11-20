@@ -121,7 +121,6 @@ OK！由于我是直接部署 `public` 到 Netlify，而非持续集成，因此
 5）其它静态博客架构：  
 [搭建 Gatsby 博客 | CRIMX BLOG](https://blog.crimx.com/archives?search=%23Gatsby)
 
-
 ## 参考
 
 [Deployment | Hexo](https://hexo.io/docs/one-command-deployment#Netlify)  
