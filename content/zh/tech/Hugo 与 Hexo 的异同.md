@@ -191,7 +191,9 @@ title = "标签"
 
 ---
 
-在 Hexo 中，你每对文章进行一次修改，你就必须要在浏览器中手动刷新一下页面，如此才能看到最新的渲染结果🐶。但在 Hugo 中，只要有相关变化，Hugo 就会自动为你刷新页面。也就是说，你可以即时预览😎！
+在 Hexo 中，你每对文章进行一次修改，你就必须要在浏览器中手动刷新一下页面，如此才能看到最新的渲染结果🐶。但在 Hugo 中，只要有相关变化，Hugo 就会自动为你刷新页面。也就是说，你可以即时预览😎！顺便安利一个有用的技巧，在配置文件..上方..添加 `newContentEditor = "gedit"`（修改 `gedit` 为你喜欢的编辑器名），就可以在每次 `hugo new` 新建文章后自动打开你喜欢的文本编辑器！
+
+在 Hugo 中，与 `hexo s` 命令等同的是 `hugo server`，但由于默认的[文章模板](https://gohugo.io/content-management/archetypes/)里面有 `draft: true`，故需加上 `-D` 参数以渲染草稿；与 `hexo g` 命令等同的是 `hugo`，用来生成 `public` 文件夹；与 `hexo clean` 类似的命令是 `hugo --gc --cleanDestinationDir`；在 Hugo 中可以直接使用 `hugo --minify` 压缩 HTML、JS、CSS 等文件；在 Hugo 中，没有 `hexo d` [一键部署](https://hexo.io/zh-cn/docs/one-command-deployment) `public` 文件夹到 GitHub 的操作，你需要自己[新建脚本](https://gohugo.io/hosting-and-deployment/hosting-on-github/)，但我建议使用 Git 管理整个站点，然后上传整个站点到 GitHub 以通过[持续集成](/tech/host-your-blog-on-ipfs/)的方式部署，而非用 Git 直接部署 `public` 生产版代码，因为这其实是非常可笑的——Git 是用来管理源码的。此外，关于 `hugo` 命令的更多参数，请见 [Commands](https://gohugo.io/commands/)。
 
 最后，Hugo 默认是渲染到内存的，如果你有一些特殊情况要调试，比如 [Service Worker](/tech/pwa-via-workbox/)，那么你可以通过使用 `--renderToDisk` 参数渲染到硬盘来实现调试。此外，如果你有一个厚重的 `static` 文件夹（比如有大量图片或视频），那么也可以使用该参数以渲染到硬盘。不然，Hugo 可能会吃光你的电脑内存🤪。
 
