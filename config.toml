@@ -11,6 +11,9 @@ copyright = "在保留本文作者及本文链接的前提下，非商业用途�
 # 主题选择
 theme = "meme"
 
+# 新建文章自动打开的文本编辑器
+newContentEditor = "gedit"
+
 # i18n
 defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = false
