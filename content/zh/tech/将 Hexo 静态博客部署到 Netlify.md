@@ -4,6 +4,7 @@ tags = ["hexo"]
 date = "2019-06-09T16:27:01+08:00"
 slug = "deploy-static-site-to-netlify"
 dropCap = false
+gitinfo = true
 +++
 
 [^1]![netlify.png](/images/netlify.png "Netlify")
@@ -123,7 +124,7 @@ OK！由于我是直接部署 `public` 到 Netlify，而非持续集成，因此
 
 ## 参考
 
-[Deployment | Hexo](https://hexo.io/docs/other-deployments#Netlify)  
+[Deployment | Hexo](https://hexo.io/docs/one-command-deployment#Netlify)  
 [Hexo 持续部署最佳实践：Netlify+IDEA+GitHub | SegmentFault 思否](https://segmentfault.com/a/1190000017472270)  
 [Hexo、Netlify 搭建静态网站 | www.ferock.net](https://www.ferock.net/hexo-netlify快速搭建个人博客/)
 
