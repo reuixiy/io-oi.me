@@ -1,7 +1,7 @@
 +++
 title = "The Colossus of Rhodes"
 date = "2019-11-19T21:52:49+08:00"
-tags = ["movies", "epic"]
+tags = ["movies", "epic", "sergio-leone"]
 slug = "the-colossus-of-rhodes"
 indent = true
 +++
