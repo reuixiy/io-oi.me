@@ -57,9 +57,9 @@ MemE 主题践行极简主义，没有使用现有的流行前端框架，主题
     * 返回顶部按钮
 - 其它
     * PWA 和 Service Worker 的更新通知
-    * Google Analytics
+    * Google Analytics、Google AdSense
     * Google Site Verification
-    * Disqus 评论
+    * Disqus 评论、Valine 评论
     * KaTeX 公式支持（包括化学方程式）
     * SEO 和社交网络相关：JSON-LD、Open Graph、Twitter Cards
     * 支持部署在星际文件系统（IPFS）
