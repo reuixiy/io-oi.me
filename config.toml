@@ -11,7 +11,7 @@ copyright = "在保留本文作者及本文链接的前提下，非商业用途�
 # 主题选择
 theme = "meme"
 
-# 新建文章自动打开的文本编辑器
+# `hugo new` 新建文章自动打开的文本编辑器
 newContentEditor = "gedit"
 
 # i18n
@@ -566,6 +566,25 @@ uglyURLs = false
     enableDisqus = false
     disqusShortname = ""
 
+    ## Valine
+    enableValine = false
+    valineAppId = ""
+    valineAppKey = ""
+    valinePlaceholder = "Just go go"
+    valineNotify = false
+    valineVerify = false
+    valinePath = "window.location.pathname"
+    valineAvatar = "mm"
+    valineMeta = ["nick", "mail", "link"]
+    valinePageSize = 10
+    valineLang = "zh-cn"
+    valineVisitor = false
+    valineHighlight = true
+    avatarForce = false
+    valineRecordIP = false
+    valineServerURLs = "http[s]://[tab/us].avoscloud.com"
+    # 说明：https://valine.js.org/
+
 
     ######################################
     # Google Analytics
@@ -585,6 +604,21 @@ uglyURLs = false
     # Google Site Verification
 
     googleSiteVerification = ""
+
+
+    ######################################
+    # Google AdSense
+
+    # 说明：仅在生产环境（production）下渲染
+
+    googleAdClient = ""
+
+    ## 自动广告
+    enableGoogleAutoAds = false
+
+    ## 广告单元
+    enableGoogleAdUnits = false
+    googleAdSlot = ""
 
 
     ######################################
@@ -789,7 +823,7 @@ uglyURLs = false
     fontFamilySiteBrand = ""
     # 菜单栏
     fontFamilyMenu = ""
-    # 文章标题、文章副标题、列表标题、列表的年份和月份标题、相关文章标题、文章上下篇标题
+    # 文章标题、文章副标题、列表标题、列表的年份和月份标题、相关文章标题、文章上下篇标题、表格的表头、定义列表中的术语
     fontFamilyTitle = "'Cinzel Decorative', 'Noto Serif SC', serif"
     # 分节标题、目录标题
     fontFamilyHeadings = "'Noto Serif SC', serif"
