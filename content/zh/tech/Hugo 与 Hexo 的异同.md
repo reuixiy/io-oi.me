@@ -1,6 +1,7 @@
 +++
 title = "Hugo 与 Hexo 的异同"
 date = "2019-11-14T11:25:35+08:00"
+description = "一句话：Hexo 是一个博客框架，Hugo 是一个网站框架。"
 tags = ["hugo", "hexo"]
 slug = "hugo-vs-hexo"
 gitinfo = true
