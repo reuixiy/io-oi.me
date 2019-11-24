@@ -1,7 +1,7 @@
 +++
 title = "Windows Media Player + 音乐可视化 + 音乐倒放"
 date = "2017-06-18T16:25:45+08:00"
-tags = ["tools", "music", "win10"]
+tags = ["tools", "music", "win10", "coldplay"]
 slug = "music-visualization"
 +++
 

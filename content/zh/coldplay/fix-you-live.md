@@ -1,6 +1,9 @@
 +++
 title = "Fix You (live)"
+date = "2017-04-15T18:23:12+08:00"
 description = "Lights will guide you home"
+tags = ["coldplay"]
+related = false
 +++
 
 <hr class="coldplay" />

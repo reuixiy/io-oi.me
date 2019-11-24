@@ -1,6 +1,9 @@
 +++
 title = "The Scientist (live)"
+date = "2017-04-21T18:23:12+08:00"
 description = "Coming back as we are..."
+tags = ["coldplay"]
+related = false
 +++
 
 <hr class="coldplay" />

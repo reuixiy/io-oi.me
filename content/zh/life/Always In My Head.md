@@ -1,7 +1,7 @@
 +++
 title = "Always In My Head"
 date = "2017-01-17T20:03:40+08:00"
-tags = ["love", "poetry"]
+tags = ["love", "poetry", "coldplay"]
 slug = "always-in-my-head"
 type = "poetry"
 align = "center"

@@ -1,6 +1,9 @@
 +++
 title = "Yellow (live)"
+date = "2017-04-19T18:23:12+08:00"
 description = "Look at the stars, look how they shine for you."
+tags = ["coldplay"]
+related = false
 +++
 
 <hr class="coldplay" />
