@@ -3,6 +3,7 @@ title = "Linux 开启护眼模式，降低蓝光伤害"
 date = "2017-10-02T17:45:47+08:00"
 tags = ["linux"]
 slug = "configure-redshift-in-linux"
+dropCap = false
 +++
 
 ![configure-redshift-in-linux-title.jpg](/images/configure-redshift-in-linux-title.jpg "Redshift")
