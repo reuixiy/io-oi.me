@@ -996,10 +996,10 @@ uglyURLs = false
     # 相关文章
 
     # 是否开启
-    enableRelatedPosts = true
+    enableRelatedPosts = false
 
     # 是否显示（全局设置）
-    displayRelatedPosts = true
+    displayRelatedPosts = false
     # 说明：文章的 Front Matter 中的 `related`
     #      的的优先级高于此处
 
@@ -1031,7 +1031,7 @@ uglyURLs = false
     #      的是一篇更旧的文章。
 
     # 是否开启
-    enablePostNav = true
+    enablePostNav = false
 
     # 是否仅限于相同的文章分区
     postNavInSection = true
@@ -1064,7 +1064,7 @@ uglyURLs = false
     # 页脚
 
     # 是否开启
-    enableFooter = true
+    enableFooter = false
     # 说明：「诗意人生」和「视频片段」首页布局
     #      的首页没有页脚
 
@@ -1175,4 +1175,5 @@ uglyURLs = false
     enableSmallCaps = true
     enableEmphasisPoint = false
     enableChinesePunctuationGlyphCorrection = false
+    enableFooter = true
     customFooter = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
