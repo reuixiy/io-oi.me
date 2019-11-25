@@ -10,19 +10,19 @@ dropCap = false
 
 ## 前言
 
-现在几乎每部手机都有护眼模式了，减少[蓝光](https://www.zhihu.com/question/29440984)，保护眼睛，人人有则，233333～现在 Windows 系统也自带了这样的功能，当然还有个大名鼎鼎的软件——[f.lux](https://justgetflux.com/)，Windows 下很好用，不过 Linux 下我没试过，因为我用了[Redshift](https://github.com/jonls/redshift)。
+现在几乎每部手机都有护眼模式了，减少[蓝光](https://www.zhihu.com/question/29440984)，保护眼睛，人人有则，233333～现在 Windows 系统也自带了这样的功能，当然还有个大名鼎鼎的软件——[f.lux](https://justgetflux.com/)，Windows 下很好用，不过 Linux 下我没试过，因为我用了 [Redshift](https://github.com/jonls/redshift)。
 
 ## 安装
 
 首先更新包信息：
 
-```
+```sh
 root@kali:~# apt-get update
 ```
 
 然后查找相关包：
 
-```
+```sh
 root@kali:~# apt-cache search redshift
 awscli - Universal Command Line Environment for AWS
 gnome-shell-extension-redshift - redshift extension for GNOME Shell
@@ -35,7 +35,7 @@ sct - Set screen color temperature
 
 要图形界面，安装 `redshift-gtk` 即可：
 
-```
+```sh
 root@kali:~# apt-get install redshift-gtk
 ```
 
@@ -60,7 +60,7 @@ lon=116.38
 
 怎么写，可以输入命令查询：
 
-```
+```sh
 root@kali:~# redshift -l manual:help
 Specify location manually.
 
@@ -87,13 +87,13 @@ lat 就是经度，lon 是纬度，必须是浮点值，西经和南纬是负数
 
 如果安装了redshift-gtk，建议先卸载再安装这个插件。上面查询到有 `gnome-shell-extension-redshift` 这个包，故直接 apt-get 安装：
 
-```
+```sh
 root@kali:~# apt-get install gnome-shell-extension-redshift
 ```
 
 然后打开 Tweak Tool 开启即可，如果显示 `error`，可能是由于未安装 `redshift` 这个包导致的，安装一下即可：
 
-```
+```sh
 root@kali:~# apt-get install redshift
 ```
 
