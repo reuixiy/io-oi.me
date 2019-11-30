@@ -340,7 +340,7 @@ Already up to date.
 
 然后：
 
-```
+```s
 ~/blog/themes $ git clone https://github.com/theme-next/hexo-theme-next.git next
 ```
 
@@ -767,7 +767,7 @@ ATTENTION：由 Google Analytics（分析）的[工作原理](https://support.go
 加到哪？要加两个位置：
 
 ```
-<!-- 文件位置：~/blog/themes/next/layout/category.swig -->
+{# 文件位置：~/blog/themes/next/layout/category.swig #}
 
     {% for post in page.posts %}
       位置A
@@ -1028,7 +1028,7 @@ description: 博客文章阅读量排行榜
 
 右键查看网页源代码发现有大量留白，咋整？利用 gulp。首先任意目录全局安装：[^4]
 
-```
+```s
 npm install gulp@3.9.1 -g
 ```
 
@@ -1204,7 +1204,7 @@ footer:
 如果你和我一样个性化了博客的整体布局颜色，那么默认的标签云页面可能看起来很丑，怎么更改？修改下文件：
 
 ```swig
-<!-- 文件位置：~/blog/themes/next/layout/page.swig -->
+{# 文件位置：~/blog/themes/next/layout/page.swig #}
 
 {{ tagcloud({min_font: 13, max_font: 31, amount: 1000, color: true, start_color: '#9733EE', end_color: '#FF512F'}) }}
 ```

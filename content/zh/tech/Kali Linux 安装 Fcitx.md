@@ -10,7 +10,7 @@ dropCap = false
 
 ## 安装
 
-```
+```s
 root@kali:~# apt-get update
 root@kali:~# apt-get install fcitx fcitx-googlepinyin
 ```
@@ -41,8 +41,8 @@ root@kali:~# apt-get install fcitx fcitx-googlepinyin
 
 2）字体太大、输入英文时颜色不好分辨。修改文件：
 
-```conf
-; 文件位置：/usr/share/fcitx/skin/material/fcitx_skin.conf
+```c
+// 文件位置：/usr/share/fcitx/skin/material/fcitx_skin.conf
 
 FontSize=11
 MenuFontSize=10

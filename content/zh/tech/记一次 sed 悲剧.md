@@ -40,9 +40,9 @@ SYNOPSIS
 为什么插入的结果是 `omments: true` 呢？首字母 `c` 去哪了？首先，通过上面 Manual 中的内容我们知道 `" "` 里面的不是要插入的内容，而是操作脚本，那我再看看 Manual 中 `c` 的描述：
 
 ```txt
-       c \
+c \
 
-       text   Replace the selected lines with text, which has each embedded newline preceded by a backslash.
+text   Replace the selected lines with text, which has each embedded newline preceded by a backslash.
 ```
 
 一大行，关键字 `Replace`，其它什么参数我都没加，为什么就将全部行替换了😨... 好吧，说到底还是我 Linux 知识不过关😭...
