@@ -1592,7 +1592,7 @@ Markdown 的目标是实现「易读易写」。
 
 1. [Markdown Syntax Documentation](https://daringfireball.net/projects/markdown/syntax)
 2. [Markdown 语法说明](http://markdown.tw/)
-3. [Markdown 教程](https://kennylee26.gitbooks.io/markdown/content/index.html)
+3. [Markdown Guide](https://www.markdownguide.org/)
 
 #### 我个人的总结
 
