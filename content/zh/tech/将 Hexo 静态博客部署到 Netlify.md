@@ -7,7 +7,7 @@ dropCap = false
 gitinfo = true
 +++
 
-[^1]![netlify.png](/images/netlify.png "Netlify")
+[^1]![netlify.png](/images/netlify.png "开箱即用的 Netlify")
 
 ## 前言
 
