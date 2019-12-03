@@ -1,7 +1,7 @@
 +++
 title = "打造个性超赞博客 Hexo + NexT + GitHub Pages 的超深度优化"
 date = "2017-06-09T01:36:42+08:00"
-tags = ["hexo"]
+tags = ["hexo", "blogging"]
 toc = true
 slug = "hexo-next-optimization"
 gitinfo = true
@@ -1593,6 +1593,8 @@ Markdown 的目标是实现「易读易写」。
 1. [Markdown Syntax Documentation](https://daringfireball.net/projects/markdown/syntax)
 2. [Markdown 语法说明](http://markdown.tw/)
 3. [Markdown Guide](https://www.markdownguide.org/)
+4. [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+5. [CommonMark](https://commonmark.org/)
 
 #### 我个人的总结
 
