@@ -1,7 +1,7 @@
 +++
 title = "将博客部署到星际文件系统（IPFS）"
 date = "2019-09-18T15:13:56+08:00"
-tags = ["ipfs", "decentralized", "hugo", "git"]
+tags = ["ipfs", "decentralized", "hugo", "git", "foss"]
 slug = "host-your-blog-on-ipfs"
 description = "以持续集成的方式将你的博客部署到 IPFS 上，拥抱去中心化和 Web 3.0 🌎！"
 gitinfo = true

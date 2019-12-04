@@ -1,7 +1,7 @@
 +++
 title = "打造个性超赞博客 Hexo + NexT + GitHub Pages 的超深度优化"
 date = "2017-06-09T01:36:42+08:00"
-tags = ["hexo", "blogging"]
+tags = ["hexo", "blogging", "foss"]
 toc = true
 slug = "hexo-next-optimization"
 gitinfo = true
