@@ -1,11 +1,12 @@
 +++
-title = "Hello World"
+title = "Hello, World!"
 date = "2010-01-01T00:00:00+08:00"
 tags = ["hexo"]
 description = "for testing something new only"
-slug = "test"
+slug = "hello-world"
 dropCap = false
 gitinfo = true
+aliases = ["/tech/test/"]
 +++
 
 ![hello-world.jpg](/images/hello-world.jpg)

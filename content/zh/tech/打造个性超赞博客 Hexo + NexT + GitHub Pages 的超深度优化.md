@@ -1543,18 +1543,18 @@ type:
 # tags，标签页面
 # picture，用来生成 group-pictures
 # quote？
-# https://io-oi.me/tech/test/
+# https://io-oi.me/tech/hello-world/
 
 photos:
 # Gallery support，用来支持画廊╱相册，用法如下：
 # - photo_url_1
 # - photo_url_2
 # - photo_url_3
-# https://io-oi.me/tech/test/
+# https://io-oi.me/tech/hello-world/
 
 link:
 # 文章的外部链接
-# https://io-oi.me/tech/test/
+# https://io-oi.me/tech/hello-world/
 
 image:
 # 自定义的文章摘要图片，只在页面展示，文章内消失
