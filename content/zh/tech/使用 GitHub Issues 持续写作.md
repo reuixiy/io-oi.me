@@ -1,7 +1,7 @@
 +++
 title = "使用 GitHub Issues 持续写作"
 date = "2019-12-03T22:36:48+08:00"
-tags = ["blogging", "foss"]
+tags = ["blogging", "foss", "ideas"]
 slug = "continuous-writing-with-github-issues"
 gitinfo = true
 +++
