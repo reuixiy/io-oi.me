@@ -61,7 +61,7 @@ MemE 主题践行极简主义，没有使用现有的流行前端框架，主题
     * Google Site Verification
     * Disqus 评论、Valine 评论
     * KaTeX 公式支持（包括化学方程式）
-    * SEO 和社交网络相关：JSON-LD、Open Graph、Twitter Cards
+    * SEO 和社交网络相关：Sitemap、JSON-LD、Open Graph、Twitter Cards
     * 支持部署在星际文件系统（IPFS）
 
 以上的这些特性的实现离不开强大的 Hugo，而得益于 Hugo 的优越性，你无需安装第三方的插件就能体验到以上所有特性。事实上，你只需下载一个二进制可执行文件（Hugo）和一个源码包（MemE）就可以了，下面就来讲讲安装。
