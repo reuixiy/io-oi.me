@@ -2,11 +2,11 @@
 title = "Cassini’s Grand Finale"
 date = "2017-09-22T22:49:42+08:00"
 tags = ["epic", "space", "nasa"]
-slug = "cassini-s-grand-finale"
+slug = "cassinis-grand-finale"
 dropCap = false
 +++
 
-Just a month shy of 20 years in space, Cassini will makes a final plunge into Saturn’s atmosphere. The spacecraft will be crushed and vaporized by the pressure and temperature of Saturn’s final embrace to protect worlds like Enceladus and Titan, moons with liquid water oceans under their icy crusts that might harbor conditions for life.
+> Just a month shy of 20 years in space, Cassini will makes a final plunge into Saturn’s atmosphere. The spacecraft will be crushed and vaporized by the pressure and temperature of Saturn’s final embrace to protect worlds like Enceladus and Titan, moons with liquid water oceans under their icy crusts that might harbor conditions for life.
 
 ## 关于 Cassini
 
