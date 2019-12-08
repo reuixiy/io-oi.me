@@ -12,9 +12,9 @@ gitinfo = true
 
 什么是 GitHub Issues 呢？[GitHub](https://github.com/) 是全球著名的通过 Git 进行版本控制的软件源代码托管服务平台[^2]，而 [GitHub Issues](https://help.github.com/en/github/managing-your-work-on-github/about-issues) 则是一种用来管理 GitHub 上的工作项目中的各种想法、改进、任务或漏洞的追踪方式，目前的官方中文译名为「[议题](https://help.github.com/cn/github/managing-your-work-on-github/about-issues)」。
 
-什么是持续写作呢？持续写作是一种通过对想法的持续追踪来协助写作的写作方式，英文为 Continuous Writing，简写为 CW。这是一个我自创的术语，由现代软件开发中的 [CI/CD](https://www.redhat.com/zh/topics/devops/what-is-ci-cd) 概念所激发。
+什么是持续写作呢？持续写作是一种通过对想法的持续追踪、持续构建来协助写作的写作方式，英文为 Continuous Writing，简写为 CW。这是一个我自创的术语，由现代软件开发中的 [CI/CD](https://www.redhat.com/zh/topics/devops/what-is-ci-cd) 概念所激发。
 
-因此，文题「使用 GitHub Issues 持续写作」可以理解为使用 GitHub 的议题来对你的想法进行持续追踪，从而促进你的写作。这种方式的巧妙之处就在于将现代的软件开发模式直接借用于写作，从而成就现代的写作模式。
+因此，文题「使用 GitHub Issues 持续写作」可以理解为使用 GitHub 的议题来对你的想法进行持续追踪、持续构建，从而促进你的写作。这种方式的巧妙之处就在于将现代的软件开发模式直接借用于写作，从而成就现代的写作模式。
 
 ---
 
