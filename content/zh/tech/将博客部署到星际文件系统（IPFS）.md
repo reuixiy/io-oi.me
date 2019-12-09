@@ -233,7 +233,7 @@ IPFS_DEPLOY_CLOUDFLARE__RECORD=_dnslink.example.com
 ~/blog $ npm run build && npm run ipfs-deploy
 ```
 
-稍等片刻，提示成功后，你可以先点开显示的 URL 地址预览。如果你发现画风完全不对💩，那是因为你的博客的使用的是绝对链接而不是相对链接。博客之前是 `https://example.com/` 而现在是 `https://a.com/ipfs/example.com/`，这就会导致大量用绝对链接的文件 404，比如：绝对链接 `/css/main.css` 请求的地址其实是 `https://a.com/css/main.css`，而实际上该文件的正确的有效的地址却是这样的 `https://a.com/ipfs/example.com/css/main.css`。怎么解决呢？将它变成相对链接即可，如上面的链接如果是 `./css/main.css`，那就没问题了。这要如何实现呢？如果你使用的 SSG 是 Hugo，使用的主题是 [MemE](https://github.com/reuixiy/hugo-theme-meme)，那就简单了，直接在 `config.toml` 的上方中加入 `relativeURLs = true` 即可。对于其它的 SSG 和主题，我就不清楚了，不过你可以参考下面的两个链接：
+稍等片刻，提示成功后，你可以先点开显示的 URL 地址预览。如果你发现画风完全不对💩，那是因为你的博客的使用的是绝对链接而不是相对链接。博客之前是 `https://example.com/` 而现在是 `https://a.com/ipfs/example.com/`，这就会导致大量用绝对链接的文件 404，比如：绝对链接 `/css/main.css` 请求的地址其实是 `https://a.com/css/main.css`，而实际上该文件的正确的有效的地址却是这样的 `https://a.com/ipfs/example.com/css/main.css`。怎么解决呢？将它变成相对链接即可，如上面的链接如果是 `./css/main.css`，那就没问题了。这要如何实现呢？如果你使用的 SSG 是 Hugo，使用的主题是 [MemE](https://github.com/reuixiy/hugo-theme-meme)，那就简单了，直接在配置文件 `config.toml` 中配置 `relativeURLs = true`、`enableForceHTTPS = true`，然后添加[一个文件](https://github.com/reuixiy/io-oi.me/blob/master/assets/scss/_common/fonts-src.scss)，将字体链接定制为相对链接（如果你开启了「中文标点符号字形纠正」的话）即可。对于其它的 SSG 和主题，我就不清楚了，不过你可以参考下面的两个链接：
 
 1. https://developers.cloudflare.com/distributed-web/ipfs-gateway/updating-for-ipfs/
 2. https://medium.com/pinata/how-to-easily-host-a-website-on-ipfs-9d842b5d6a01
@@ -435,7 +435,7 @@ $ ipfs repo gc
 但没有什么是完美的🙊，通过这篇文章的方法将博客部署到 IPFS 上也是如此，目前已知的问题：
 
 1. 无法定制 404 页面
-2. Cloudflare 上看不到浏览统计信息
+2. Cloudflare 上看不到浏览统计信息；不支持强制跳转到 HTTPS
 3. Cloudflare 的 IPFS Gateway 会 403 视频
 
 对于第三个问题，是只对你将视频直接存放在博客的仓库，且在博客中用相对链接作为视频的 URL 有影响的，解决方法就是在该视频链接前加上其它 IPFS Gateway 地址，比如 `https://gateway.pinata.cloud` 😉。
