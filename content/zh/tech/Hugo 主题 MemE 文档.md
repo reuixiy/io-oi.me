@@ -60,7 +60,7 @@ MemE 主题践行极简主义，没有使用现有的流行前端框架，主题
     * Google Analytics、Google AdSense
     * Google Site Verification
     * Disqus 评论、Valine 评论
-    * KaTeX 公式支持（包括化学方程式）
+    * KaTeX 和 MathJax 3.0 公式支持（包括化学方程式）
     * SEO 和社交网络相关：Sitemap、JSON-LD、Open Graph、Twitter Cards
     * 支持部署在星际文件系统（IPFS）
 
