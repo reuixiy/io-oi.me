@@ -63,8 +63,9 @@ Hugo 中是不区分站点和主题的配置文件的，Hugo 中只有一个位�
 
 但是在 Hugo 中这是无法实现的，在 Hugo 中你是无法将文章的 Front Matter 中的 `categories` 用于文章的 URL 的。为什么呢？因为 Hugo 中的 `categories` 与 `tags` 在功能上其实是..完全相同..的，它们的作用都是将不同的文章联系起来。其实，Front Matter 中的 `categories` 和 `tags` 在 Hugo 中都属于 Taxonomies：
 
-> Hugo includes support for user-defined taxonomies to help you demonstrate logical relationships between content for the end users of your website.  
-— *https://gohugo.io/content-management/taxonomies/*
+> Hugo includes support for user-defined taxonomies to help you demonstrate logical relationships between content for the end users of your website.
+>
+> — *https://gohugo.io/content-management/taxonomies/*
 
 简体中文来说🐼：「Hugo 支持用户定义的类别（taxonomies）来帮你为自己网站的读者展示文章之间的逻辑关系」。也就是说，在 Hugo 中其实你可以自定义自己想要的任何类别，而不仅限于部类（`categories`）[^4]和标签（`tags`），比如：你可以自定义一个 `series`，也就是系列╱专题╱专栏。
 

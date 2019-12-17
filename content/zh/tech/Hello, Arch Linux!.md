@@ -14,13 +14,15 @@ aliases = ["/technology/computer/system-software/2018/12/11/hello-arch-linux.htm
 
 在[硬盘暴废](/tech/the-importance-of-data-backup/)后，终于有机会将 Arch Linux 作为自己的主系统，并在物理机上彻底摆脱了 Windows，给了我这个「极简主义者 + 完美主义者」极大的愉悦😂。在安装和使用 Arch Linux 的过程中，自己也能切身体会到下面这句话：
 
-> A simple, lightweight linux distribution.  
-— *archlinux*
+> A simple, lightweight linux distribution.
+>
+> — *archlinux*
 
 以及 KISS (Keep It Simple, Stupid!) 原则，以及：
 
-> Arch Linux focus on elegance, code correctness, minimalist system and simplicity.  
-— *https://itsfoss.com/install-arch-linux/*
+> Arch Linux focus on elegance, code correctness, minimalist system and simplicity.
+>
+> — *https://itsfoss.com/install-arch-linux/*
 
 更多可阅读：
 
