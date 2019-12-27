@@ -18,7 +18,7 @@ aliases = ["/technology/computer/computer-aided-art/2017/06/09/hexo-next-optimiz
 
 ---
 
-**最后说明**：很久没看 Hexo 和 NexT 了，发现最新版的 NexT 已经改变太多了，连 `custom.styl` 都没了，而 Hexo 的文档还是那样的残缺……也就是说，此篇文章在快速的互联网时代已接近过时了，特别是文中介绍的..部署..方式和..定制..方式。目前现代的部署方式是..持续集成..，目前现代的定制方式是..覆盖..而非直接修改主题的文件，而主题则是直接以 Git 的 `submodule` 的方式安装和维护的……如果你还要继续使用 Hexo 和 NexT，推荐参考我在 GitHub 上发现的[这个仓库](https://github.com/lei2rock/blog)。当然，我是..强烈推荐..直接使用 [Hugo](https://gohugo.io/) 的，它更简单也更快速，目前本博客就是使用的 Hugo，主题是 [MemE](/tech/documentation-of-hugo-theme-meme/)。
+**最后说明**：很久没看 Hexo 和 NexT 了，发现最新版的 NexT 已经改变太多了，连 `custom.styl` 都没了，而 Hexo 的文档还是那样的残缺……也就是说，此篇文章在快速的互联网时代已接近过时了，特别是文中介绍的..部署..方式和..定制..方式。目前现代的部署方式是..持续集成..，目前现代的定制方式是..覆盖..而非直接修改主题的文件，而主题则是直接以 Git 的 `submodule` 的方式安装和维护的……如果你还要继续使用 Hexo 和 NexT，推荐参考一下我在 GitHub 上发现的这两个仓库：[lei2rock/blog](https://github.com/lei2rock/blog) 和 [whyliam/blog.naaln.com](https://github.com/whyliam/blog.naaln.com)。当然，我是..强烈推荐..直接使用 [Hugo](https://gohugo.io/) 的，它更简单也更快速，目前本博客就是使用的 Hugo，主题是 [MemE](/tech/documentation-of-hugo-theme-meme/)。
 
 ## 必读 写在前面
 
