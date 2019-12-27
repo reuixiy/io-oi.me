@@ -157,7 +157,7 @@ brand = ''
 
 ### 图标
 
-MemE 主题自带了 23 个 [Font Awesome](https://fontawesome.com/) 图标，你可以在 `themes/meme/data/SVG.toml` 文件中找到它们，但请不要编辑这个文件。如果你想要添加图标，可浏览 Font Awesome 的[免费图标列表](https://fontawesome.com/icons?d=gallery&m=free)，然后去 [GitHub](https://github.com/FortAwesome/Font-Awesome/tree/master/svgs) 上找到并点击 Raw 以直接复制相应的 SVG 代码。接下来的操作与[品牌栏](#品牌栏)的类似，只不过你添加的 `class` 名应为 `icon`。
+MemE 主题自带了 25 个 [Font Awesome](https://fontawesome.com/) 图标，你可以在 `themes/meme/data/SVG.toml` 文件中找到它们，但请不要编辑这个文件。如果你想要添加图标，可浏览 Font Awesome 的[免费图标列表](https://fontawesome.com/icons?d=gallery&m=free)，然后去 [GitHub](https://github.com/FortAwesome/Font-Awesome/tree/master/svgs) 上找到并点击 Raw 以直接复制相应的 SVG 代码。接下来的操作与[品牌栏](#品牌栏)的类似，只不过你添加的 `class` 名应为 `icon`。
 
 ### 归档页面
 
