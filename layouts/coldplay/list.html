@@ -6,7 +6,7 @@
                 <div class="post-body">
                     <hr class="coldplay" />
                     {{ with .Params.banner }}
-                        <img src="{{ . }}" alt="{{ path.Base . }}" />
+                        <img src="{{ . }}" alt="{{ path.Base . }}"{{ if $.Site.Params.enableMediumZoom }} data-zoomable{{ end }} />
                     {{ end }}
                     <ul class="list-part">
                         {{ range .RegularPages }}
