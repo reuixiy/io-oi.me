@@ -89,7 +89,7 @@ gulp.task('mathjax', function() {
 爱因斯坦场方程：
 
 $$
-G\_{μν} = R\_{μν} - \frac{1}{2}g\_{μν}R = -κT\_{μν}
+G_{μν} = R_{μν} - \frac{1}{2}g_{μν}R = -κT_{μν}
 $$
 
 克莱因—戈登（Klein-Gordon）方程，描述玻色子：
@@ -110,9 +110,9 @@ $$
 
 $$
 \begin{cases}
-\nabla\times\mathbf{E} &= -\frac{\partial\mathbf B}{\partial t} \\\\
-\nabla\times\mathbf{B} &= \mu_0\mathbf{J} + \mu_0\epsilon_0\frac{\partial\mathbf E}{\partial t} \\\\
-\nabla\cdot\mathbf{E} &= \frac{\rho}{\epsilon_0} \\\\
+\nabla\times\mathbf{E} &= -\frac{\partial\mathbf B}{\partial t} \\
+\nabla\times\mathbf{B} &= \mu_0\mathbf{J} + \mu_0\epsilon_0\frac{\partial\mathbf E}{\partial t} \\
+\nabla\cdot\mathbf{E} &= \frac{\rho}{\epsilon_0} \\
 \nabla\cdot\mathbf{B} &= 0
 \end{cases}
 $$
@@ -162,7 +162,7 @@ $$
 当然，这个插件的应用不止化学方程，还可以写物理中的核反应，比如原子弹💥：
 
 $$
-n + \ce{ ^{235}\_{92} U -> ^{144}\_{56} Ba + ^{89}\_{36} Kr } + 3n + 200\;Mev
+n + \ce{ ^{235}_{92} U -> ^{144}_{56} Ba + ^{89}_{36} Kr } + 3n + 200\;Mev
 $$
 
 太阳中氢转换成氦的三个反应：
@@ -170,8 +170,8 @@ $$
 $$
 \begin{cases}
 \begin{aligned}
-&&\ce{ ^{1} H + ^{1} H & -> ^{2} D } + e^{+} + ν \\\\
-\text{then}\;&&\ce{ ^{2} D + ^{1} He & -> ^{3} He } + \gamma \\\\
+&&\ce{ ^{1} H + ^{1} H & -> ^{2} D } + e^{+} + ν \\
+\text{then}\;&&\ce{ ^{2} D + ^{1} He & -> ^{3} He } + \gamma \\
 \text{then}\;&&\ce{ ^{3} He + ^{3} He & -> ^{4} He + ^{1} H + ^{1} H }
 \end{aligned}
 \end{cases}

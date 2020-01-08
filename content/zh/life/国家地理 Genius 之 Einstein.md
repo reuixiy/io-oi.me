@@ -7,7 +7,7 @@ slug = "national-geographic-genius-einstein"
 
 ![national-geographic-genius-einstein-title.jpg](/images/national-geographic-genius-einstein-title.jpg "剧中年轻的爱因斯坦")
 
-前段时间浏览 Twitter，发现 National Geographic 正在推一部剧，叫 <i>Genius</i>，第一季是 Einstein。之前有读过爱因斯坦的传记，所以追了追这剧，看完了 10 集。
+前段时间浏览 Twitter，发现 National Geographic 正在推一部剧，叫 *Genius*，第一季是 Einstein。之前有读过爱因斯坦的传记，所以追了追这剧，看完了 10 集。
 
 1）爱因斯坦为什么能成功？
 

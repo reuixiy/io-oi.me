@@ -32,7 +32,7 @@ rm -rf ~/ .local/...
 
 1）博客方面
 
-规范了 Markdown 文档，可以更美观的使用 emoji 😛，添加 <a href="/404.html" target="_blank">404</a> 页面，使用插件使音乐支持歌词，视频支持弹幕……更多点击[打造个性超赞博客 Hexo + NexT + GitHub Pages 的超深度优化](/tech/hexo-next-optimization/)查看。
+规范了 Markdown 文档，可以更美观的使用 emoji 😛，添加 <a href="/404.html" target="_blank" rel="noopener">404</a> 页面，使用插件使音乐支持歌词，视频支持弹幕……更多点击[打造个性超赞博客 Hexo + NexT + GitHub Pages 的超深度优化](/tech/hexo-next-optimization/)查看。
 
 2）系统方面
 

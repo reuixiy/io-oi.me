@@ -690,7 +690,7 @@ font:
 {% endif %}
 ```
 
-自己改单词请注意：是 *prev* 不是 <i>perv</i>，之前自己搞错了，然后盯着电脑屏幕尴尬半天，不停想特么老子哪里错了，怎么特么就是达不到效果！？？？
+自己改单词请注意：是 *prev* 不是 *perv*，之前自己搞错了，然后盯着电脑屏幕尴尬半天，不停想特么老子哪里错了，怎么特么就是达不到效果！？？？
 
 ![heirenwenhaolian.jpg](/images/heirenwenhaolian.jpg)
 
@@ -1197,7 +1197,7 @@ footer:
 }
 ```
 
-图片务必用矢量图 SVG 格式，否则手机上显示效果很差，其它的自己看情况更改。微信 LOGO 的图片我准备好了，点击下载 <a href="/uploads/wechat.svg" target="_blank">wechat.svg (1.6KB)</a>。微信订阅号的二维码怎么弄成 SVG 格式呢，安利个[网站](https://cli.im/weixin)，下载 SVG 格式的就行。最后，我参考了[这个代码](https://codepen.io/hj624608494/pen/dpQyJo)。
+图片务必用矢量图 SVG 格式，否则手机上显示效果很差，其它的自己看情况更改。微信 LOGO 的图片我准备好了，点击下载 <a href="/uploads/wechat.svg" target="_blank" rel="noopener">wechat.svg (1.6KB)</a>。微信订阅号的二维码怎么弄成 SVG 格式呢，安利个[网站](https://cli.im/weixin)，下载 SVG 格式的就行。最后，我参考了[这个代码](https://codepen.io/hj624608494/pen/dpQyJo)。
 
 ### 更改标签云（tagcloud）的颜色
 

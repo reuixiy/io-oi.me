@@ -31,8 +31,8 @@ Sweep the streets I used to own</i></p>
 
 ---
 
-此外，本博客是一个 [PWA](https://developers.google.com/web/progressive-web-apps/) 站点，你可以通过浏览器添加本博客到你的手机主屏或电脑桌面，随时随地查看本博客。如果你想订阅本博客，推荐 <a href="/atom.xml" target="_blank">Atom</a>╱<a href="/rss.xml" target="_blank">RSS</a>。当然，你也可以经常访问本博客，以及时获取到最新文章。
+此外，本博客是一个 [PWA](https://developers.google.com/web/progressive-web-apps/) 站点，你可以通过浏览器添加本博客到你的手机主屏或电脑桌面，随时随地查看本博客。如果你想订阅本博客，推荐 <a href="/atom.xml" target="_blank" rel="noopener">Atom</a>╱<a href="/rss.xml" target="_blank" rel="noopener">RSS</a>。当然，你也可以经常访问本博客，以及时获取到最新文章。
 
-如果你在浏览博客的过程中发现了任何问题（如错别字），欢迎前往 GitHub 提交 [Issue](https://github.com/reuixiy/io-oi.me/issues) 或直接修改相关文件后提交 PR。如果你有事想要联系 reuixiy，可以通过邮件，邮箱地址：<a href="mailto:reuixiy@gmail.com" target="_blank">reuixiy@gmail.com</a>。
+如果你在浏览博客的过程中发现了任何问题（如错别字），欢迎前往 GitHub 提交 [Issue](https://github.com/reuixiy/io-oi.me/issues) 或直接修改相关文件后提交 PR。如果你有事想要联系 reuixiy，可以通过邮件，邮箱地址：[reuixiy@gmail.com](mailto:reuixiy@gmail.com)。
 
 另，博客使用 GitHub Issues [持续写作](/tech/continuous-writing-with-github-issues/)，博客自豪地由 [Hugo](https://gohugo.io/) 驱动，主题是 [MemE](https://github.com/reuixiy/hugo-theme-meme)，源码在 [GitHub](https://github.com/reuixiy/io-oi.me) 上，通过 [Netlify](https://www.netlify.com/) 进行构建，部署在星际文件系统 [IPFS](https://ipfs.io/) 上。

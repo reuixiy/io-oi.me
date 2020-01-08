@@ -15,7 +15,7 @@ slug = "add-chinese-zodiac-to-next"
 
 ## 操作步骤
 
-1）下载字体：<a href="/uploads/chinese-zodiac.zip" target="_blank">chinese-zodiac.zip (23.2KB)</a>，下载后将解压的三个字体文件全部放在 `~/blog/source/fonts/` 下（若无 `fonts` 文件夹请自建）。
+1）下载字体：<a href="/uploads/chinese-zodiac.zip" target="_blank" rel="noopener">chinese-zodiac.zip (23.2KB)</a>，下载后将解压的三个字体文件全部放在 `~/blog/source/fonts/` 下（若无 `fonts` 文件夹请自建）。
 
 2）新建文件：保存到下面的目录，文件名为 chinese-zodiac.swig。
 

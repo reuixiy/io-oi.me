@@ -310,7 +310,8 @@ PWA：
 ---
 
 [^1]: 来源：https://developers.google.com/web/tools/workbox/images/pwa.svg
-[^2]: 参考①：https://zh.wikipedia.org/wiki/渐进式网络应用程序<br>参考②：https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps
+[^2]: 参考①：https://zh.wikipedia.org/wiki/渐进式网络应用程序  
+参考②：https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps
 [^3]: 安利一个提供在线测试的网站：https://www.webpagetest.org/lighthouse
 [^4]: https://www.webpagetest.org/result/191003_X2_834c7f82e1a525b190986e3ec91e2927/
 [^5]: 静态网站生成器，[Static Site Generator](https://www.staticgen.com/)，简称 SSG。

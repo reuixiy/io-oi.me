@@ -41,4 +41,5 @@ slug = "win10-dns-problem"
 ---
 
 [^1]: 原图 Google 自[网络](http://p.ssl.qhimg.com/t015f086bdb5f7e7288.jpg)，经过[这个工具](https://github.com/nagadomi/waifu2x)处理。
-[^2]: 参考①：https://sofree.cc/win10-dns-internet/<br>参考②：https://blog.csdn.net/weixin_44090160/article/details/85034839
+[^2]: 参考①：https://sofree.cc/win10-dns-internet/  
+参考②：https://blog.csdn.net/weixin_44090160/article/details/85034839
