@@ -22,7 +22,7 @@ slug = "titanic"
 
 ![titanic-pity.jpg](/images/titanic-pity.jpg)
 
-> ...the longing for love, the search for knowledge, and unbearable pity for the suffering of mankind.
+> [...] the longing for love, the search for knowledge, and unbearable pity for the suffering of mankind.
 >
 > — *Bertrand Russell: What I Have Lived For*
 
