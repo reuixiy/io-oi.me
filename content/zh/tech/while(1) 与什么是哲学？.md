@@ -11,7 +11,7 @@ dropCap = false
 
 ```sh
 $ vim philosophy.c
-$ // input the code
+$ # input the code
 $ gcc philosophy.c -o philosophy && ./philosophy | head -n 10
 ```
 
@@ -23,14 +23,14 @@ $ gcc philosophy.c -o philosophy && ./philosophy | head -n 10
 
 int main () {
     char question[] = "What is ";
-    char idea[] = "philosophy";
-    char prefix[] = "philosophy of ";
-    char mark[] = "?";
+    char idea[]     = "philosophy";
+    char prefix[]   = "philosophy of ";
+    char symbol[]   = "?";
 
     char iteration[42]; // assume 42 is infinite ∞
 
     while(1) {
-        printf("%s%s%s%s\n", question, iteration, idea, mark);
+        printf("%s%s%s%s\n", question, iteration, idea, symbol);
         strcat(iteration, prefix);
     }
 }
@@ -50,14 +50,14 @@ int main () {
 
 int main () {
     char question[] = "什么是";
-    char idea[] = "哲学";
-    char suffix[] = "的哲学";
-    char mark[] = "？";
+    char idea[]     = "哲学";
+    char suffix[]   = "的哲学";
+    char symbol[]   = "？";
 
     char iteration[42]; // assume 42 is infinite ∞
 
     while(1) {
-        printf("%s%s%s%s\n", question, idea, iteration, mark);
+        printf("%s%s%s%s\n", question, idea, iteration, symbol);
         strcat(iteration, suffix);
     }
 }
