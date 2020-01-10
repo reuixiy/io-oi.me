@@ -47,6 +47,6 @@ gitinfo = true
 ---
 
 [^1]: 说明：本文即采用持续写作的方式创作并发布，见 [#10](https://github.com/reuixiy/io-oi.me/issues/10)。
-[^2]: 来源：https://zh.wikipedia.org/wiki/GitHub  
-科普：https://www.zhihu.com/question/20070065/answer/79557687
+[^2]: 来源：<https://zh.wikipedia.org/wiki/GitHub>  
+科普：<https://www.zhihu.com/question/20070065/answer/79557687>
 [^3]: 因为想法刚出来时大脑比较活跃，想得比较全面，不片面。

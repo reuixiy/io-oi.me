@@ -137,4 +137,4 @@ OK！由于我是直接部署 `public` 到 Netlify，而非持续集成，因此
 
 ---
 
-[^1]: 截图自：https://www.netlify.com/products/
+[^1]: 截图自：<https://www.netlify.com/products/>

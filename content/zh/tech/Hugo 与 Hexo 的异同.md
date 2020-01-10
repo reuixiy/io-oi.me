@@ -201,11 +201,11 @@ title = "标签"
 
 ---
 
-[^1]: 当然，你也可以将它拆分开来，见：https://gohugo.io/getting-started/configuration/
+[^1]: 当然，你也可以将它拆分开来，见：<https://gohugo.io/getting-started/configuration/>
 [^2]: 下文的 TOML 代码中的缩进仅为美观和提高代码的可读性。
-[^3]: 来自：https://hexo.io/zh-cn/docs/permalinks.html
+[^3]: 来自：<https://hexo.io/zh-cn/docs/permalinks.html>
 [^4]: 为了在中文上将 Categories 和 Taxonomies 与广义的分类区分开来，今后一例将 Categories 翻译为「部类」，将 Taxonomies 翻译为「类别」。
-[^5]: 需注意的是子文件夹内必须有 `_index.md`，否则 Hugo 不会认为该子文件夹为一个分区，见：https://gohugo.io/content-management/sections/#nested-sections
+[^5]: 需注意的是子文件夹内必须有 `_index.md`，否则 Hugo 不会认为该子文件夹为一个分区，见：<https://gohugo.io/content-management/sections/#nested-sections>
 [^6]: Hugo 默认的分区的 URL 结构 `/:sections/:slug/` 就有 `:sections` 变量，但如果你要添加其它变量，则需添加它。
 [^7]: 即有空格、标点符号，或其它特殊符号。
 [^8]: 如果你的博客部署在 Netlify 上的话。

@@ -36,9 +36,9 @@ ZeroNet 是一个利用比特币加密和 BT 技术提供不受审查的网络�
 
 安装很简单，按照网站的说明操作即可：
 
-1. 官网：https://zeronet.io/
-2. GitHub：https://github.com/hellozeronet/zeronet
-3. 官方文档：https://zeronet.io/docs/zh/
+1. 官网：<https://zeronet.io/>
+2. GitHub：<https://github.com/hellozeronet/zeronet>
+3. 官方文档：<https://zeronet.io/docs/zh/>
 
 使用起来也很简单，并且已支持中文了，点界面左上角的 `┇`，点击 zh 即可。一开始可能有点懵，但是多折腾折腾很快就能上手，里面也有中文论坛，有前辈写了很好的入门介绍。
 
@@ -68,6 +68,6 @@ https://zn.amorgan.xyz/io-oi.bit/
 
 ---
 
-[^1]: 参考：https://www.zhihu.com/question/37439960
+[^1]: 参考：<https://www.zhihu.com/question/37439960>
 [^2]: https://en.wikipedia.org/wiki/Peer-to-peer
 [^3]: https://en.wikipedia.org/wiki/Peer-to-peer#cite_ref-5

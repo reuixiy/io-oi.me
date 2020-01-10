@@ -64,5 +64,5 @@ InputColor=170 170 170
 
 ---
 
-[^1]: 图文教程：https://www.zhihu.com/question/53215310/answer/209703807
-[^2]: 浏览官网发现的：https://fcitx-im.org/wiki/Fcitx
+[^1]: 图文教程：<https://www.zhihu.com/question/53215310/answer/209703807>
+[^2]: 浏览官网发现的：<https://fcitx-im.org/wiki/Fcitx>

@@ -189,8 +189,8 @@ $$
 
 常用的网页：
 
-1. 一份教程：https://www.cnblogs.com/linxd/p/4955530.html
-2. 语法手册：https://en.wikibooks.org/wiki/LaTeX/Mathematics
-3. 官网的 Live Demo：https://www.mathjax.org/#demo
+1. 一份教程：<https://www.cnblogs.com/linxd/p/4955530.html>
+2. 语法手册：<https://en.wikibooks.org/wiki/LaTeX/Mathematics>
+3. 官网的 Live Demo：<https://www.mathjax.org/#demo>
 
 Enjoy it! ☕

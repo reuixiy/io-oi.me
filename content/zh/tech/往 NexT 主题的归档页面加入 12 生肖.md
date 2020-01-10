@@ -148,12 +148,12 @@ slug = "add-chinese-zodiac-to-next"
 
 ---
 
-[^1]: 链接：https://github.com/forsigner/fexo/blob/master/source/fonts/fontello.ttf
-[^2]: 版权：https://github.com/forsigner/fexo/blob/master/LICENSE
-[^3]: 参考：https://zhidao.baidu.com/question/32577566.html
-[^4]: 网址：https://www.kirsle.net/wizards/ttf2eot.cgi
-[^5]: 链接：https://github.com/nfroidure/ttf2woff2
-[^6]: 链接：https://github.com/forsigner/fexo/blob/master/layout/_partial/component/item-year.ejs
-[^7]: 链接：https://myvin.github.io/swig.zh-CN/docs/tags/index.html#if
-[^8]: 链接：https://github.com/theme-next/hexo-theme-next/blob/master/source/lib/font-awesome/css/font-awesome.css
-[^9]: 链接：https://github.com/forsigner/fexo/blob/master/source/sass/_fontello.scss
+[^1]: 链接：<https://github.com/forsigner/fexo/blob/master/source/fonts/fontello.ttf>
+[^2]: 版权：<https://github.com/forsigner/fexo/blob/master/LICENSE>
+[^3]: 参考：<https://zhidao.baidu.com/question/32577566.html>
+[^4]: 网址：<https://www.kirsle.net/wizards/ttf2eot.cgi>
+[^5]: 链接：<https://github.com/nfroidure/ttf2woff2>
+[^6]: 链接：<https://github.com/forsigner/fexo/blob/master/layout/_partial/component/item-year.ejs>
+[^7]: 链接：<https://myvin.github.io/swig.zh-CN/docs/tags/index.html#if>
+[^8]: 链接：<https://github.com/theme-next/hexo-theme-next/blob/master/source/lib/font-awesome/css/font-awesome.css>
+[^9]: 链接：<https://github.com/forsigner/fexo/blob/master/source/sass/_fontello.scss>

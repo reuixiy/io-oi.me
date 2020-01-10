@@ -85,6 +85,6 @@ yixiuer.me
 
 ---
 
-[^1]: 参考：https://www.zhihu.com/question/31377141/answer/103056861
-[^2]: 来源：https://help.github.com/articles/setting-up-an-apex-domain/
-[^3]: 来源：https://blog.github.com/2018-05-01-github-pages-custom-domains-https/
+[^1]: 参考：<https://www.zhihu.com/question/31377141/answer/103056861>
+[^2]: 来源：<https://help.github.com/articles/setting-up-an-apex-domain/>
+[^3]: 来源：<https://blog.github.com/2018-05-01-github-pages-custom-domains-https/>

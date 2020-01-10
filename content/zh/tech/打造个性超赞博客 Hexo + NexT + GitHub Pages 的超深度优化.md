@@ -1306,8 +1306,8 @@ image: url
 
 参考：
 
-1. issue：https://github.com/iissnan/hexo-theme-next/issues/1190
-2. 文章：http://wellliu.com/2016/12/30/【转】Blog摘要配图/
+1. issue：<https://github.com/iissnan/hexo-theme-next/issues/1190>
+2. 文章：<http://wellliu.com/2016/12/30/【转】Blog摘要配图/>
 
 ### 文章置顶
 
@@ -1958,8 +1958,8 @@ blockquote.question {
 
 ---
 
-[^1]: 参考：https://github.com/ahonn/hexo-theme-even/issues/69
-[^2]: 来源：http://lovekernel.com/2017/hexo博客构建笔记/
-[^3]: 参考：http://lovekernel.com/2017/hexo博客构建笔记/
-[^4]: 参考：https://leaferx.online/2017/06/16/use-gulp-to-minimize/
-[^5]: 来源：http://markdown.tw/
+[^1]: 参考：<https://github.com/ahonn/hexo-theme-even/issues/69>
+[^2]: 来源：<http://lovekernel.com/2017/hexo博客构建笔记/>
+[^3]: 参考：<http://lovekernel.com/2017/hexo博客构建笔记/>
+[^4]: 参考：<https://leaferx.online/2017/06/16/use-gulp-to-minimize/>
+[^5]: 来源：<http://markdown.tw/>

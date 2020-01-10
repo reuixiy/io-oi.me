@@ -297,7 +297,7 @@ IPFS_DEPLOY_CLOUDFLARE__RECORD=_dnslink.example.com
 $ sudo pacman -S go-ipfs
 ```
 
-对于其它系统的读者，见：https://docs.ipfs.io/introduction/usage/
+对于其它系统的读者，见：<https://docs.ipfs.io/introduction/usage/>
 
 #### 开始
 
@@ -484,7 +484,7 @@ $ ipfs repo gc
 [^5]: 你也可以自建 IPFS 集群，ipfs-deploy 也提供了相应的部署功能，可以去看一下开头提到的那篇[详细教程](https://withblue.ink/2018/11/14/distributed-web-host-your-website-with-ipfs-clusters-cloudflare-and-devops.html)。
 [^6]: 该命令会同时将添加的文件 Pinning 在本地节点。
 [^7]: IPFS Object，你可以理解为区块，但在 IPFS 中这是[两个不同的概念](https://docs.ipfs.io/guides/examples/blocks/)。另，`ipfs add` 的详细细节可看[这篇文章](https://medium.com/textileio/whats-really-happening-when-you-add-a-file-to-ipfs-ae3b8b5e4b0f)。
-[^8]: 来源：https://medium.com/pinata/dedicated-ipfs-networks-c692d53f938d
+[^8]: 来源：<https://medium.com/pinata/dedicated-ipfs-networks-c692d53f938d>
 [^9]: 突然想到也不是必须，如果你有一个服务器的话（树莓派其实就行），让它一直运行 `ipfs daemon`，然后写一个脚本定时发起一个包含了你最新版博客的 Hash 值的 GET 请求（比如：`curl -m 42 "https://ipfs.io/ipfs/$hash"`）到所有的 [Public IPFS Gateway](https://ipfs.github.io/public-gateway-checker/)，这样你的博客就不会被清除了。你甚至可以直接将你的博客放到树莓派上，然后写一个脚本将一切流程自动化。这样的架构，与直接将树莓派作为网站的服务器，然后通过内网穿透工具实现公网访问相比，现代了不少！不过注意这样并不匿名，因为 DHT 会将你的 IP 地址[直接暴露](https://www.reddit.com/r/ipfs/comments/5q9v7p/eli5_can_anyone_track_my_ip_if_i_share_a_file/)。
 [^10]: DTube 会将你的视频上传到它的 IPFS 集群（相当于 CDN）上。需要注意的是，目前 DTube 的上传功能好像还不太稳定，如果出现点击上传后没反应或者压根没有上传，请刷新页面后重试。另外，我发现目前如果你上传没有音频的视频，上传后 DTube 没有反应。我目前的解决方案是使用文中提到的[这个地址](https://globalupload.io/)上传并获取到 Hash 值，然后通过访问 `https://video.dtube.top/ipfs/Hash` 实现 DTube 上的同步。当然，为了保证文件的可访问性，还是建议通过 Pinata [上传](https://www.pinata.cloud/pinataupload)。
 [^11]: 如果你没有自定义 Netlify 的子域名，那么这个是默认的一个很丑的字符串。

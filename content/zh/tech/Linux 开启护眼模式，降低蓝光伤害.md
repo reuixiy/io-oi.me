@@ -83,7 +83,7 @@ lat 就是经度，lon 是纬度，必须是浮点值，西经和南纬是负数
 
 ![configure-redshift-in-linux-3.jpg](/images/configure-redshift-in-linux-3.jpg)
 
-挺方便的，插件地址：https://extensions.gnome.org/extension/685/redshift/
+挺方便的，插件地址：<https://extensions.gnome.org/extension/685/redshift/>
 
 如果安装了redshift-gtk，建议先卸载再安装这个插件。上面查询到有 `gnome-shell-extension-redshift` 这个包，故直接 apt-get 安装：
 
@@ -105,5 +105,5 @@ root@kali:~# apt-get install redshift
 
 ---
 
-[^1]: 参考：https://wiki.archlinux.org/index.php/redshift#Configuration
-[^2]: 参考：http://www.cnblogs.com/qumao5736/archive/2012/03/10/2389287.html
+[^1]: 参考：<https://wiki.archlinux.org/index.php/redshift#Configuration>
+[^2]: 参考：<http://www.cnblogs.com/qumao5736/archive/2012/03/10/2389287.html>

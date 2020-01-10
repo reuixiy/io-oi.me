@@ -883,7 +883,7 @@ https://flameshot.js.org/#/key-bindings
 
 这个博客的图床是阿里云的 OSS，用 OSS Browser 可以方便地上传图片。
 
-下载：https://github.com/aliyun/oss-browser
+下载：<https://github.com/aliyun/oss-browser>
 
 解压后放到一个固定文件夹，然后打开关闭。
 
@@ -948,9 +948,9 @@ $ sudo pacman -S ttf-dejavu ttf-liberation ttf-roboto ttf-inconsolata ttf-linux-
 $ yay -S otf-eb-garamond ttf-monaco otf-san-francisco consolas-font
 ```
 
-Adobe Garamond：https://fontlot.com/15206/adobe-garamond/
+Adobe Garamond：<https://fontlot.com/15206/adobe-garamond/>
 
-Menlo：https://github.com/ueaner/fonts
+Menlo：<https://github.com/ueaner/fonts>
 
 最后，请务必安装 STShusong、STFangsong、STKaiti，自行搜索下载相应的 `ttf` 文件。安装很简单，下载后，GNOME 下鼠标左键单击即可安装。另：
 
@@ -1384,7 +1384,7 @@ $ sudo pacman -S steam steam-native-runtime
 
 但是，目前并不是每个游戏都能支持，比如吃鸡就不行。
 
-支持状态可看：https://www.protondb.com/
+支持状态可看：<https://www.protondb.com/>
 
 https://wiki.archlinux.org/index.php/Steam  
 https://wiki.archlinux.org/index.php/Official_repositories#multilib  
