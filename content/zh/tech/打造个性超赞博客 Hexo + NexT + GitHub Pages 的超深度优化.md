@@ -129,7 +129,7 @@ scheme: Muse
 ~/blog $ hexo g && hexo s
 ```
 
-然后点开 <http://localhost:4000/，恭喜你！已经在本地搭建好博客了 (๑•̀ㅂ•́)و✧！距离成功只差下一步——部署博客到 GitHub Pages 了～
+然后点开 <http://localhost:4000/>，恭喜你！已经在本地搭建好博客了 (๑•̀ㅂ•́)و✧！距离成功只差下一步——部署博客到 GitHub Pages 了～
 
 ### 部署博客到 GitHub Pages
 
