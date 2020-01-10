@@ -1240,7 +1240,7 @@ uglyURLs = false
     # 404 页面
 
     # 视频封面
-    fofPoster = "../images/flying-clouds-720p.jpg"
+    fofPoster = "./images/flying-clouds-720p.jpg"
 
     # 视频地址
     fofVideoWebm = "https://gateway.pinata.cloud/ipns/io-oi.me/videos/flying-clouds-720p.webm"
