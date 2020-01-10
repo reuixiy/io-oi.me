@@ -44,4 +44,4 @@ rm -rf ~/ .local/...
 
 ---
 
-[^1]: https://www.linuxdashen.com/linux用户的uefi固件指南
+[^1]: <https://www.linuxdashen.com/linux用户的uefi固件指南>

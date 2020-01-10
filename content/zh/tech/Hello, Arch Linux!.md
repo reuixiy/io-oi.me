@@ -513,7 +513,7 @@ $ systemctl enable bluetooth
 ```
 
 https://wiki.archlinux.org/index.php/bluetooth
-https://lujun9972.github.io/blog/2017/07/18/在archlinux中使用蓝牙耳机/
+<https://lujun9972.github.io/blog/2017/07/18/在archlinux中使用蓝牙耳机/>
 
 #### 显卡
 
