@@ -5,6 +5,7 @@ date = "2018-12-11T01:46:06+08:00"
 toc = true
 description = "Keep it Simple"
 slug = "hello-arch-linux"
+gitinfo = true
 aliases = ["/technology/computer/system-software/2018/12/11/hello-arch-linux.html"]
 +++
 
@@ -177,7 +178,7 @@ sdb  | ext4	 | 整块硬盘 | 家目录   | /home
 #### 安装基本系统到硬盘
 
 ```
-# pacstrap -i /mnt base base-devel
+# pacstrap -i /mnt base base-devel linux linux-firmware dhcpcd
 ```
 
 默认回车，然后输入 `y`，等待一会，等待安装完成。
