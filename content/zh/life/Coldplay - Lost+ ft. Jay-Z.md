@@ -4,7 +4,6 @@ date = "2017-04-28T07:37:21+08:00"
 tags = ["coldplay"]
 description = "Just because I’m losing, doesn’t mean I’m lost!"
 slug = "coldplay-lost+"
-dropCap = false
 +++
 
 实在是太喜欢 Coldplay 的这首歌和这个 MV 了，喜欢到第一次尝试制作中英字幕的视频！[^1]
