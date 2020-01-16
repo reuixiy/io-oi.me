@@ -3,7 +3,7 @@ title = "Pride and Prejudice"
 tags = ["movies", "love", "poetry"]
 date = "2018-04-11T01:45:33+08:00"
 slug = "pride-and-prejudice"
-dropCap = false
+type = "poetry"
 +++
 
 如果  

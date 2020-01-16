@@ -4,7 +4,6 @@ date = "2017-01-17T20:03:40+08:00"
 tags = ["love", "poetry", "coldplay"]
 slug = "always-in-my-head"
 type = "poetry"
-align = "center"
 +++
 
 品味一种纯糖果，各式口感竟皆有  
