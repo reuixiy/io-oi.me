@@ -44,7 +44,7 @@ PWA 有很多要求，比如：HTTPS、响应式布局等等，可参考这个 [
 > 如何将安装的模块更新到最新版本呢？
 >
 > ```
-> ～/blog $ npm update
+> ~/blog $ npm update
 > ```
 >
 > 如果不生效，可继续尝试（下方以 `workbox-build` 为例）：
