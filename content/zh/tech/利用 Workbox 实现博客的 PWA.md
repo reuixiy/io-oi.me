@@ -41,6 +41,24 @@ PWA 有很多要求，比如：HTTPS、响应式布局等等，可参考这个 [
 ~/blog $ npm install workbox-build gulp gulp-uglify readable-stream uglify-es --save-dev
 ```
 
+> 如何将安装的模块更新到最新版本呢？
+>
+> ```
+> ～/blog $ npm update
+> ```
+>
+> 如果不生效，可继续尝试（下方以 `workbox-build` 为例）：
+>
+> ```
+> ~/blog $ npm outdated
+> Package        Current  Wanted  Latest  Location
+> workbox-build    4.3.1   4.3.1   5.0.0  blog
+>
+> ~/blog $ npm install workbox-build@latest
+> ```
+>
+> https://bytearcher.com/articles/using-npm-update-and-npm-outdated-to-update-dependencies/
+
 接下来，我们在博客文件夹下新建一个 `gulpfile.js` 文件：
 
 ```js
@@ -83,13 +101,9 @@ gulp.task("build", gulp.series("generate-service-worker", "uglify"));
 然后，再新建一个 `sw-template.js` 文件：
 
 ```js
-const workboxVersion = '4.3.1';
+const workboxVersion = '5.0.0';
 
-importScripts(`https://cdn.jsdelivr.net/npm/workbox-cdn@${workboxVersion}/workbox/workbox-sw.js`);
-
-workbox.setConfig({
-    modulePathPrefix: `https://cdn.jsdelivr.net/npm/workbox-cdn@${workboxVersion}/workbox/`
-});
+importScripts(`https://storage.googleapis.com/workbox-cdn/releases/${workboxVersion}/workbox-sw.js`);
 
 workbox.core.setCacheNameDetails({
     prefix: "reuixiy"
@@ -99,7 +113,7 @@ workbox.core.skipWaiting();
 
 workbox.core.clientsClaim();
 
-workbox.precaching.precacheAndRoute([]);
+workbox.precaching.precacheAndRoute(self.__WB_MANIFEST);
 
 workbox.precaching.cleanupOutdatedCaches();
 
@@ -109,11 +123,11 @@ workbox.routing.registerRoute(
     new workbox.strategies.CacheFirst({
         cacheName: "images",
         plugins: [
-            new workbox.expiration.Plugin({
+            new workbox.expiration.ExpirationPlugin({
                 maxEntries: 1000,
                 maxAgeSeconds: 60 * 60 * 24 * 30
             }),
-            new workbox.cacheableResponse.Plugin({
+            new workbox.cacheableResponse.CacheableResponsePlugin({
                 statuses: [0, 200]
             })
         ]
@@ -126,11 +140,11 @@ workbox.routing.registerRoute(
     new workbox.strategies.CacheFirst({
         cacheName: "fonts",
         plugins: [
-            new workbox.expiration.Plugin({
+            new workbox.expiration.ExpirationPlugin({
                 maxEntries: 1000,
                 maxAgeSeconds: 60 * 60 * 24 * 30
             }),
-            new workbox.cacheableResponse.Plugin({
+            new workbox.cacheableResponse.CacheableResponsePlugin({
                 statuses: [0, 200]
             })
         ]
@@ -149,11 +163,11 @@ workbox.routing.registerRoute(
     new workbox.strategies.CacheFirst({
         cacheName: 'google-fonts-webfonts',
         plugins: [
-            new workbox.expiration.Plugin({
+            new workbox.expiration.ExpirationPlugin({
                 maxEntries: 1000,
                 maxAgeSeconds: 60 * 60 * 24 * 30
             }),
-            new workbox.cacheableResponse.Plugin({
+            new workbox.cacheableResponse.CacheableResponsePlugin({
                 statuses: [0, 200]
             })
         ]
@@ -166,11 +180,11 @@ workbox.routing.registerRoute(
     new workbox.strategies.CacheFirst({
         cacheName: "static-libs",
         plugins: [
-            new workbox.expiration.Plugin({
+            new workbox.expiration.ExpirationPlugin({
                 maxEntries: 1000,
                 maxAgeSeconds: 60 * 60 * 24 * 30
             }),
-            new workbox.cacheableResponse.Plugin({
+            new workbox.cacheableResponse.CacheableResponsePlugin({
                 statuses: [0, 200]
             })
         ]
@@ -183,21 +197,21 @@ workbox.routing.registerRoute(
     new workbox.strategies.CacheFirst({
         cacheName: "external-images",
         plugins: [
-            new workbox.expiration.Plugin({
+            new workbox.expiration.ExpirationPlugin({
                 maxEntries: 1000,
                 maxAgeSeconds: 60 * 60 * 24 * 30
             }),
-            new workbox.cacheableResponse.Plugin({
+            new workbox.cacheableResponse.CacheableResponsePlugin({
                 statuses: [0, 200]
             })
         ]
     })
 );
 
-workbox.googleAnalytics.initialize({});
+workbox.googleAnalytics.initialize();
 ```
 
-其中，请将 `prefix` 修改为你博客的名字（英文），请查看 Workbox 的 [Releases](https://github.com/GoogleChrome/workbox/releases) 页面和 [workbox-cdn](https://github.com/nuxt-community/workbox-cdn) 的 GitHub 页面以修改 `workboxVersion` 为最新版，其它项也请务必结合你的情况自行修改。如果你想用其它缓存策略，请自行查看[相关文档](https://developers.google.com/web/tools/workbox/modules/workbox-strategies)。同时，提醒一下，..绝对不要..缓存视频。
+其中，请将 `prefix` 修改为你博客的名字（英文），请查看 Workbox 的 [Releases](https://github.com/GoogleChrome/workbox/releases) 页面并务必视..版本说明..修改 `workboxVersion` 为最新版，其它项也请务必结合你的情况自行修改。如果你想用其它缓存策略，请自行查看[相关文档](https://developers.google.com/web/tools/workbox/modules/workbox-strategies)。同时，提醒一下，..绝对不要..缓存视频或者预缓存图片。
 
 ---
 
@@ -222,22 +236,18 @@ workbox.googleAnalytics.initialize({});
 </div>
 
 <script>
-    if('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js')
-        .then(reg => {
-            reg.addEventListener('updatefound', () => {
-                newWorker = reg.installing;
-                newWorker.addEventListener('statechange', () => {
-                    if (newWorker.state === 'installed') {
-                        if (navigator.serviceWorker.controller) {
-                            showNotification();
-                        }
-                    }
-                });
+    if ('serviceWorker' in navigator) {
+        if (navigator.serviceWorker.controller) {
+            navigator.serviceWorker.addEventListener('controllerchange', function() {
+                showNotification();
             });
+        }
+
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('/sw.js');
         });
     }
-    
+
     function showNotification() {
         document.querySelector('meta[name=theme-color]').content = '#000';
         document.getElementById('app-refresh').className += ' app-refresh-show';
@@ -290,6 +300,7 @@ Workbox：
 5. [Common Recipes | Workbox | Google Developers](https://developers.google.com/web/tools/workbox/guides/common-recipes)
 6. [Workbox Window | Workbox | Google Developers](https://developers.google.com/web/tools/workbox/modules/workbox-window)
 7. [神奇的 Workbox 3.0 | zoumiaojiang](https://zoumiaojiang.com/article/amazing-workbox-3/)
+8. [Migrate from Workbox v4 to v5 | Google Developers](https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-v4)
 
 Notification：
 
@@ -300,6 +311,7 @@ Notification：
 5. [Workbox 4: Implementing refresh-to-update-version flow using the workbox-window module | Medium](https://medium.com/@webmaxru/workbox-4-implementing-refresh-to-update-version-flow-using-the-workbox-window-module-41284967e79c)
 6. [Lessons learned on offline capabilities with service workers using Workbox | Sam Vloeberghs](https://samvloeberghs.be/posts/lessons-learned-on-offline-capabilities-with-service-workers-using-workbox-the-sequel)
 7. [hugo-theme-meme/service-worker.html | reuixiy/hugo-theme-meme | GitHub](https://github.com/reuixiy/hugo-theme-meme/blob/master/layouts/partials/third-party/service-worker.html)
+8. [jeffposnick.github.io/_posts/_includes/register_service_worker.njk | GitHub](https://github.com/jeffposnick/jeffposnick.github.io/blob/active/_posts/_includes/register_service_worker.njk)
 
 PWA：
 
