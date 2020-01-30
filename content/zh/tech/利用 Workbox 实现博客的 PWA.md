@@ -301,6 +301,7 @@ Workbox：
 6. [Workbox Window | Workbox | Google Developers](https://developers.google.com/web/tools/workbox/modules/workbox-window)
 7. [神奇的 Workbox 3.0 | zoumiaojiang](https://zoumiaojiang.com/article/amazing-workbox-3/)
 8. [Migrate from Workbox v4 to v5 | Google Developers](https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-v4)
+9. [Namespace: workbox | Google Developers](https://developers.google.com/web/tools/workbox/reference-docs/latest/workbox)
 
 Notification：
 
