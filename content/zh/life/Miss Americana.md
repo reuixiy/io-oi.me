@@ -1,7 +1,7 @@
 +++
 title = "Miss Americana"
 date = "2020-02-01T02:11:49+08:00"
-tags = ["taylor-swift", "never"]
+tags = ["taylor-swift", "never", "movies"]
 slug = "miss-americana"
 +++
 
