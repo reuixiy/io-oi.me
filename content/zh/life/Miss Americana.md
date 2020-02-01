@@ -15,7 +15,7 @@ slug = "miss-americana"
 
 > You know, my entire moral code, as a kid and now, is a need to be thought of as good. It was all I wrote about. It was all I wanted. It was the complete and total belief system that I subscribed to as a kid. Do the right thing. Do the good thing. And obviously, I’m not a perfect person by any stretch, but overall, the main thing that I always tried to be was... um... like, just... like, a good girl.
 
-也就是说，Taylor 从那时到现在的信仰体系和践行的道德准则，其是非常简单的——做个好人、做正确的事、做一个好女孩。
+也就是说，Taylor 从那时到现在的信仰体系和践行的道德准则，其实是非常简单的——做个好人、做正确的事、做一个好女孩。
 
 ……Taylor 在 16 岁的时候在一个小小的舞台上介绍着自己的新歌，听语气很自信。对于这点，我发现与我之前看过的记录 Coldplay 成长之路的纪录片 [*A Head Full of Dreams*](https://en.wikipedia.org/wiki/Coldplay:_A_Head_Full_of_Dreams) 中年轻的 Chris Martin 很像，听起来口气都很大，自信心也都很足。也许，正是始于这相同的一点，让 Taylor Swift 和 Coldplay 最终都成功地站在了世界面前。
 
