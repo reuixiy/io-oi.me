@@ -192,7 +192,7 @@ title = "归档"
 ~/blog $ hugo gen chromastyles --style=monokai > light.scss
 ```
 
-其中，将 `monokai` 替换为你选择的样式的名字。最后，将生成的 `light.scss` 文件移动到 `~/blog/assets/scss/_common/_highlight/` 目录下。
+其中，将 `monokai` 替换为你选择的样式的名字。最后，将生成的 `light.scss` 文件移动到 `~/blog/themes/meme/assets/scss/_common/_highlight/` 目录下。
 
 当然，这样自定义的是浅色模式的代码高亮样式，如果你想自定义深色模式的，则将 `light` 修改为 `dark`，并将生成的文件内的 `.chroma` 全部替换为 `.chroma-dark`。
 
