@@ -1,11 +1,11 @@
 [build]
-publish = "public"
-command = "npm run build"
+  publish = "public"
+  command = "npm run build"
 
-[context.production.environment]
-HUGO_VERSION = "0.64.0"
-HUGO_ENV = "production"
-HUGO_ENABLEGITINFO = "true"
+[build.environment]
+  HUGO_VERSION = "0.64.0"
+  HUGO_ENV = "production"
+  HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
   from = "https://io-oi.netlify.com/*"

@@ -253,8 +253,8 @@ IPFS_DEPLOY_CLOUDFLARE__RECORD=_dnslink.example.com
   publish = "public"
   command = "npm run build && npm run ipfs-deploy"
 
-[context.production.environment]
-  HUGO_VERSION = "0.58.1"
+[build.environment]
+  HUGO_VERSION = "0.64.0"
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
 
