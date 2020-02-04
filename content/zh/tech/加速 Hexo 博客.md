@@ -90,7 +90,7 @@ filter_optimize:
 
 1）`staticFileGlobs` 是首次加载时主动缓存的文件，我给出的只适合我的博客，请自行修改。怎么修改呢？`hexo g` 之后去 `~/blog/public/` 目录下查看生成的文件，需要主动缓存则加上。
 
-2）`origin` 修改为你的博客域名，更多说明请查看 GitHub 上的 README。
+2）`origin` 修改为你的博客域名，更多说明请查看 GitHub 上的 [README](https://github.com/zoumiaojiang/hexo-service-worker#用法)。
 
 3）要使用 Service Worker 博客必须 HTTPS。
 
