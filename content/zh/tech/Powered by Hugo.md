@@ -13,7 +13,7 @@ gitinfo = true
 
 ![home-poetry-en.png](/images/home-poetry-en.png "仓促地翻译了一下博客的首页诗句")
 
-然而，也并不是所有的功能都迁移了过来。比如：Service Worker 后台更新完成后的提示，代码块高亮的顶部文字。关于 Service Worker，本博客[之前](/tech/speed-up-hexo/)是通过 [hexo-service-worker](https://github.com/zoumiaojiang/hexo-service-worker) 这个插件来实现的，其通过 sw-precache 实现文件的预缓存，而现在博客是通过 gulp 来实现的，通过 [Workbox](https://developers.google.com/web/tools/workbox/) 实现文件的预缓存，因此可以说是一种升级，但可惜我的技术不足，~~没有实现~~（[已实现](https://github.com/reuixiy/io-oi.me/commit/9a68b156fbc10280acc3b35caf6b1ec5e4d863c8)）更新完后的「通知」功能。至于代码块高亮的顶部文字，之前由于还年轻，以为这是 Markdown 的原生语法，故在文章中大量使用，现在[知道](https://daringfireball.net/projects/markdown/)这并不是原生语法，故我想着也没必要去实现，毕竟这样其实会给文章未来的迁移带来很大麻烦……
+然而，也并不是所有的功能都迁移了过来。比如：Service Worker 后台更新完成后的提示，代码块高亮的顶部文字。关于 Service Worker，本博客[之前](/tech/speed-up-hexo/)是通过 [hexo-service-worker](https://github.com/zoumiaojiang/hexo-service-worker) 这个插件来实现的，其通过 sw-precache 实现文件的预缓存，而现在博客是通过 gulp 来实现的，通过 [Workbox](https://developers.google.com/web/tools/workbox/) 实现文件的预缓存，因此可以说是一种升级，但可惜我的技术不足，~~没有实现~~（[已实现](/tech/pwa-via-workbox/)）更新完后的「通知」功能。至于代码块高亮的顶部文字，之前由于还年轻，以为这是 Markdown 的原生语法，故在文章中大量使用，现在[知道](https://daringfireball.net/projects/markdown/)这并不是原生语法，故我想着也没必要去实现，毕竟这样其实会给文章未来的迁移带来很大麻烦……
 
 ---
 
@@ -21,4 +21,4 @@ gitinfo = true
 
 如何使用这个主题？如何自定义？如何使用 Hugo？如何从 Hexo 迁移到 Hugo？如何通过 Netlify 实现持续集成？主题的文档仍在码字中，我也将陆续写出几篇通俗易懂的教程，希望能够普及下 Hugo。当然，如果你比较心急，想马上探索 Hugo 和 MemE，可以自行去查看本博客在 GitHub 上的[仓库](https://github.com/reuixiy/io-oi.me)，以作参考。
 
-最后，如果你之前访问过我的博客或者添加过我的博客到桌面，那么请多刷新几次（或手动删除本站的缓存）以浏览最新版本，且建议科学上网后访问，速度会快很多！至于通过 RSS 订阅的读者，由于博客更换了模板且文章的 URL 也变了（删除了 `.html` 后缀），所以你可能会发现本站的全部文章都为未读状态，在这里给你们说声抱歉😁...
+最后，如果你之前访问过我的博客或者添加过我的博客到桌面，那么请稍等片刻以浏览最新版本，且建议科学上网后访问，速度会快很多！至于通过 RSS 订阅的读者，由于文章的 URL 变了（删除了 `.html` 后缀），所以你可能会发现本站的全部文章都为未读状态，在这里给你们说声抱歉😁...
