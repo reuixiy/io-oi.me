@@ -229,20 +229,20 @@ uglyURLs = false
         weight = 1
         pre = "external"
     [[menu.socials]]
-        url = "https://twitter.com/reuixiy"
-        name = "Twitter"
+        url = "https://t.me/yixiuer"
+        name = "Telegram"
         weight = 2
         pre = "external"
     [[menu.socials]]
-        url = "mailto:reuixiy@gmail.com"
-        name = "Email"
+        url = "https://twitter.com/reuixiy"
+        name = "Twitter"
         weight = 3
         pre = "external"
 
     ## 链接栏
     [[menu.links]]
         url = "/"
-        name = "HOME"
+        name = "Home"
         weight = 1
         pre = "internal"
     [[menu.links]]
