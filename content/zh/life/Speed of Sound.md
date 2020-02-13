@@ -2,7 +2,7 @@
 title = "Speed of Sound"
 tags = ["coldplay", "music", "aphorism"]
 date = "2018-07-26T07:12:17+08:00"
-description = "How long do I have climb up on the side of this mountain of mine?"
+description = "How long do I have to climb up on the side of this mountain of mine?"
 slug = "speed-of-sound"
 +++
 
