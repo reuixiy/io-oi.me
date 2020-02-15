@@ -7,8 +7,8 @@
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
 
-[context.production]
-  command = "npm run build && npm run ipfs-deploy"
+# [context.production]
+#   command = "npm run build && npm run ipfs-deploy"
 
 [[redirects]]
   from = "https://io-oi.netlify.com/*"

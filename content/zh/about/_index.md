@@ -35,4 +35,4 @@ Sweep the streets I used to own</i></p>
 
 如果你在浏览博客的过程中发现了任何问题（如错别字），欢迎前往 GitHub 提交 [Issue](https://github.com/reuixiy/io-oi.me/issues) 或直接修改相关文件后提交 PR。如果你有事想要联系 reuixiy，可以通过邮件，邮箱地址：[reuixiy@gmail.com](mailto:reuixiy@gmail.com)。
 
-另，博客使用 GitHub Issues [持续写作](/tech/continuous-writing-with-github-issues/)，博客自豪地由 [Hugo](https://gohugo.io/) 驱动，主题是 [MemE](https://github.com/reuixiy/hugo-theme-meme)，源码在 [GitHub](https://github.com/reuixiy/io-oi.me) 上，通过 [Netlify](https://www.netlify.com/) 进行构建，测试部署在星际文件系统 [IPFS](https://ipfs.io/) 上。
+另，博客使用 GitHub Issues [持续写作](/tech/continuous-writing-with-github-issues/)，博客自豪地由 [Hugo](https://gohugo.io/) 驱动，主题是 [MemE](https://github.com/reuixiy/hugo-theme-meme)，源码在 [GitHub](https://github.com/reuixiy/io-oi.me) 上，通过 [Netlify](https://www.netlify.com/) 进行构建，曾经部署在星际文件系统 [IPFS](https://ipfs.io/) 上。
