@@ -12,8 +12,6 @@ displayCopyright = true
 
 在这篇文章中，我将主要介绍如何将你的..静态..博客以持续集成的方式部署到星际文件系统 IPFS 上，也会简单介绍一下 IPFS 的使用。本文中，我使用的 SSG[^2] 是 [Hugo](https://gohugo.io/)，使用的持续集成服务由 [Netlify](https://www.netlify.com/) 提供，博客的源码可以在 [GitHub](https://github.com/reuixiy/io-oi.me) 上找到。另，提醒一下，与[零网](/tech/first-exploration-of-the-zeronet/)一样，IPFS 默认[不匿名](https://medium.com/pinata/ipfs-privacy-711f4b72b2ea)👓，且对 Tor 的支持[还在开发中](https://github.com/ipfs/go-ipfs/issues/6430)。
 
-**说明**：最近发现 Cloudflare 的 IPFS 服务好像挂了，需要等待非常长的时间才能获取到最新内容，因此本博客已暂时放弃部署在 IPFS 上。
-
 ## 前言
 
 一年前的昨天🧐，知名的互联网基础设施服务提供商 Cloudflare [宣布](https://blog.cloudflare.com/distributed-web-gateway/)开始支持 IPFS Gateway，作为其[分布式互联网网关](https://www.cloudflare.com/distributed-web-gateway/)项目的一部分。关于分布式互联网（Distributed Web，以下简称 D 网），它的到来很有可能会将我们带向 [Web 3.0](https://medium.com/@matteozago/why-the-web-3-0-matters-and-you-should-know-about-it-a5851d63c949) 时代，一个全新的互联网时代！而 D 网所具有的去中心化将会带我们走向新的自由之路——无审查，无高墙。👉🌎🌍🌏💫
@@ -251,12 +249,15 @@ IPFS_DEPLOY_CLOUDFLARE__RECORD=_dnslink.example.com
 ```toml
 [build]
   publish = "public"
-  command = "npm run build && npm run ipfs-deploy"
+  command = "npm run build"
 
 [build.environment]
   HUGO_VERSION = "0.64.0"
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
+
+[context.production.environment]
+  command = "npm run build && npm run ipfs-deploy"
 
 [[redirects]]
   from = "https://io-oi.netlify.com/*"
