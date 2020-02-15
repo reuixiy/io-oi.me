@@ -256,7 +256,7 @@ IPFS_DEPLOY_CLOUDFLARE__RECORD=_dnslink.example.com
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
 
-[context.production.environment]
+[context.production]
   command = "npm run build && npm run ipfs-deploy"
 
 [[redirects]]
