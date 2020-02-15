@@ -221,7 +221,7 @@ IPFS_DEPLOY_CLOUDFLARE__RECORD=_dnslink.example.com
 2. 去你的域名服务商修改域名服务器的地址，设置好后可以用 Google 提供的[工具](https://developers.google.com/speed/public-dns/cache)清空域名的 NS 缓存以加速
 3. 回到 Cloudflare，点击 Check 或 Re-check now，然后等待几分钟，刷新页面可以看到成功提示
 4. 设置 DNS，删除原有的一些没用的值（如 A 记录和 AAAA 记录），然后添加一条 CNAME：Add record > Type: `CNAME`, Name: `example.com`, Target: `cloudflare-ipfs.com` > Save
-5. SSL/TLS > Always Use HTTPS 🔒
+5. SSL/TLS > Edge Certificates > Always Use HTTPS 🔒
 
 你可能会问：可以将 `cloudflare-ipfs.com` 替换为别的 [IPFS Gateway](https://ipfs.github.io/public-gateway-checker/) 地址吗🤔？可以，但是这会有一个 SSL 证书（即 HTTPS）的问题。我们是通过 IPFS Gateway 获取 IPFS 上的内容的，它的作用就是一个网关🔗，连接了 HTTP 和 IPFS，让我们能够使用目前的浏览器方便地访问 IPFS 上的内容。其实，这就是我们添加的这条 CNAME 的作用，将你的域名重定向到安装了 IPFS Gateway 的服务器。以上面添加的这条 CNAME 为例，当一个读者通过浏览器点开 `example.com` 后，浏览器去问 DNS 服务器🗣：这个域名的 IP 地址是什么啊？DNS 服务器找到一条 CNAME 记录，指向 `cloudflare-ipfs.com` 并且它的 IP 地址是 `104.18.253.167`，于是 DNS 服务器告诉浏览器🗣：IP 地址是 `104.18.253.167`！于是浏览器向这个 IP 地址发起一个 HTTP 请求，这就成功地将你的域名重定向到安装了 IPFS Gateway 的服务器了。之后发生了什么呢🤔？安装了 IPFS Gateway 的服务器会通过 HTTP 请求里的 Header 信息获取到访问的域名是 `example.com`，然后它去查询该域名的 DNS 记录，读取到 `dnslink` 后，就会获取里面包含的 Hash 值（IPFS 地址），最后服务器去 IPFS 网络中获取到相应内容并通过 HTTP 返回给浏览器，浏览器将获取的内容渲染，该读者就能开始开心地阅读你的博客了😜～以上，可见如果你的博客想要实现 HTTPS，你 CNAME 指向的支持 IPFS Gateway 的服务器就必须要有属于你的域名的 SSL 证书，而目前好像只有 Cloudflare 的 IPFS Gateway 才会提供这项服务——为你的域名生成相应的 SSL 证书。
 
