@@ -27,7 +27,7 @@ int main () {
     char prefix[]   = "philosophy of ";
     char symbol[]   = "?";
 
-    char iteration[42]; // assume 42 is infinite ∞
+    char iteration[42] = ""; // assume 42 is infinite ∞
 
     while(1) {
         printf("%s%s%s%s\n", question, iteration, idea, symbol);
@@ -54,7 +54,7 @@ int main () {
     char suffix[]   = "的哲学";
     char symbol[]   = "？";
 
-    char iteration[42]; // assume 42 is infinite ∞
+    char iteration[42] = ""; // assume 42 is infinite ∞
 
     while(1) {
         printf("%s%s%s%s\n", question, idea, iteration, symbol);
