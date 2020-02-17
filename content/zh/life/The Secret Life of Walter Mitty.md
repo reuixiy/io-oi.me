@@ -1,6 +1,6 @@
 +++
 title = "The Secret Life of Walter Mitty"
-tags = ["movies", "adventure"]
+tags = ["movies", "adventure", "cycling"]
 date = "2019-06-13T23:03:46+08:00"
 slug = "the-secret-life-of-walter-mitty"
 +++

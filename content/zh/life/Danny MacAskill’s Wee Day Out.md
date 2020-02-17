@@ -1,7 +1,7 @@
 +++
 title = "Danny MacAskill’s Wee Day Out"
 date = "2017-03-11T10:34:03+08:00"
-tags = ["mountain-bike"]
+tags = ["cycling"]
 description = "膜拜丹尼大神"
 slug = "danny-macaskills-wee-day-out"
 +++
