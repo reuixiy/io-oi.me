@@ -159,7 +159,7 @@ brand = ''
 
 ### 图标
 
-MemE 主题自带了 25 个 [Font Awesome](https://fontawesome.com/) 图标，你可以在 `themes/meme/data/SVG.toml` 文件中找到它们，但请不要编辑这个文件。如果你想要添加图标，可浏览 Font Awesome 的[免费图标列表](https://fontawesome.com/icons?d=gallery&m=free)，然后去 [GitHub](https://github.com/FortAwesome/Font-Awesome/tree/master/svgs) 上找到并点击 Raw 以直接复制相应的 SVG 代码。接下来的操作与[品牌栏](#品牌栏)的类似，只不过你添加的 `class` 名应为 `icon`。
+MemE 自带了 25+ 个 [Font Awesome](https://fontawesome.com/) 图标，你可以在 `themes/meme/data/SVG.toml` 文件中找到它们，但请不要编辑这个文件。如果你想要添加图标，可浏览 Font Awesome 的[免费图标列表](https://fontawesome.com/icons?d=gallery&m=free)，然后去 [GitHub](https://github.com/FortAwesome/Font-Awesome/tree/master/svgs) 上找到并点击 Raw 以直接复制相应的 SVG 代码。接下来的操作与[品牌栏](#品牌栏)的类似，只不过你添加的 `class` 名应为 `icon`。
 
 ### 归档页面
 
@@ -191,10 +191,10 @@ title = "归档"
 如果你不喜欢 MemE 默认的代码高亮的样式，可以前往[这个列表](https://xyproto.github.io/splash/docs/longer/all.html)找一个你喜欢的，然后：
 
 ```sh
-~/blog $ hugo gen chromastyles --style=monokai > light.scss
+~/blog $ hugo gen chromastyles --style=monokai > _light.scss
 ```
 
-其中，将 `monokai` 替换为你选择的样式的名字。最后，将生成的 `light.scss` 文件移动到 `~/blog/assets/scss/_common/_highlight/` 目录下。
+其中，将 `monokai` 替换为你选择的样式的名字。最后，将生成的 `_light.scss` 文件移动到 `~/blog/assets/scss/themes/highlight/` 目录下。
 
 当然，这样自定义的是浅色模式的代码高亮样式，如果你想自定义深色模式的，则将 `light` 修改为 `dark`，并将生成的文件内的 `.chroma` 全部替换为 `.chroma-dark`。
 
@@ -208,7 +208,7 @@ title = "归档"
 
 ## 定制
 
-在 MemE 中，你可以方便地自定义样式、模板，但需要注意的是：..千万不要..直接修改 MemE 的文件！这样是非常不利于主题的更新的，如果你想要自定义主题的一些样式、模板，直接在站点下新建相应的文件即可覆盖主题的模板。此外，如果你只是想要自定义自己的样式，推荐直接在站点的 `assets/_custom/custom.scss` 文件（没有自建）中添加。
+在 MemE 中，你可以方便地自定义样式、模板，但需要注意的是：..千万不要..直接修改 MemE 的文件！这样是非常不利于主题的更新的，如果你想要自定义主题的一些样式、模板，直接在站点下新建相应的文件即可覆盖主题的模板。此外，如果你只是想要自定义自己的样式，推荐直接在站点的 `assets/custom/_custom.scss` 文件（没有自建）中添加。
 
 ## 支持的 Front Matter
 

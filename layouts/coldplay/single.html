@@ -14,7 +14,7 @@
                     <div class="coldplay-footer">— {{ with .Params.info }}{{ printf `%s | ` (. | markdownify) | safeHTML }}{{ end }}more @ <a href="/coldplay/">Coldplay</a></div>
                 </div>
             </article>
-            {{ partial "post-share.html" . }}
+            {{ partial "components/post-share.html" . }}
         </div>
     </main>
 {{ end }}
