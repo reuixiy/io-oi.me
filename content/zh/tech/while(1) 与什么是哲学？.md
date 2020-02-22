@@ -31,7 +31,7 @@ int main () {
 
     while(1) {
         printf("%s%s%s%s\n", question, iteration, idea, symbol);
-        strcat(iteration, prefix);
+        strcat(iteration, prefix); // a logical bug it is
     }
 }
 ```
@@ -74,3 +74,7 @@ int main () {
 Philosophy is not an infinite loop inside, philosophy is a finite code outside.
 
 哲学不是里面的无限循环，哲学是外面的有限代码。
+
+---
+
+更多：<https://github.com/reuixiy/philosophy>
