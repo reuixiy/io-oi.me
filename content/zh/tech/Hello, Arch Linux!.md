@@ -39,7 +39,7 @@ aliases = ["/technology/computer/system-software/2018/12/11/hello-arch-linux.htm
 
 ## 视频预览
 
-<video src="QmTLQwySHcpa3rd8duaqi6zdsATzmSzeNL9kUhP9Ena6Sc" controls></video>
+<video src="QmTLQwySHcpa3rd8duaqi6zdsATzmSzeNL9kUhP9Ena6Sc"></video>
 
 ## 安装配置
 

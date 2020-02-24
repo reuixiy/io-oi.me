@@ -8,7 +8,7 @@
                 {{ end }}
                 <div class="post-body">
                     <hr class="coldplay" />
-                    <video src="{{ printf `%s%s` .Site.Params.videoHostURL .Params.video }}" controls></video>
+                    <video src="{{ printf `%s%s` .Site.Params.videoHostURL .Params.video }}" type="video/mp4" controls></video>
                     <div style="text-align: center">❤ evoL ni eveileB</div>
                     <hr class="coldplay" />
                     <div class="coldplay-footer">— {{ with .Params.info }}{{ printf `%s | ` (. | markdownify) | safeHTML }}{{ end }}more @ <a href="/coldplay/">Coldplay</a></div>

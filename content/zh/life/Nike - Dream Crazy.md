@@ -6,7 +6,7 @@ slug = "nike-dream-crazy"
 dropCap = false
 +++
 
-<video src="QmavxN4RALUFQKAFoka3tTpmBTop1izsy78i5tptF1tHjK" controls></video>
+<video src="QmavxN4RALUFQKAFoka3tTpmBTop1izsy78i5tptF1tHjK"></video>
 
 Don’t ask if your dreams are crazy.  
 Ask if they’re crazy enough.  

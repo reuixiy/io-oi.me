@@ -17,7 +17,7 @@ aliases = ["/tech/test/"]
 <video src="https://什么什么什么.mp4" controls></video>
 ```
 
-<video src="QmeNUnncXEUSmMjrQ3ZKQhmChyh3AfiyKQ3YZXcss686Rq" controls></video>
+<video src="QmeNUnncXEUSmMjrQ3ZKQhmChyh3AfiyKQ3YZXcss686Rq"></video>
 
 [视频来源](http://www.acesheep.com/)，被我用在了 <a href="/404.html" target="_blank" rel="noopener">404</a> 页面。
 

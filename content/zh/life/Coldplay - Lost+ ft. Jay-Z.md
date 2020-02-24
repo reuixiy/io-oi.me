@@ -8,7 +8,7 @@ slug = "coldplay-lost+"
 
 实在是太喜欢 Coldplay 的这首歌和这个 MV 了，喜欢到第一次尝试制作中英字幕的视频！[^1]
 
-<video src="QmXQPq7Ux74iUZyWBrne4VMjYypD8xnFMRsKHQb3m6xmRe" controls></video>
+<video src="QmXQPq7Ux74iUZyWBrne4VMjYypD8xnFMRsKHQb3m6xmRe"></video>
 
 Coldplay - Lost+ ft. Jay-Z  
 字幕制作：Worm-35（网易云音乐账号）

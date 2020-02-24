@@ -11,7 +11,7 @@ slug = "make-linux-looks-like-macos"
 
 ## 视频预览
 
-<video src="QmX4oWx1HhpXvx1ToPZvRB2Dua9dFJcXkjS9QScxXkDDvR" controls></video>
+<video src="QmX4oWx1HhpXvx1ToPZvRB2Dua9dFJcXkjS9QScxXkDDvR"></video>
 
 ## 题外话
 

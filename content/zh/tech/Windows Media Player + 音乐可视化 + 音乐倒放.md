@@ -15,7 +15,7 @@ Windows Media Player 是 Windows 自带的多媒体播放器，虽然长得土�
 
 ## 预览
 
-<video src="QmZ9hxcYpuxEeg7WvPLVbStQe2gT7pmXohJ1yk9ts5YfmP" controls></video>
+<video src="QmZ9hxcYpuxEeg7WvPLVbStQe2gT7pmXohJ1yk9ts5YfmP"></video>
 
 ## 可视化
 
@@ -27,7 +27,7 @@ Windows Media Player 是 Windows 自带的多媒体播放器，虽然长得土�
 
 ## 倒放
 
-<video src="QmX39UC8zQ7re5SV5p9vkvCbxwathk5rDAVqB8fcZJu2X4" controls></video>
+<video src="QmX39UC8zQ7re5SV5p9vkvCbxwathk5rDAVqB8fcZJu2X4"></video>
 
 把一首歌倒着放，感觉很怪，但有时也很赞。接触到这个，是因为 Coldplay 一首最深情的 The Scientist 正序版 MV。正序的 MV，[倒序](https://www.zhihu.com/question/19929125)的音乐，却仍是满满的深情。
 

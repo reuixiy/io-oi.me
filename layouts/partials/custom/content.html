@@ -1,0 +1,8 @@
+<!-- Video Helper -->
+{{- $Content := .Scratch.Get "Content" -}}
+{{- if .Site.Params.enableVideoHelper -}}
+    {{- $regex := `(<video[^>]+)` -}}
+    {{- $replacement := `$1 type="video/mp4" controls` -}}
+    {{- $Content := $Content | replaceRE $regex $replacement | safeHTML -}}
+    {{- .Scratch.Set "Content" $Content -}}
+{{- end -}}
