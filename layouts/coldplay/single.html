@@ -1,17 +1,21 @@
 {{ define "main" }}
+    {{- $Deliver := . -}}
     <main class="main single" id="main">
         <div class="main-inner">
             <article class="content post">
                 <h1 class="post-title">{{ .Title }}</h1>
                 {{ with .Params.description }}
-                    <div class="post-description">{{ . | markdownify | safeHTML }}</div>
+                    {{- $raw := . -}}
+                    {{- partial "utils/markdownify.html" (dict "Deliver" $Deliver "raw" $raw "isContent" false) -}}
+                    {{- $Content := $Deliver.Scratch.Get "Content" -}}
+                    <div class="post-description">{{ $Content | safeHTML }}</div>
                 {{ end }}
                 <div class="post-body">
                     <hr class="coldplay" />
                     <video src="{{ printf `%s%s` .Site.Params.videoHostURL .Params.video }}" type="video/mp4" controls></video>
                     <div style="text-align: center">❤ evoL ni eveileB</div>
                     <hr class="coldplay" />
-                    <div class="coldplay-footer">— {{ with .Params.info }}{{ printf `%s | ` (. | markdownify) | safeHTML }}{{ end }}more @ <a href="/coldplay/">Coldplay</a></div>
+                    <div class="coldplay-footer">— {{ with .Params.info }}{{ $raw := . }}{{ partial "utils/markdownify.html" (dict "Deliver" $Deliver "raw" $raw "isContent" false) }}{{ $Content := $Deliver.Scratch.Get "Content" }}{{ printf `%s | ` $Content | safeHTML }}{{ end }}more @ <a href="/coldplay/">Coldplay</a></div>
                 </div>
             </article>
             {{ partial "components/post-share.html" . }}
