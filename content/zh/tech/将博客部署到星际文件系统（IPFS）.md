@@ -100,7 +100,7 @@ Thumbs.db
 ~/blog $ git commit -m "init"
 
 # 上传到远程仓库
-~/blog $ git push -u origin master
+~/blog $ git push
 ```
 
 最后，提示几点 Git 的基本使用：🐤
@@ -285,7 +285,7 @@ IPFS_DEPLOY_CLOUDFLARE__RECORD=_dnslink.example.com
 ```
 ~/blog $ git add -A
 ~/blog $ git commit -m "Deploy to IPFS"
-~/blog $ git push -u origin master
+~/blog $ git push
 ```
 
 去 Netlify 上查看下部署日志，成功完成！🎉🎉🍻
