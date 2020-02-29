@@ -60,7 +60,9 @@ gitinfo = true
 
 至于这些术语的全称和详细描述，可以参考 [Font Bureau OpenType 1.8 Variations Axes Proposals](https://variationsguide.typenetwork.com/)。
 
-需要注意的是，变形轴分已注册和自定义两类，自定义的必须全部字母大写，详细可参考 [OpenType 细则](https://docs.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg)。其中，已注册的目前有以下 5 个：
+需要注意的是，变形轴分已注册和自定义两类。自定义的必须全部字母大写，详细可参考 [OpenType 细则](https://docs.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg)。其中，有一个字体设计中常用的 Grade（等级）[^1]，其变形轴标签为 `GRAD`，其它的可以参考上文提到的[这个提议](https://variationsguide.typenetwork.com/)了解。
+
+已注册的目前有以下 5 个：
 
 变形轴名（Name） | 变形轴标签（Axis tag）
 :---:|:---:
@@ -69,8 +71,6 @@ Width        | `wdth`
 Italic       | `ital`
 Slant        | `slnt`
 Optical Size | `opsz`
-
-自定义的，有一个字体设计中常用的 Grade（等级）[^1]，其变形轴标签为 `GRAD`，其它的可以参考上文提到的[这个提议](https://variationsguide.typenetwork.com/)了解。
 
 要注意的是，这些变形轴能否配置使用不是取决于细则的定义，而是取决于字体是否支持。比如，我们在此文中使用的 Amstelvar Roman 字体就没有 `Italic` 和 `Slant` 变形轴——因为其有独立设计的斜体 Amstelvar Italic。所以，在配置可变字体的变形轴之前务必先查看字体支持的变形轴 *Variation Axes*。
 
@@ -107,7 +107,7 @@ Optical Size | `opsz`
 
 ![font-variation-settings-priority-test.png](/images/font-variation-settings-priority-test.png "优先级测试结果")
 
-注意上图中：一、英文的字重为优先级应更低的 `400`；二、中文的字重还是 `700`。
+注意上图中：一、英文的字重被优先级更低的 `400` 覆盖；二、中文的字重还是 `700`。
 
 ---
 
