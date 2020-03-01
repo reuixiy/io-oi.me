@@ -127,7 +127,7 @@ Optical Size | `opsz`
     --text-YTLC: 460;
 }
 
-* {
+body {
     font-variation-settings:
         'wdth' var(--text-wdth),
         'opsz' var(--text-opsz),
@@ -144,7 +144,7 @@ Optical Size | `opsz`
 }
 ```
 
-我们先来看看需求 1.1，我们首先通过 [`:root`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/:root)[^2] 这个「老祖宗」来声明（定义）我们要使用的 [CSS 变量](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Using_CSS_custom_properties)，然后使用 CSS 的[通用选择器](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Universal_selectors)为所有元素添加一个 `font-variation-settings` 属性，最后为该属性里的变形轴标签配置相应的值，这里的话就是 CSS 变量的值。至于需求 1.2，这里我们就直接为其赋值了。
+我们先来看看需求 1.1，我们首先通过 [`:root`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/:root)[^2] 这个「老祖宗」来声明（定义）我们要使用的 [CSS 变量](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Using_CSS_custom_properties)，然后再给 `body` 这个「老祖宗」添加一个 `font-variation-settings` 属性，最后为该属性里的变形轴标签配置相应的值，这里的话就是 CSS 变量的值。至于需求 1.2，这里我们就直接为其赋值了。
 
 ![variable-fonts-adjustment-compare.png](/images/variable-fonts-adjustment-compare.png "定制前和定制后")
 
@@ -159,7 +159,7 @@ Optical Size | `opsz`
     --text-YTLC: 460;
 }
 
-* {
+body {
      font-variation-settings:
          'wdth' var(--text-wdth),
 +        'wght' var(--text-wght),
@@ -215,7 +215,7 @@ body {
     --text-YTFI: 760;
 }
 
-* {
+body {
     font-variation-settings:
         /* Weight */
         'wght' var(--text-wght),
