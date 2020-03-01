@@ -11,7 +11,7 @@ displayCopyright = true
 
 ## 前言
 
-不过，可变字体其实已经不新鲜了，Google 结果中浏览到这篇 [Get started with variable fonts](https://medium.com/@clagnut/get-started-with-variable-fonts-c055fd73ecd7)，而此文的发布日期是 2016 年的 9 月份。但无论如何，可变字体对我来说还是新鲜的，而..尝试..一下也发现这是值得的——可变字体让人耳目一新。
+不过，可变字体其实已经不新鲜了，Google 结果中浏览到这篇 [Get started with variable fonts](https://medium.com/@clagnut/get-started-with-variable-fonts-c055fd73ecd7)，而此文的发布日期是 2017 年的 2 月份。但无论如何，可变字体对我来说还是新鲜的，而..尝试..一下也发现这是值得的——可变字体让人耳目一新。
 
 ![variable-fonts-sample-page.png](/images/variable-fonts-sample-page.png)
 
