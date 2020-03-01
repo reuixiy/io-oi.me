@@ -4,6 +4,7 @@ date = "2020-02-29T22:00:19+08:00"
 tags = ["typography"]
 slug = "get-started-with-variable-fonts"
 gitinfo = true
+displayCopyright = true
 +++
 
 最近在系统地学习 Web，在 MDN 的 CSS 学习区的 [Web fonts](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts#Variable_fonts) 一节底部，看到 Variable Fonts 即「[可变字体](https://zh.wikipedia.org/wiki/可变字体)」一词，瞌睡之中突然来了点兴趣——因为之前间断地见过这个术语，前不久还在 Twitter 上刷到过好几次——于是我点开 [Variable fonts guide](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide)，并马上被[这个示例](https://mdn.github.io/css-examples/variable-fonts/sample-page.html)的字体和视觉效果吸引了，决定马上尝试一下。二话不说，`CTRL + U` 发现 `Amstelvar VF` 然后 Google 到 [Amstelvar](https://github.com/TypeNetwork/Amstelvar)，先 Star 然后开始尝鲜可变字体！
@@ -87,7 +88,7 @@ Optical Size | `opsz`
     `font-style`          | Italic, Slant | `ital`, `slnt`
     `font-optical-sizing` | Optical Size  | `opsz`
 
-2. 通过 CSS 的 [`font-variation-settings`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variation-settings) 属性
+2. 通过 CSS 的 [`font-variation-settings`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variation-settings) 属性[^2]
 
     配置的语法很简单，比如：
 
@@ -144,7 +145,7 @@ body {
 }
 ```
 
-我们先来看看需求 1.1，我们首先通过 [`:root`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/:root)[^2] 这个「老祖宗」来声明（定义）我们要使用的 [CSS 变量](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Using_CSS_custom_properties)，然后再给 `body` 这个「老祖宗」添加一个 `font-variation-settings` 属性，最后为该属性里的变形轴标签配置相应的值，这里的话就是 CSS 变量的值。至于需求 1.2，这里我们就直接为其赋值了。
+我们先来看看需求 1.1，我们首先通过 [`:root`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/:root)[^3] 这个「老祖宗」来声明（定义）我们要使用的 [CSS 变量](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Using_CSS_custom_properties)，然后再给 `body` 这个「老祖宗」添加一个 `font-variation-settings` 属性，这样其子元素都能继承这一属性，最后为该属性里的变形轴标签配置相应的值，这里的话就是 CSS 变量的值。使用 CSS 变量是为了让子元素能够更方便地覆盖掉「老祖宗」的默认值，比如：以上面的代码为例，如果你有一个元素需要减小 `wdth` 的值，你就只需往该元素添加 `--text-wdth: 50;` 来重新为其赋值，而无需又重复一遍很长的 `font-variation-settings`。至于需求 1.2，这里我们就直接为其赋值了，原因见下方。
 
 ![variable-fonts-adjustment-compare.png](/images/variable-fonts-adjustment-compare.png "定制前和定制后")
 
@@ -161,18 +162,43 @@ body {
 
 body {
      font-variation-settings:
-         'wdth' var(--text-wdth),
 +        'wght' var(--text-wght),
+         'wdth' var(--text-wdth),
          'opsz' var(--text-opsz),
          'YTLC' var(--text-YTLC);
 }
 
 + .post-title {
-+     --text-wght: 400;
++     --text-wght: 500;
 + }
 ```
 
-因为对于除 `.post-title` 以外的所有其非子级元素来说，`--text-wght` 变量是未声明（定义）的，以上代码会导致所有这些元素的 `font-variation-settings` 都失效。
+因为对于除 `.post-title` 以外的所有其非子级元素来说，`--text-wght` 变量是未声明（定义）的，以上代码会导致所有这些元素的 `font-variation-settings` 都失效。而如果我们这样写：
+
+```diff
+:root {
++    --text-wght: 400; /* default value */
+     --text-wdth: 90;
+     --text-opsz: 80;
+     --text-YTLC: 460;
+}
+
+body {
+     font-variation-settings:
++        'wght' var(--text-wght),
+         'wdth' var(--text-wdth),
+         'opsz' var(--text-opsz),
+         'YTLC' var(--text-YTLC);
+}
+
++ .post-title {
++     --text-wght: 500;
++ }
+```
+
+即在 `:root` 中定义一下新增的 `--text-wght`，这又会导致一个问题，比如：如果文章中有一个 `<strong>` 标签，它的默认字重是 `700`，而根据上文的优先级问题可知——我们新加的 `--text-wght: 400` 会覆盖这个值，让 `<strong>` 标签的字重变成 `400`。也就是说，这可能会让我们陷入一个地狱——我们必须为其它所有的字重不为 `400` 的元素添加 `--text-wght` 来纠正其字重。
+
+可见，这应该是目前使用中的一个缺陷，要完美地解决这个问题，就需要在 [`font-variation-settings`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variation-settings) 中为..已注册..的变形轴标签新增一个特殊的值 `inherit`，它的作用是继承 CSS 中现有的字体属性的值。
 
 ---
 
@@ -196,8 +222,6 @@ body {
 
 ## 附加
 
-把整理出来的 Amstelvar Roman 字体目前支持的所有变形轴顺便贴上来：
-
 ```css
 /* 这里不能遗漏任何一项，否则 `font-variation-settings` 会失效 */
 :root {
@@ -215,6 +239,7 @@ body {
     --text-YTFI: 760;
 }
 
+/* Amstelvar Roman 字体目前所支持的所有变形轴 */
 body {
     font-variation-settings:
         /* Weight */
@@ -244,10 +269,8 @@ body {
 }
 ```
 
-但是特别注意，请不要全部使用，不然会有..很严重..的性能问题。[^3]
-
 ---
 
 [^1]: 关于 Grade 的历史，可以参考 [Wikipedia 的 Font 词条中 Weight](https://en.wikipedia.org/wiki/Font#Weight) 一节的底部。
-[^2]: 当然，你也可以使用 `html` 或 `body`。
-[^3]: 最后安利一个 [`font-feature-settings`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings) 属性，特别是它的 `"tnum"` 这个值，其可以让本来不等宽的数字变成等宽（需要字体支持）。
+[^2]: 顺便安利一个 [`font-feature-settings`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings) 属性，特别是它的 `"tnum"` 这个值，其可以让本来不等宽的数字变成等宽（需要字体支持）。
+[^3]: 当然，你也可以使用 `html` 或 `body`。
