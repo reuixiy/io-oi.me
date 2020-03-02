@@ -15,7 +15,7 @@ aliases = ["/technology/computer/computer-aided-art/2018/05/30/speed-up-hexo.htm
 
 ## InstantClick
 
-介绍请看官网，先下载我修改后的 [instantclick.js](https://raw.githubusercontent.com/reuixiy/hugo-theme-meme/master/assets/js/instantclick.js)（浏览器右键保存为），再放到 `~/blog/themes/next/source/js/src/` 下，然后添加代码：
+介绍请看官网，直接下载 [instantclick.js](https://raw.githubusercontent.com/dieulot/instantclick/master/src/instantclick.js)（浏览器右键保存为），再放到 `~/blog/themes/next/source/js/src/` 下，然后添加代码：
 
 ```diff
 <!-- 文件位置：~/blog/themes/next/layout/_layout.swig -->

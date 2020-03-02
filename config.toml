@@ -551,12 +551,6 @@ uglyURLs = false
 
 
     ######################################
-    # InstantClick
-
-    enableInstantClick = true
-
-
-    ######################################
     # Service Worker
 
     # 说明：仅在生产环境（production）下渲染
@@ -1267,6 +1261,13 @@ uglyURLs = false
 
     enableMediumZoom = true
     # 说明：https://github.com/francoischalifour/medium-zoom
+
+
+    ######################################
+    # Instant Page
+
+    enableInstantPage = true
+    # 说明：https://github.com/instantpage/instant.page
 
 
     ######################################

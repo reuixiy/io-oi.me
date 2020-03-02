@@ -22,7 +22,6 @@ MemE 主题践行极简主义，没有使用现有的流行前端框架，主题
 
 - 功能
     * 完全的深色模式支持
-    * 支持 InstantClick 极速点击
     * 完全的多语言支持
     * 可自定义的 SVG 图标
     * 支持 HTML/CSS/JS 的压缩和 JS 的捆包
@@ -40,7 +39,7 @@ MemE 主题践行极简主义，没有使用现有的流行前端框架，主题
     * 分节标题锚点
     * 图片外链、视频外链
     * 自定义页脚
-    * 404 页面、置顶╱排序文章
+    * 404 页面
 - 模块
     * 顶栏
     * 菜单栏
@@ -86,7 +85,7 @@ MemE 主题践行极简主义，没有使用现有的流行前端框架，主题
 ```sh
 ~ $ cd blog
 ~/blog $ git init
-~/blog $ git submodule add https://github.com/reuixiy/hugo-theme-meme.git themes/meme
+~/blog $ git submodule add --depth 1 https://github.com/reuixiy/hugo-theme-meme.git themes/meme
 ```
 
 特别注意：请用 [Git](https://git-scm.com/downloads) 的这种方式安装 MemE，有利于主题的更新，以及持续集成部署。
