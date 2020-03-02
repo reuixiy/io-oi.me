@@ -198,7 +198,7 @@ body {
 
 即在 `:root` 中定义一下新增的 `--text-wght`，这又会导致一个问题，比如：如果文章中有一个 `<strong>` 标签，它的默认字重是 `700`，而根据上文的优先级问题可知——我们新加的 `--text-wght: 400` 会覆盖这个值，让 `<strong>` 标签的字重变成 `400`。也就是说，这可能会让我们陷入一个地狱——我们必须为其它所有的字重不为 `400` 的元素添加 `--text-wght` 来纠正其字重。
 
-可见，这应该是目前使用中的一个缺陷，要完美地解决这个问题，就需要在 [`font-variation-settings`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variation-settings) 中为..已注册..的变形轴标签新增一个特殊的值 `inherit`，它的作用是继承 CSS 中现有的字体属性的值。
+可见，这应该是目前使用中的一个缺陷，要完美地解决这个问题，我觉得就需要在 [`font-variation-settings`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variation-settings) 中为变形轴标签新增一个特殊值 `inherit` 或 `auto`，它的作用是继承 CSS 中现有的字体属性的值或者字体的默认值。可惜的是，目前并没有这样的特殊值，所以这个问题目前还无法完美解决。
 
 ---
 
