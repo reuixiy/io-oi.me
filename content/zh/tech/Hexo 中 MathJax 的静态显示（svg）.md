@@ -3,7 +3,7 @@ title = "Hexo 中 MathJax 的静态显示（svg）"
 date = "2018-05-16T19:38:28+08:00"
 tags = ["hexo"]
 slug = "hexo-mathjax-svg"
-mathjax = true
+katex = true
 dropCap = false
 gitinfo = true
 +++
@@ -84,7 +84,7 @@ gulp.task('mathjax', function() {
 
 ## 效果展示
 
-注意：我已从 Hexo [迁移](/tech/powered-by-hugo/)到 Hugo，下面的公式是由 [MathJax 3.0](https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html) 在线渲染的，而非服务端预先渲染好的 SVG。
+注意：我已[从 Hexo 迁移到 Hugo](/tech/powered-by-hugo/)，下面的公式是由 [$\KaTeX$](https://katex.org/) 在线渲染的，而非服务端预先渲染好的 SVG。
 
 爱因斯坦场方程：
 
