@@ -21,7 +21,7 @@ displayCopyright = true
 
 首先，我们[去 GitHub 上下载 Amstelvar 字体](https://github.com/TypeNetwork/Amstelvar/tree/master/fonts)，将 `Amstelvar-Roman-VF.ttf` 和其斜体 `Amstelvar-Italic-VF.ttf` 下载到本地。
 
-然后，我们将 `.ttf` 压缩成即现代又节约的 `.woff2`，可以使用 [ttf2woff2](https://github.com/nfroidure/ttf2woff2)，或者你也可以尝试其它方法。
+然后，我们将 `.ttf` 压缩成既现代又节约的 `.woff2`，可以使用 [ttf2woff2](https://github.com/nfroidure/ttf2woff2)，或者你也可以尝试其它方法。
 
 接下来，我们添加 CSS 代码，使用 `@font-face` 指定一下我们要使用的字体：
 
