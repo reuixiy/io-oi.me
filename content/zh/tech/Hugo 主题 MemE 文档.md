@@ -8,7 +8,7 @@ dropCap = false
 toc = true
 +++
 
-![meme-lighthouse-report.png](/images/meme-lighthouse-report.png "Lighthouse 测试报告")
+![tn.png](https://raw.githubusercontent.com/reuixiy/hugo-theme-meme/master/images/tn.png "预览图")
 
 ## 前言
 
