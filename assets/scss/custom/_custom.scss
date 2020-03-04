@@ -2,6 +2,48 @@
     font-family: 'glyph-correction', 'Cinzel Decorative', 'Noto Serif SC', serif;
 }
 
+.brand {
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.nav {
+    font-size: 1em;
+}
+
+.home .poetry {
+    padding: 10em 1em;
+}
+
+.life {
+    color: #f37055;
+}
+.tech {
+    color: #a166ab;
+}
+.about {
+    color: #07b39b;
+}
+
+.menu-item .icon {
+    display: none;
+}
+
+@media (max-width: $maxWidth) {
+    .menu-item .icon {
+        display: inline-block;
+    }
+}
+
+.nav-toggle {
+    transform: translateY(0.4em);
+}
+
+.footer {
+    letter-spacing: -0.1em;
+}
+
 .viva-la-vida {
     margin-top: 50px;
     text-align: center;
