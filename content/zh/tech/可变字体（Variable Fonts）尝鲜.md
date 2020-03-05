@@ -216,6 +216,12 @@ body {
 2. [Variable fonts guide (zh-CN) | MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide)
 3. [Introduction to variable fonts on the web | Google Developers](https://developers.google.com/web/fundamentals/design-and-ux/typography/variable-fonts)
 
+## 链接
+
+1. [Google Fonts](https://fonts.google.com/)
+2. [CSS API update | Google Developers](https://developers.google.com/fonts/docs/css2)
+3. [A Variable Fonts Primer](https://variablefonts.io/)
+
 ## 结语
 
 对于大多数人，字体通常都是仅仅「只可读不可写」的，而可变字体的到来，改变了这种情况——可变字体让我们每个人都可以在「盒子」外方便地定制出属于自己的个性字体样式。可变字体，前景光明！
