@@ -206,7 +206,7 @@ body {
 
 ```css
 body {
-    font-family: Amstelvar, 'Noto Serif SC', serif;
+    font-family: 'Amstelvar', 'Noto Serif SC', serif;
 }
 ```
 
