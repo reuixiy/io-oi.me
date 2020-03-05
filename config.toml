@@ -1369,7 +1369,7 @@ uglyURLs = false
     #     identifier = "about"
     [[languages.en-us.menu.main]]
         url = "/en-us/about/"
-        name = "ABOUT"
+        name = "about"
         weight = 1
         pre = "internal"
         post = "user-circle"
