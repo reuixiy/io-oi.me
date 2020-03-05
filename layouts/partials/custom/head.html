@@ -1,1 +1,4 @@
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:700&display=swap&text=reuixiy" />
+{{ $link := "https://fonts.googleapis.com/css?family=Lato:700&display=swap&text=reuixiy" }}
+
+<link rel="preload" href="{{ $link }}" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+<noscript><link rel="stylesheet" href="{{ $link }}" /></noscript>
