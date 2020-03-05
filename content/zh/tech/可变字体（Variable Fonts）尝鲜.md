@@ -1,7 +1,7 @@
 +++
 title = "可变字体（Variable Fonts）尝鲜"
 date = "2020-02-29T22:00:19+08:00"
-tags = ["typography"]
+tags = ["typography", "web"]
 slug = "get-started-with-variable-fonts"
 gitinfo = true
 displayCopyright = true
