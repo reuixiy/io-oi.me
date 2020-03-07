@@ -9,7 +9,7 @@ gitinfo = true
 
 咦，为什么你从 Hexo 迁移到了 Hugo，博客的样式却几乎没变呢🤔？正如[前文](/tech/developing-a-hugo-theme/)所言，我为了从 Hexo 平滑地迁移到 Hugo，决定自己从零开始写一个 Hugo 主题，现在这个主题开发完成了，博客的样式自然也就..平滑..地转移了过来！
 
-此外，博客还有了很多新的亮点呢！首先就是 Dark Mode，只需点击右上角的🌞，即可切换到🌙。然后，本博客终于也走上了持续集成的道路了，源码放在了 [GitHub](https://github.com/reuixiy/io-oi.me) 上，通过 Netlify 进行[部署](https://app.netlify.com/sites/io-oi/deploys)。如果你发现了本博客的文章中的任何错误（比如：错别字），只需去 GitHub 上编辑相应文件，然后提交 PR 即可。最后，博客有了个[英文站点](/en-us/)，但还没有任何文章，只有个首页和未完成的 ABOUT 页面，希望自己以后能够写几篇英文文章或者将已有的文章翻译成英文吧～🌱
+此外，博客还有了很多新的亮点呢！首先就是 Dark Mode，只需点击右上角的🌞，即可切换到🌙。然后，本博客终于也走上了持续集成的道路了，源码放在了 [GitHub](https://github.com/reuixiy/io-oi.me) 上，通过 Netlify 进行[部署](https://app.netlify.com/sites/io-oi/deploys)。如果你发现了本博客的文章中的任何错误（比如：错别字），只需去 GitHub 上编辑相应文件，然后提交 PR 即可。最后，博客有了个[英文站点](/en/)，但还没有任何文章，只有个首页和未完成的 ABOUT 页面，希望自己以后能够写几篇英文文章或者将已有的文章翻译成英文吧～🌱
 
 ![home-poetry-en.png](/images/home-poetry-en.png "仓促地翻译了一下博客的首页诗句")
 
