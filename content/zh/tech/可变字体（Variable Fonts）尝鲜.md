@@ -4,7 +4,6 @@ date = "2020-02-29T22:00:19+08:00"
 tags = ["typography", "web"]
 slug = "get-started-with-variable-fonts"
 gitinfo = true
-displayCopyright = true
 +++
 
 最近在系统地学习 Web，在 MDN 的 CSS 学习区的 [Web fonts](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts#Variable_fonts) 一节底部，看到 Variable Fonts 即「[可变字体](https://zh.wikipedia.org/wiki/可变字体)」一词，瞌睡之中突然来了点兴趣——因为之前间断地见过这个术语，前不久还在 Twitter 上刷到过好几次——于是我点开 [Variable fonts guide](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide)，并马上被[这个示例](https://mdn.github.io/css-examples/variable-fonts/sample-page.html)的字体和视觉效果吸引了，决定马上尝试一下。二话不说，`CTRL + U` 发现 `Amstelvar VF` 然后 Google 到 [Amstelvar](https://github.com/TypeNetwork/Amstelvar)，先 Star 然后开始尝鲜可变字体！

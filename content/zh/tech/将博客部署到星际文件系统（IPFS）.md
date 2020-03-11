@@ -5,7 +5,6 @@ tags = ["ipfs", "decentralized", "hugo", "git", "foss"]
 slug = "host-your-blog-on-ipfs"
 description = "以持续集成的方式将你的博客部署到 IPFS 上，拥抱去中心化和 Web 3.0 🌎！"
 gitinfo = true
-displayCopyright = true
 +++
 
 [^1]![planet.jpg](/images/planet.jpg)
