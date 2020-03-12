@@ -61,7 +61,7 @@ MemE 主题践行极简主义，没有使用现有的流行前端库，主题的
     * Google Analytics、Google Site Verification、Google AdSense
     * [不蒜子](https://busuanzi.ibruce.info/)页面浏览量和站点访客数、站点访问量
     * Disqus 评论、[Valine](https://valine.js.org/) 评论、[Utterances](https://utteranc.es/) 评论
-    * KaTeX 和 MathJax 3.0 公式支持（包括化学方程式）
+    * KaTeX 和 MathJax 3.0 公式支持（包括化学方程式）、[Mermaid](https://github.com/mermaid-js/mermaid)
     * SEO 和社交网络相关：Sitemap、JSON-LD、Open Graph、Twitter Cards
     * 支持部署在星际文件系统（IPFS）
 
@@ -201,9 +201,56 @@ title = "归档"
 
 在 Hugo 中，可以方便地实现多语言站点，在 MemE 中，你甚至可以为站点的不同语言配置不同的样式。你可以在[本博客的配置文件](https://github.com/reuixiy/io-oi.me/blob/master/config.toml)的底部找到相关代码。
 
+### KaTeX/MathJax/Mermaid
+
+对于 KaTeX 和 MathJax，由于 Markdown 与 TeX 的语法冲突，可能会导致相关 TeX 代码被 Markdown 渲染器处理，进而导致公式无法显示。比如：
+
+符号 | TeX | Markdown
+:---:|:---:|:---:
+`_` | 下标 | [`<em>`](https://daringfireball.net/projects/markdown/syntax#em)
+<code>\\</code> | 标识符 | [转义符](https://daringfireball.net/projects/markdown/syntax#backslash)
+
+为了解决这个冲突问题，你可以在受影响的 TeX 代码前后加上 HTML 的 `<div>` 和 `<span>` 标签来解决，如下：
+
+1. 公式
+   ```html
+   <div>
+   $$
+   ...
+   $$
+   </div>
+   ```
+
+2. 行内公式
+   ```html
+   <span>$...$</span>
+   ```
+
+这样就能避免其被 Markdown 渲染器处理。当然，如果其不受影响，则无需这样麻烦。
+
+---
+
+类似的问题，也会导致 Mermaid 的渲染失败。在 MemE 中，Mermaid 的食用方法如下：
+
+1. 在文章的 Front Matter 中开启：
+   ```toml
+   mermaid = true
+   ```
+
+2. 使用 `<div>` 包裹相关代码：
+   ```html
+   <div class="mermaid">
+   graph TD;
+       A-->B;
+       A-->C;
+       B-->D;
+       C-->D;
+   </div>
+   ```
+
 ## 组件
 
-在强大的 Hugo 中有一个叫[主题组件](https://gohugo.io/hugo-modules/theme-components/)的东西，说白了就是你可以同时使用多个主题。你可以使用这个功能添加一些别人写好的[短代码](https://gohugo.io/content-management/shortcodes/)（类似 Hexo 中的标签插件），比如：如果你喜欢 NexT 中的 [Note 标签](https://theme-next.org/docs/tag-plugins/note)并想将它迁移到 MemE，可以直接通过 [hugo-notice](https://github.com/martignoni/hugo-notice) 这个主题组件实现。
+在强大的 Hugo 中有一个叫[主题组件](https://gohugo.io/hugo-modules/theme-components/)的东西，说白了就是你可以同时使用多个主题。你可以使用这个功能添加一些别人写好的[短代码](https://gohugo.io/content-management/shortcodes/)（类似 Hexo 中的标签插件），比如：如果你喜欢 NexT 中的 [Note 标签](https://theme-next.org/docs/tag-plugins/note)并想将它迁移到 MemE，可以通过 [hugo-notice](https://github.com/martignoni/hugo-notice) 这个主题组件实现。
 
 ## 定制
 
