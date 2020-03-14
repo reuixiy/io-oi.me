@@ -8,7 +8,7 @@ slug = "the-secret-life-of-walter-mitty"
 <p style="text-align:center">“To see the world, things dangerous to come to,<br>
 to see behind walls, to draw closer,<br>
 to find each other and to feel.<br>
-<i>That is the Purpose of LIFE</i>.”</p>
+<em>That is the Purpose of LIFE</em>.”</p>
 
 ---
 

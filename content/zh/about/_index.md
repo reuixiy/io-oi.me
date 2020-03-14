@@ -8,16 +8,16 @@ keywords = ["about", "关于此博客", "reuixiy"]
 
 <h2 class="viva-la-vida">Viva La Vida</h2>
 
-<p style="text-align:center"><i>I used to rule the world<br>
+<p style="text-align:center"><em>I used to rule the world<br>
 Seas would rise when I gave the word<br>
 Now in the morning I sleep alone<br>
-Sweep the streets I used to own</i></p>
+Sweep the streets I used to own</em></p>
 
 ---
 
 你好！欢迎来到 reuixiy 的生活与技术博客！怎么记住 reuixiy 呢？其实就是「一休儿」的拼音，只不过顺序是..从右往左..🙃... 为什么我要搭建这个博客呢？因为本人喜欢发呆，喜欢胡思乱想，并且发现用文字记录时能够更深入发呆，所以之前用笔记本写了一些东东。但是，我慢慢地发现了笔记本书写的局限性：
 
-1. 美观问题，我的字写的~~不太好看~~（难看）
+1. 美观问题，我的字写得~~不太好看~~（难看）
 2. 排版问题，看起来乱糟糟，阅读困难
 3. 分类问题，遇到过这问题的应该能理解
 
