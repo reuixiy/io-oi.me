@@ -9,4 +9,4 @@ slug = "out-of-the-box"
 
 作为一个人，这种想法的可喜之处在于盒子之外总是好奇心的最爱，可悲之处在于自己永远都在盒子之内。不过无论如何，我想人的高贵之处就在于 Thinking “out of the box”，即跳出框框去思考。
 
-比较有趣的是，「out of the box」还有一个意思——[开箱即用](https://en.wikipedia.org/wiki/Out_of_the_box_(feature))，也就是我们常说的傻瓜式。
+比较有趣的是，「out of the box」还有一个意思——[开箱即用](https://en.wikipedia.org/wiki/Out_of_the_box_(feature))。
