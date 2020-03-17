@@ -50,7 +50,7 @@ gitinfo = true
 
 如以上代码所示，你需要将我们之前压缩好的两个字体放到网站根目录下的 `fonts` 文件夹；然后 `src` 中重复了两行是利用了 [CSS 的运行规则](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works#What_happens_if_a_browser_encounters_CSS_it_doesnt_understand)来实现浏览器的兼容性，以防 `woff2-variations` 这个全新的字体格式不能被旧浏览器识别而导致字体不能被应用；至于 `font-weight` 和 `font-stretch` 则表示字体的字重和字宽的范围；最后 `font-style` 则指定字体的风格，这里主要是为了区别斜体——使用真斜体而非通过算法实现的假斜体。
 
-你可能会问：我们怎么知道字体支持的字重和字宽的范围的呢？很简单，在 Linux 中的 GNOME 图形界面下，用默认的 Fonts 打开即可查看到相关信息，如下：
+你可能会问：我们怎么知道字体支持的字重和字宽的范围的呢？很简单，在 Linux 中的 GNOME 桌面环境下，用默认的 Fonts 打开即可查看到相关信息，如下：
 
 ![amstelvar-roman-gnome-fonts-info.png](/images/amstelvar-roman-gnome-fonts-info.png "Amstelvar Roman 字体的信息")
 
