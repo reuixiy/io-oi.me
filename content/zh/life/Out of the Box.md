@@ -1,7 +1,7 @@
 +++
 title = "Out of the Box"
 date = "2020-03-15T15:18:21+08:00"
-tags = ["ideas"]
+tags = ["ideas", "interesting"]
 slug = "out-of-the-box"
 +++
 
