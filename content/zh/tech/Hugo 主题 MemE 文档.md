@@ -148,7 +148,7 @@ MemE 主题践行极简主义，没有使用现有的流行前端库，主题的
 + <svg xmlns="http://www.w3.org/2000/svg" class="brand">
 ```
 
-接下来，在站点的 `data` 文件夹内新建一个 `SVG.toml` 文件，并添加一行：
+接下来，在..站点..的 `data` 文件夹内新建一个 `SVG.toml` 文件，并添加一行：
 
 ```toml
 brand = ''
@@ -158,7 +158,11 @@ brand = ''
 
 ### 图标
 
-MemE 自带了 25+ 个 [Font Awesome](https://fontawesome.com/) 图标，你可以在 `themes/meme/data/SVG.toml` 文件中找到它们，但请不要编辑这个文件。如果你想要添加图标，可浏览 Font Awesome 的[免费图标列表](https://fontawesome.com/icons?d=gallery&m=free)，然后去 [GitHub](https://github.com/FortAwesome/Font-Awesome/tree/master/svgs) 上找到并点击 Raw 以直接复制相应的 SVG 代码。接下来的操作与[品牌栏](#品牌栏)的类似，只不过你添加的 `class` 名应为 `icon`。
+MemE 自带了 25+ 个 [Font Awesome](https://fontawesome.com/) 图标，你可以在 `themes/meme/data/SVG.toml` 文件中找到它们，但请不要编辑这个文件。
+
+如果你想要添加图标，可浏览 Font Awesome 的[免费图标列表](https://fontawesome.com/icons?d=gallery&m=free)，然后去 [GitHub](https://github.com/FortAwesome/Font-Awesome/tree/master/svgs) 上找到并点击 Raw 以直接复制相应的 SVG 代码。
+
+接下来的操作与[品牌栏](#品牌栏)的类似，只不过你添加的 `class` 名应为 `icon`。
 
 ### 归档页面
 
@@ -254,7 +258,11 @@ title = "归档"
 
 ## 定制
 
-在 MemE 中，你可以方便地自定义样式、模板，但需要注意的是：..千万不要..直接修改 MemE 的文件！这样是非常不利于主题的更新的，如果你想要自定义主题的一些样式、模板，直接在站点下新建相应的文件即可覆盖主题的模板。此外，如果你只是想要自定义自己的样式，推荐直接在站点的 `assets/custom/_custom.scss` 文件（没有自建）中添加。
+在 MemE 中，你可以方便地自定义样式、模板，但需要注意的是：..千万不要..直接修改 MemE 的文件！这样是非常不利于主题的更新的。
+
+在 Hugo 中，如果你想要自定义主题的一些样式、模板，直接在..站点..下新建相应的文件即可覆盖..主题..的模板。
+
+此外，如果你想要自定义样式，推荐直接在 `~/blog/assets/custom/_custom.scss` 文件（没有自建）中添加。
 
 ## 支持的 Front Matter
 
