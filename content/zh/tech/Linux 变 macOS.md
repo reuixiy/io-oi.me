@@ -125,7 +125,11 @@ Terminal | Gogh Aci
 
 为啥 `GTK+` 用 Mc-OS-themes？附上页面上该作者的吐槽：
 
-> *This is a gnome-desktop-interpretation of Mac OSX. I’ve tried to implement the feel of OSX on the gnome-applications. In version 3.0 I’ve modernized it in every little detail. There is nothing (not a single item) that is not new. Resulting in a completely rewritten GTK.CSS-file four times bigger than the previous one, while the theme feels more responsive. I’ve also added a dark theme, so Terminal, Photo’s, and videos’s are automatically dark-themed. I’ve spend a great deal of time (3 months) and effort on this theme into fine-tuning it, so I hope you try before you judge!*
+{{< quote en >}}
+
+*This is a gnome-desktop-interpretation of Mac OSX. I’ve tried to implement the feel of OSX on the gnome-applications. In version 3.0 I’ve modernized it in every little detail. There is nothing (not a single item) that is not new. Resulting in a completely rewritten GTK.CSS-file four times bigger than the previous one, while the theme feels more responsive. I’ve also added a dark theme, so Terminal, Photo’s, and videos’s are automatically dark-themed. I’ve spend a great deal of time (3 months) and effort on this theme into fine-tuning it, so I hope you try before you judge!*
+
+{{< /quote >}}
 
 的确，这厮用了三个月，界面效果确与其它两个不同，自己对比一下其它两个即能感受出。正如作者所言，细节真的很棒，比如渐变！但是，Mc-OS-themes 自带的 Shell Theme 不咋地，所以我用了 OSX Arc White 的，没话说，就是赞！
 

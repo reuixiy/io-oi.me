@@ -6,7 +6,11 @@ slug = "cassinis-grand-finale"
 dropCap = false
 +++
 
-> Just a month shy of 20 years in space, Cassini will makes a final plunge into Saturn’s atmosphere. The spacecraft will be crushed and vaporized by the pressure and temperature of Saturn’s final embrace to protect worlds like Enceladus and Titan, moons with liquid water oceans under their icy crusts that might harbor conditions for life.
+{{< quote en >}}
+
+Just a month shy of 20 years in space, Cassini will makes a final plunge into Saturn’s atmosphere. The spacecraft will be crushed and vaporized by the pressure and temperature of Saturn’s final embrace to protect worlds like Enceladus and Titan, moons with liquid water oceans under their icy crusts that might harbor conditions for life.
+
+{{< /quote >}}
 
 ## 关于 Cassini
 
@@ -24,6 +28,8 @@ Cassini 有自己的[官网](https://saturn.jpl.nasa.gov/)（若访问不了请�
 
 ## End of Mission
 
-<video src="QmQMREAfzGS35dUhQK4q2NYBLRaczno948DeiGrviJVhBu"></video>
+[^1]<video src="QmQMREAfzGS35dUhQK4q2NYBLRaczno948DeiGrviJVhBu"></video>
 
-https://solarsystem.nasa.gov/news/13016/making-cassinis-grand-finale/
+---
+
+[^1]: https://solarsystem.nasa.gov/news/13016/making-cassinis-grand-finale/

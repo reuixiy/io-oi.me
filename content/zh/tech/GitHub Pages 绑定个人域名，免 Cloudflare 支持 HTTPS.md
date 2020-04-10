@@ -77,9 +77,13 @@ yixiuer.me
 
 记得 `hexo d` 更新博客，最后只需静候证书生成就 OK 啦🍻～
 
-另外，根据 The GitHub Blog 的相关内容：
+另外，根据 The GitHub Blog 的相关内容[^3]：
 
-> These new IP addresses don’t just allow us to serve your site over HTTPS, but also places your site behind a content delivery network (CDN), allowing us to serve your site from data centers around the world at fast speeds, and offering additional protection against DDoS attacks. While the previous IP addresses will remain available for a transition period, we recommend you migrate to the new IP addresses to gain these benefits.[^3]
+{{< quote en >}}
+
+These new IP addresses don’t just allow us to serve your site over HTTPS, but also places your site behind a content delivery network (CDN), allowing us to serve your site from data centers around the world at fast speeds, and offering additional protection against DDoS attacks. While the previous IP addresses will remain available for a transition period, we recommend you migrate to the new IP addresses to gain these benefits.
+
+{{< /quote >}}
 
 如果你之前配置过 DNS，用的还是老的 IP 地址，现在快点将你的 A 记录中的 IP 值更改为新的吧！
 

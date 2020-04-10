@@ -8,9 +8,13 @@ dropCap = false
 
 <video src="QmavxN4RALUFQKAFoka3tTpmBTop1izsy78i5tptF1tHjK"></video>
 
+{{< quote poetry en >}}
+
 Don’t ask if your dreams are crazy.  
 Ask if they’re crazy enough.  
 It’s only crazy until you do it.
+
+{{< /quote >}}
 
 这是一则 Nike 的广告，是我在 [YouTube](https://www.youtube.com/watch?v=E48hHS-5HyM) 上看到的。一开始使我头皮发麻，后来使我前额一冷。总得说，令我很震撼！
 

@@ -99,9 +99,13 @@ Optical Size | `opsz`
 
 既然有两种方式，且其配置值会相互冲突，我们肯定会想到优先级的问题，引用 MDN 的说明：
 
-> **Note**: font characteristics set using `font-variation-settings` will always override those set using the corresponding basic font properties, e.g. `font-weight`, no matter where they appear in the cascade. In some browsers, this is currently only true when the `@font-face` declaration includes a `font-weight` range.
->
-> — *https://developer.mozilla.org/en-US/docs/Web/CSS/font-variation-settings*
+{{< quote en >}}
+
+**Note**: font characteristics set using `font-variation-settings` will always override those set using the corresponding basic font properties, e.g. `font-weight`, no matter where they appear in the cascade. In some browsers, this is currently only true when the `@font-face` declaration includes a `font-weight` range.
+
+— *https://developer.mozilla.org/en-US/docs/Web/CSS/font-variation-settings*
+
+{{< /quote >}}
 
 也就是说，只要配置使用了 `font-variation-settings` 属性，无论基本字体属性（比如 `font-weight`）的层级如何，都会覆盖它。在我的实际测试中（`Chrome 80.0.3987.122`），发现的确如此，但应用的只是这个可变字体包含的字符，不影响其不包含的字符，如下图：
 

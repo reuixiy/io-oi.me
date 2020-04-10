@@ -44,13 +44,13 @@ indent = true
 
 这是一本电影中出现的书籍，听书名就挺有意思的，目前已加入书单但尚未拜读，所以暂时不评论。
 
-> Picard: I tried my best to belong to this place. But I don’t think I ever truly felt at home here.
+> *Picard*: I tried my best to belong to this place. But I don’t think I ever truly felt at home here.
 >
-> Laris: I suppose you always had one eye on the stars.
+> *Laris*: I suppose you always had one eye on the stars.
 
 星空之下背着行李的皮卡德，在离开乡村踏上行程前，与 Laris 来了一段这样的对话，然后一起抬头仰望星空。这极具..灵魂..的一幕，似曾相识，在 2005 年的电影《神奇四侠》中有[极其相似的一幕](https://t.me/yixiuer/235)。
 
-> Susan: Same old Reed, always stretching, reaching for the stars, with the weight of the world on his back.
+> *Susan*: Same old Reed, always stretching, reaching for the stars, with the weight of the world on his back.
 >
 > — [*Fantastic Four*](https://en.wikipedia.org/wiki/Fantastic_Four_(2005_film))
 

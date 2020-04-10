@@ -10,7 +10,9 @@ slug = "speed-of-sound"
 
 未知之神，何时我才能在我的高处俯视，说：「你们想升高时，就向上仰望。我向下俯视，因为我已升高？」[^1]
 
-> *How long before I get in*  
+{{< quote poetry >}}
+
+*How long before I get in*  
 在我抵达之前已过了多久  
 *Before it starts before I begin*  
 在开启旅途之前 在我启程之前  
@@ -27,9 +29,13 @@ slug = "speed-of-sound"
 *Up on the side of this mountain of mine*  
 一直沿着这座山向上爬
 
+{{< /quote >}}
+
 当我抬头仰望时，其它所有的一切都以声速在脑后消散，如飞鸟般，你也能看到吗？
 
-> *Look up, I look up at night*  
+{{< quote poetry >}}
+
+*Look up, I look up at night*  
 抬头仰望 我在夜里仰望  
 *Planets are moving at the speed of light*  
 行星正以光速急速移动  
@@ -58,9 +64,13 @@ slug = "speed-of-sound"
 *If you could see it then you’d understand*  
 如果你见过它们你就会憬悟
 
+{{< /quote >}}
+
 我一直相信有些神奇的事物在等待着我来创造，有些神秘的谜团在等待着我来解答，群鸟正从地底飞上来，你也能看到吗？
 
-> *Ideas that you’ll never find*  
+{{< quote poetry >}}
+
+*Ideas that you’ll never find*  
 你脑子里从未闪现过的新奇想法  
 *All the inventors could never design*  
 所有的发明家从没有设计过  
@@ -91,9 +101,13 @@ slug = "speed-of-sound"
 *Oh, when you see it then you’ll understand*  
 噢 当你见过你就会憬悟
 
-一直相信，一直攀爬，再次抬头仰望时，其它所有的一切又都以声速在脑后消散，那么现在：
+{{< /quote >}}
 
-> 夫子说：「现在你应该从怠惰中  
+一直相信，一直攀爬，再次抬头仰望时，其它所有的一切又都以声速在脑后消散，那么现在：[^2][^3]
+
+{{< quote poetry >}}
+
+夫子说：「现在你应该从怠惰中  
 摆脱出来，因为坐在绒毛上面，  
 或者睡在被窝里的人是不会成名的；  
 没有名声而磋砣一生，  
@@ -104,7 +118,9 @@ slug = "speed-of-sound"
 假使灵魂不和沉重的躯壳一起下沉。  
 一架更长的梯子还需要爬登：  
 走过了这些地方还不够；你若懂得我，  
-那么起来吧，这对你有好处。」[^2][^3]
+那么起来吧，这对你有好处。」
+
+{{< /quote >}}
 
 ---
 

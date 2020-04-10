@@ -7,7 +7,9 @@ slug = "troy"
 
 如此美丽的景色，如此优雅的服饰，如此诱人的躯体，最后血液却从躯体中流出，染红了服饰，玷污了景色。是谁在摧毁这些美好？是兵器，是名誉，是荣耀，是永生，正如电影开头：
 
-> *Men are haunted by the vastness of eternity.  
+{{< quote poetry en >}}
+
+*Men are haunted by the vastness of eternity.  
 And so we ask ourselves...  
 ...will our actions echo across the centuries?  
 Will strangers hear our names long after we’re gone...  
@@ -15,9 +17,15 @@ Will strangers hear our names long after we’re gone...
 ...how bravely we fought...  
 ...how fiercely we loved?*
 
+{{< /quote >}}
+
 战争的直接起因是 Helen 与 Paris 的爱情，用电影中的一句话来评论：
 
-> *this is about power, not love.*
+{{< quote en >}}
+
+*this is about power, not love.*
+
+{{< /quote >}}
 
 另外，可以说后来发生的一切都应该是 Paris 的锅，自私地追求爱情，懦弱地逃离决斗，残忍地杀害阿喀琉斯。
 
