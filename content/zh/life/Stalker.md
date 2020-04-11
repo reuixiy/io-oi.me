@@ -97,6 +97,8 @@ And there was a great earthquake. And the sun became black as sackcloth made of 
 
 {{< quote poetry en >}}
 
+*Arseny Tarkovsky*
+
 So summer is gone,  
 Leaving no epitaph.  
 It’s still warm in the sun,  
@@ -127,6 +129,8 @@ Only that’s not enough.
 ---
 
 {{< quote poetry en >}}
+
+*Fyodor Tyutchev*
 
 I love your eyes, my darling friend,  
 Their play, so passionate and brightening,  
