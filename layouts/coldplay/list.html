@@ -5,7 +5,7 @@
                 <h1 class="list-title">{{ .Title }}</h1>
                 <div class="post-body">
                     <hr class="coldplay" />
-                    {{ with .Params.banner }}
+                    {{ with index .Params.images 0 }}
                         <img src="{{ . }}" alt="{{ path.Base . }}" />
                     {{ end }}
                     <ul class="list-part">
