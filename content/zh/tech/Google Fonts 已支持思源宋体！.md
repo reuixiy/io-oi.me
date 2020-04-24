@@ -32,9 +32,11 @@ gitinfo = true
 
 [^1]![google-fonts-customize.png](/images/google-fonts-customize.png "定制选项")
 
-之后，点击 `EMBED`，复制生成的代码，添加到博客的 `<head>` 标签内，并修改博客的相关 CSS 样式，指定 `font-family` 和 `font-weight`。当然，考虑到国内的网络对 Google 的域名并不友好，建议将 `googleapis.com` 修改为[烧饼博客](https://sb.sb/)提供的镜像 `loli.net`。
+之后，点击 `EMBED`，复制生成的代码，添加到博客的 `<head>` 标签内，并修改博客的相关 CSS 样式，指定 `font-family` 和 `font-weight`。
 
-最后，考虑到宋体的笔画要比黑体细，因此建议将字体的颜色加深，比如修改为 `#333`，以达到较好的阅读效果。此外，虽然之前 [Adobe Typekit](https://fonts.adobe.com/fonts/source-han-serif-simplified-chinese) 就已经提供了类似的服务，但比起 Google Fonts，应用起来略显麻烦。
+最后，考虑到宋体的笔画要比黑体细，因此建议将字体的颜色加深，比如修改为 `#333`，以达到较好的阅读效果。
+
+此外，虽然之前 [Adobe Typekit](https://fonts.adobe.com/fonts/source-han-serif-simplified-chinese) 就已经提供了类似的服务，但比起 Google Fonts，应用起来略显麻烦。
 
 ## 英文
 
