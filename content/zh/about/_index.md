@@ -1,7 +1,6 @@
 +++
 title = "ABOUT"
 date = "2019-06-02T22:55:00+08:00"
-keywords = ["about", "关于此博客", "reuixiy"]
 +++
 
 <video src="QmZgXJwFNRAyUEuU36jReXtyjESeTWEGZpcJGuWSnbRTf1" poster="../images/viva-la-vida.jpg"></video>

@@ -212,7 +212,7 @@ title = "归档"
 符号 | TeX | Markdown
 :---:|:---:|:---:
 `_` | 下标 | [`<em>`](https://daringfireball.net/projects/markdown/syntax#em)
-<code>\\</code> | 标识符 | [转义符](https://daringfireball.net/projects/markdown/syntax#backslash)
+`\` | 标识符 | [转义符](https://daringfireball.net/projects/markdown/syntax#backslash)
 
 为了解决这个冲突问题，你可以在受影响的 TeX 代码前后加上 HTML 的 `<div>` 和 `<span>` 标签来解决，如下：
 
