@@ -262,7 +262,7 @@ title = "归档"
 
 在 Hugo 中，如果你想要自定义主题的一些样式、模板，直接在..站点..下新建相应的文件即可覆盖..主题..的模板。
 
-此外，如果你想要自定义样式，推荐直接在 `~/blog/assets/custom/_custom.scss` 文件（没有自建）中添加。
+此外，如果你想要自定义样式，推荐在 `~/blog/assets/scss/custom/_custom.scss` 文件（没有自建）中添加。
 
 ## 支持的 Front Matter
 
