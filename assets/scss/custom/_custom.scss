@@ -138,7 +138,7 @@ hr.coldplay {
 
 :root {
     --text-wdth: 90;
-    --text-opsz: 80;
+    --text-opsz: 40;
     --text-YTLC: 460;
 }
 
@@ -147,6 +147,14 @@ body {
         'wdth' var(--text-wdth),
         'opsz' var(--text-opsz),
         'YTLC' var(--text-YTLC);
+}
+
+.post-title {
+    font-family: 'glyph-correction', 'Amstelvar', 'Noto Serif SC', serif;
+    font-variation-settings:
+        'wght' 550,
+        'opsz' 60,
+        'YOPQ' 90;
 }
 
 .list-item-time {

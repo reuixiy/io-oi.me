@@ -127,7 +127,7 @@ Optical Size | `opsz`
 
 :root {
     --text-wdth: 90;
-    --text-opsz: 80;
+    --text-opsz: 40;
     --text-YTLC: 460;
 }
 
@@ -144,7 +144,7 @@ body {
     font-variation-settings:
         'wght' 550,
         'opsz' 60,
-        'YOPQ' 30;
+        'YOPQ' 90;
 }
 ```
 
@@ -159,7 +159,7 @@ body {
 ```diff
 :root {
     --text-wdth: 90;
-    --text-opsz: 80;
+    --text-opsz: 40;
     --text-YTLC: 460;
 }
 
@@ -182,7 +182,7 @@ body {
 :root {
 +    --text-wght: 400; /* default value */
      --text-wdth: 90;
-     --text-opsz: 80;
+     --text-opsz: 40;
      --text-YTLC: 460;
 }
 
