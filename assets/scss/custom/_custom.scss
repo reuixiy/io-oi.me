@@ -33,6 +33,12 @@
     }
 }
 
+[data-theme="dark"] {
+    #lang-switcher, .footer-icon {
+        opacity: 0.5;
+    }
+}
+
 @media (max-width: $maxWidth) {
     .nav {
         margin: 2em 0;
