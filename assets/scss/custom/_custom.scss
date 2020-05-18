@@ -56,6 +56,14 @@
         font-size: 80%;
     }
 
+    .theme-icon-light {
+        display: inline;
+    }
+    [data-theme="dark"] {
+        .theme-icon-dark {
+            display: inline !important;
+        }
+    }
     #lang-switcher {
         margin: 0;
     }
