@@ -1,8 +1,11 @@
+{{- $Deliver := .Deliver -}}
+{{- $Content := .Content -}}
+
 <!-- Video Helper -->
-{{- $Content := .Scratch.Get "Content" -}}
-{{- if .Site.Params.enableVideoHelper -}}
+{{- if $Deliver.Site.Params.enableVideoHelper -}}
     {{- $regex := `(<video[^>]+)` -}}
     {{- $replacement := `$1 type="video/mp4" controls` -}}
-    {{- $Content := $Content | replaceRE $regex $replacement | safeHTML -}}
-    {{- .Scratch.Set "Content" $Content -}}
+    {{- $Content = $Content | replaceRE $regex $replacement -}}
 {{- end -}}
+
+{{- return $Content -}}
