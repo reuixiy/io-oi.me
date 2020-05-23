@@ -56,8 +56,10 @@
         font-size: 80%;
     }
 
-    .theme-icon-light {
-        display: inline;
+    :root {
+        .theme-icon-light {
+            display: inline;
+        }
     }
     [data-theme="dark"] {
         .theme-icon-dark {
