@@ -191,15 +191,13 @@ title = "归档"
 
 ### 代码高亮的样式
 
-如果你不喜欢 MemE 默认的代码高亮的样式，可以前往[这个列表](https://xyproto.github.io/splash/docs/longer/all.html)找一个你喜欢的，然后：
+如果你不喜欢 MemE 默认的代码高亮的样式，可以前往[这个列表](https://xyproto.github.io/splash/docs/longer/all.html)找一个你喜欢的，比如 `monokai`，然后：
 
 ```sh
-~/blog $ hugo gen chromastyles --style=monokai > _light.scss
+hugo gen chromastyles --style=monokai
 ```
 
-其中，将 `monokai` 替换为你选择的样式的名字。最后，将生成的 `_light.scss` 文件移动到 `~/blog/assets/scss/themes/highlight/` 目录下。
-
-当然，这样自定义的是浅色模式的代码高亮样式，如果你想自定义深色模式的，则将 `light` 修改为 `dark`，并将生成的文件内的 `.chroma` 全部替换为 `.chroma-dark`。
+将输出与 [`_highlight.scss`](https://github.com/reuixiy/hugo-theme-meme/blob/master/assets/scss/components/_highlight.scss) 中的相关代码对比，找出相关颜色值，然后[定制](#定制)一下 [`assets/scss/themes/`](https://github.com/reuixiy/hugo-theme-meme/tree/master/assets/scss/themes) 中的相应文件内的相应代码即可。
 
 ### 多语言站点
 
