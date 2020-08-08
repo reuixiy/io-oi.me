@@ -1139,10 +1139,10 @@ uglyURLs = false
     # 文章分享
 
     # 是否开启
-    enablePostShare = true
+    enablePostShare = false
 
     # 是否显示（全局设置）
-    displayPostShare = true
+    displayPostShare = false
     # 说明：文章的 Front Matter 中的 `share`
     #      的优先级高于此处
 
@@ -1240,6 +1240,9 @@ uglyURLs = false
 
     # 是否开启
     enableFooter = true
+
+    # 是否显示
+    displayFooter = false
 
     # 是否在首页显示
     displayFooterInHome = true
