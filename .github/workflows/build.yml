@@ -1,0 +1,23 @@
+name: build
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 'Checkout codes'
+      uses: actions/checkout@v2
+      with:
+        submodules: true
+
+    - name: 'Building...'
+      uses: ./.github/actions/hugo
+      env:
+        GIT_REPO: reuixiy/reuixiy.github.io
+        GIT_BRANCH: build
+        GIT_DEPLOY_KEY: ${{ secrets.GIT_DEPLOY_KEY }}
