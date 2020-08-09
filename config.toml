@@ -1347,7 +1347,7 @@ uglyURLs = false
     ######################################
     # 图片缩放
 
-    enableMediumZoom = false
+    enableMediumZoom = true
     # 说明：https://github.com/francoischalifour/medium-zoom
 
 
