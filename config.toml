@@ -1223,7 +1223,7 @@ uglyURLs = false
     # 返回顶部按钮
 
     # 是否开启
-    enableBackToTop = true
+    enableBackToTop = false
 
     # 是否开启自动隐藏
     enableBackToTopAutoHide = true
@@ -1341,7 +1341,6 @@ uglyURLs = false
 
     # 是否开启
     enableSmoothScroll = false
-    # 说明：https://github.com/cferdinandi/smooth-scroll
 
 
     ######################################
