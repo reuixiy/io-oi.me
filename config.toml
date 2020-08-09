@@ -1371,8 +1371,8 @@ uglyURLs = false
     fofPoster = "./images/flying-clouds-720p.jpg"
 
     # 视频地址
-    fofVideoWebm = "https://gateway.pinata.cloud/ipns/io-oi.me/videos/flying-clouds-720p.webm"
-    fofVideoMp4 = "https://gateway.pinata.cloud/ipns/io-oi.me/videos/flying-clouds-720p.mp4"
+    fofVideoWebm = "/videos/flying-clouds-720p.webm"
+    fofVideoMp4 = "/videos/flying-clouds-720p.mp4"
     # 说明：视频地址可留空（""）
 
 
