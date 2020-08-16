@@ -1,3 +1,5 @@
+# .github/workflows/build.yml
+
 name: build
 
 on:
@@ -10,14 +12,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: 'Checkout codes'
-      uses: actions/checkout@v2
-      with:
-        submodules: true
-
     - name: 'Building...'
-      uses: ./.github/actions/hugo
+      uses: reuixiy/hugo-deploy@v1
       env:
-        GIT_REPO: reuixiy/reuixiy.github.io
-        GIT_BRANCH: build
-        GIT_DEPLOY_KEY: ${{ secrets.GIT_DEPLOY_KEY }}
+        DEPLOY_REPO: reuixiy/reuixiy.github.io
+        DEPLOY_BRANCH: build
+        DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+        # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+        TZ: Asia/Shanghai
