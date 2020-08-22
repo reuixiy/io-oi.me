@@ -11,7 +11,7 @@ aliases = ["/technology/computer/computer-aided-art/2018/05/30/speed-up-hexo.htm
 
 尝试在博客利用 [InstantClick](https://github.com/dieulot/instantclick/) 和 Hexo 的两个插件 [hexo-service-worker](https://github.com/zoumiaojiang/hexo-service-worker)、[hexo-filter-optimize](https://github.com/theme-next/hexo-filter-optimize) 让博客快如闪电⚡。
 
-注意：最新版本的 NexT 已经集成了 PJAX 的功能，因此对于处理起来比较麻烦的 InstantClick，可不需。另外，Service Worker 请查看我新写的[利用 Workbox 实现博客的 PWA](/tech/pwa-via-workbox/)。
+**注意**：最新版本的 NexT 已经集成了 PJAX 的功能，因此对于处理起来比较麻烦的 InstantClick，可不需。另外，Service Worker 请查看我新写的[利用 Workbox 实现博客的 PWA](/tech/pwa-via-workbox/)。
 
 ## InstantClick
 
