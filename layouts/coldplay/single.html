@@ -1,19 +1,18 @@
 {{ define "main" }}
-    {{- $Deliver := . -}}
     <main class="main single" id="main">
         <div class="main-inner">
             <article class="content post">
                 <h1 class="post-title">{{ .Title }}</h1>
                 {{ with .Params.description }}
                     {{- $raw := . -}}
-                    <div class="post-description">{{ partial "utils/markdownify.html" (dict "Deliver" $Deliver "raw" $raw "isContent" false) }}</div>
+                    <div class="post-description">{{ partial "utils/markdownify.html" (dict "$" $ "raw" $raw "isContent" false) }}</div>
                 {{ end }}
                 <div class="post-body">
                     <hr class="coldplay" />
                     <video src="{{ printf `%s%s` .Site.Params.videoHostURL .Params.video }}" type="video/mp4" controls></video>
                     <div style="text-align: center">❤ evoL ni eveileB</div>
                     <hr class="coldplay" />
-                    <div class="coldplay-footer">— {{ with .Params.info }}{{ $raw := . }}{{ partial "utils/markdownify.html" (dict "Deliver" $Deliver "raw" $raw "isContent" false) }} | {{ end }}more @ <a href="/coldplay/">Coldplay</a></div>
+                    <div class="coldplay-footer">— {{ with .Params.info }}{{ $raw := . }}{{ partial "utils/markdownify.html" (dict "$" $ "raw" $raw "isContent" false) }} | {{ end }}more @ <a href="/coldplay/">Coldplay</a></div>
                 </div>
             </article>
             {{ partial "components/post-share.html" . }}
