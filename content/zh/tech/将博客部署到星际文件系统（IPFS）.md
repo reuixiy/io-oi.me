@@ -98,8 +98,8 @@ Thumbs.db
 # 提交改动
 ~/blog $ git commit -m "init"
 
-# 上传到远程仓库
-~/blog $ git push
+# 首次上传到远程仓库
+~/blog $ git push -u origin master
 ```
 
 最后，提示几点 Git 的基本使用：🐤
