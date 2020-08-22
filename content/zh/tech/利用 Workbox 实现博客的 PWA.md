@@ -11,6 +11,8 @@ description = "通过 Workbox (via workbox-build & gulp) 生成 Service Worker �
 
 如果你使用 Google Chrome 浏览器访问我的博客💻，你可能会发现地址栏右侧有一个小小的 `+` 号，并会提醒你安装。当然，如果你是用手机访问的话📱，Chrome 就会在页面的底部提醒你。但你可千万千万不要把它当作什么恶意骚扰哦😅，它只是善意地提醒你：这个网站是一个 [PWA](https://developers.google.com/web/progressive-web-apps/) 站点，强烈推荐您添加到桌面以获取原生应用般的优质体验！😝
 
+**注意**：请查看[一个简单的 Service Worker](/tech/a-simple-service-worker/)。
+
 ## 前言
 
 > 渐进式网络应用程序（英语：**P**rogressive **W**eb **A**pps，简称：**PWA**）是一种运用现代的 Web API 以及传统的渐进式增强策略创建的跨平台 Web 应用程序。这种应用程序将目前最为现代化的浏览器提供的功能与移动设备的体验优势相结合，使其具有与原生应用相同的用户体验优势。[^2]
