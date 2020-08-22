@@ -56,15 +56,15 @@ Linux 下输入以上命令，得到以上结果即表明域名解析成功，�
 
 在等待证书生成的时候就可以配置下博客，首先添加 CNAME 文件：
 
-文件位置：~/blog/source/CNAME
-
 ```txt
 yixiuer.me
 ```
 
+文件位置：`~/blog/source/CNAME`（Hexo）；`~/blog/static/CNAME`（Hugo）。
+
 注意没有文件扩展名，如果你是在 Windows 下用记事本新建的，请[设置](https://jingyan.baidu.com/article/f00622282564bdfbd3f0c827.html)后将扩展名删除。
 
-然后修改站点配置文件：
+Hexo 中，然后修改站点配置文件：
 
 ```diff
 # 文件位置：~/blog/_config.yml
