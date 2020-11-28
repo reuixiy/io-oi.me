@@ -71,12 +71,12 @@ $ vim ~/.ssh/config
 ```haskell
 host reuixiy.github.com
     Hostname github.com
-    User git
+    User reuixiy
     IdentityFile ~/.ssh/id_rsa_reuixiy
 
 host yixiuer.github.com
     Hostname github.com
-    User git
+    User yixiuer
     IdentityFile ~/.ssh/id_rsa_yixiuer
 ```
 
