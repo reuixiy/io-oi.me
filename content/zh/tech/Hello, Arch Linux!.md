@@ -770,10 +770,9 @@ $ rm -rf yay
 名字 | 说明 | 类似
 :---:|:---:|:---:
 google-chrome | Google Chrome 浏览器 | *
+visual-studio-code-bin | Visual Studio Code | *
 netease-cloud-music | 网易云音乐 | *
-sublime-text-dev | 代码编辑器 | *
 Flameshot | 现代、快捷、轻便的截图工具 | *
-electron-ssr | 好用的科学上网工具 | *
 proxychains-ng | 终端内科学上网代理工具 | *
 redshift | 显示屏色温调节工具 | f.lux
 vlc | 强大的多媒体播放工具 | *
@@ -795,11 +794,10 @@ aria2 | 强大的多线程下载工具 | *
 youtube-dl | YouTube 视频下载工具 | *
 baidupcs-go-git | 百度网盘下载工具 | *
 ncmdump-go | 网易云音乐的 `.ncm` 格式转换工具 | *
-code | Visual Studio Code | *
 
 ```bash
-$ yay -S google-chrome netease-cloud-music sublime-text-dev electron-ssr proxychains-ng baidupcs-go-git ncmdump-go
-$ sudo pacman -S redshift vlc deadbeef telegram-desktop liferea qbittorrent calibre gthumb libreoffice-fresh peek gimp inkscape shotcut fontforge audacity kid3 aria2 youtube-dl code flameshot
+$ yay -S google-chrome visual-studio-code-bin netease-cloud-music proxychains-ng baidupcs-go-git ncmdump-go
+$ sudo pacman -S redshift vlc deadbeef telegram-desktop liferea qbittorrent calibre gthumb libreoffice-fresh peek gimp inkscape shotcut fontforge audacity kid3 aria2 youtube-dl flameshot
 ```
 
 https://www.addictivetips.com/ubuntu-linux-tips/best-audio-tools-for-linux/
