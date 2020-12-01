@@ -152,7 +152,7 @@ sdb  | ext4	 | 整块硬盘 | 家目录   | /home
 ```
 # mount /dev/sda2 /mnt
 
-# mkdir /mnt/boot/efi
+# mkdir -p /mnt/boot/efi
 # mount /dev/sda1 /mnt/boot/efi
 
 # mkdir /mnt/home
