@@ -163,6 +163,16 @@ sdb  | ext4	 | 整块硬盘 | 家目录   | /home
 
 #### 选择镜像源
 
+推荐使用 [reflector](https://wiki.archlinux.org/index.php/reflector)：
+
+```
+# pacman -Syyy reflector
+# reflector -c China -a 6 --sort rate --save /etc/pacman.d/mirrorlist
+# pacman -Syyy
+```
+
+或者，可以手动编辑文件：
+
 ```
 # vim /etc/pacman.d/mirrorlist
 ```
