@@ -1607,6 +1607,7 @@ https://github.com/ValveSoftware/steam-for-linux/issues/3887
 
 ### 视频
 
+[Dual Booting Windows 10 and Arch Linux on UEFI](https://www.youtube.com/watch?v=L1B1O0R1IHA)  
 [Full Arch Linux Install (SAVAGE Edition!) | YouTube](https://www.youtube.com/watch?v=4PBqpX0_UOc)  
 [After a Minimal Linux Install: Graphical Envionment and Users | YouTube](https://www.youtube.com/watch?v=nSHOb8YU9Gw)  
 [Arch Linux UEFI step-by-step installation guide | YouTube](https://www.youtube.com/watch?v=dOXYZ8hKdmc)  
