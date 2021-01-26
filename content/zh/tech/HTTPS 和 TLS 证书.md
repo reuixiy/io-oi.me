@@ -55,7 +55,7 @@ TLS 证书的解释和 Let’s Encrypt 证书的申请可以参考以下几篇�
 
 我们在 [Let’s Encrypt] 这个 CA 申请永久免费的 TLS 证书，通过 ACME 客户端以 Let’s Encrypt 提出的 ACME 协议自动申请证书。..先决条件..是，拥有一个属于自己的域名。
 
-[ACME] 协议是 Let’s Encrypt 这个组织为了节约运营成本而提出的，用自动化的程序流程解决传统证书申请中存在的人工流程，以及证书的自动更新问题，目前已经是 IETF 的一项标准。
+[ACME] 协议是 Let’s Encrypt 这个组织为了节约运营成本而提出的，用自动化的程序流程解决传统证书申请中存在的人工流程，以及证书的自动更新问题，目前已经是一项 IETF 标准。
 
 ACME 主要提供两种验证方式，HTTP 方式和 DNS 方式，介绍可以参考 [Challenge Types]。由于 HTTP 方式需要有公网可访问的 80 端口，为了本地测试的方便，此处我们采用传统手动 DNS 方式来通过 CA 在签发证书时要求的验证。
 
@@ -67,6 +67,7 @@ git clone --depth 1 https://github.com/acmesh-official/acme.sh.git && \
 cd acme.sh
 
 # 申请证书（注意将 example.com 修改为自己要申请证书的域名）
+# 特别提醒：不要使用自己已上线的域名来实验
 ./acme.sh --issue -d example.com --dns \
  --yes-I-know-dns-manual-mode-enough-go-ahead-please
 ```
