@@ -67,7 +67,6 @@ git clone --depth 1 https://github.com/acmesh-official/acme.sh.git && \
 cd acme.sh
 
 # 申请证书（注意将 example.com 修改为自己要申请证书的域名）
-# 特别提醒：不要使用自己已上线的域名来实验
 ./acme.sh --issue -d example.com --dns \
  --yes-I-know-dns-manual-mode-enough-go-ahead-please
 ```
@@ -78,6 +77,7 @@ cd acme.sh
 
 ```sh
 # 更新证书（注意将 example.com 修改为自己要申请证书的域名）
+# 特别提醒：不要使用自己已上线的域名来实验
 ./acme.sh --renew -d example.com --dns \
  --yes-I-know-dns-manual-mode-enough-go-ahead-please
 ```
@@ -94,7 +94,7 @@ cd acme.sh
 # 导出私钥和证书（注意将 example.com 修改为相应域名，下同）
 ./acme.sh --install-cert -d example.com \
 --key-file       cert.key \
---fullchain-file cert.pem \
+--fullchain-file cert.pem
 ```
 
 接下来，将证书和私钥..移动..到 `/etc/nginx/`：
