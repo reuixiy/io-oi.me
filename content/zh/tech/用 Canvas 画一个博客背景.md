@@ -113,7 +113,7 @@ body {
 
 1. 用伪元素实现博客的固定背景，Safari on iOS 不支持 `background-attachment: fixed`。
 
-2. 毛玻璃滤镜，直接在背景使用 `filter` 而不是在背景上的元素使用 `backdrop-filter`，因为我们要模糊的是整个背景。
+2. 毛玻璃滤镜，直接在背景使用 `filter` 而无需在背景前的元素使用 `backdrop-filter`，因为我们要模糊的就是整个背景。
 
 3. 添加一层蒙层以降低背景的亮度，提高文字的可读性。
 
