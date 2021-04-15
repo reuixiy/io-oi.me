@@ -3,7 +3,7 @@ title = "用 Canvas 画一个博客背景"
 date = "2021-04-11T13:58:52+08:00"
 tags = ["web"]
 slug = "draw-cool-background-with-canvas"
-dropcap = false
+dropCap = false
 gitinfo = true
 +++
 
