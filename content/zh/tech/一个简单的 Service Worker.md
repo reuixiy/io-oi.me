@@ -74,4 +74,4 @@ self.addEventListener('fetch', (event) => {
 
 ---
 
-[^1]: 这样就会导致一个问题，即用户获取的可能不是最新内容，除非再次刷新页面。
+[^1]: 这样就会导致一个问题，即用户获取的可能不是最新内容，除非再次刷新页面。一个解决方法是，采用 Network first 策略，见 [reuixiy/hugo-theme-meme@cddaf25](https://github.com/reuixiy/hugo-theme-meme/commit/cddaf25)。
