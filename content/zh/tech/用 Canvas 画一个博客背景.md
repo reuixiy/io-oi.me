@@ -117,4 +117,4 @@ body {
 
 3. 添加一层蒙层以降低背景的亮度，提高文字的可读性。
 
-考虑到博客文章的阅读体验，目前我的博客只在[首页](/)和[关于页面](/about/)和[酷玩页面](/coldplay/)启用了该背景，并在关于页面和酷玩页面启用了毛玻璃滤镜，可直接前往相应页面体验感受，实现方式见 [reuixiy/io-oi.me@b7c5b1a](https://github.com/reuixiy/io-oi.me/commit/b7c5b1a)。
+考虑到博客文章的阅读体验，目前我的博客只在[首页](/)和[关于页面](/about/)和[酷玩页面](/coldplay/)启用了该背景，并在关于页面和酷玩页面启用了毛玻璃滤镜，可直接前往相应页面体验感受（**已停用**），实现方式见 [reuixiy/io-oi.me@b7c5b1a](https://github.com/reuixiy/io-oi.me/commit/b7c5b1a)。
