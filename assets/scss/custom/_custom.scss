@@ -179,10 +179,13 @@ body {
 
 blockquote.quote {
     position: relative;
-    margin: 2em auto;
+    margin: 2em auto !important;
     padding-left: 3em;
     color: inherit;
     border: none;
+    p {
+        text-indent: 0 !important;
+    }
     &::before {
         position: absolute;
         left: 0;
