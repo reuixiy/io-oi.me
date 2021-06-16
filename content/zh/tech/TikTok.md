@@ -10,7 +10,7 @@ slug = "tiktok"
 
 目前 PWA 在使用交互上与原生应用已经基本一致，在桌面和手机上，通过浏览器访问网站安装后[^1]，与其它原生 APP 的待遇一样，点击应用图标就可以运行，在任务栏也有属于自己的位置。与常规网站的不同在于 PWA 没有地址栏等浏览器元素，还具有离线浏览能力，以及与原生应用一致的系统交互；与常规应用的不同在于用户通过基于 Web 的 PWA 总是能获取到最新版本应用，无需重新手动安装，也无需通过平台限制的应用商店审核，一次代码开发各操作系统和设备也都可访问，利于开发惠于用户。目前 PWA 相比原生应用的不足之处可能是计算能力和一些 API 的不足，不过随着 WebAssembly 和更多 Web API 的发展普及，相信 PWA 将会更加强大。
 
-可能是因为 Web，PWA 版本的 TikTok 在区域限制上似乎要比 APP 更为宽松一些，可以使用很多第三方帐号验证成功登录，而我之前在 APP 上的多次尝试均失败。内容的话，基本与出口 IP 所在的区域一致，且并没有按区域完全封锁内容，只不过发现所推荐的内容是基于你的 IP 所在，偶尔能刷到区域外的火热视频，还可以通过搜索发现各区域的账号并关注。这就意味着，你能够通过 PWA 版本的 TikTok 看见这个纷繁熟悉又陌生的世界，这个居住其中却似被隔绝之外的世界，这个如此残酷又些许美好的世界。视频虽短、音乐虽短，带给大脑的冲击却很强烈，感受却很真实直接，千年文字和百年电视，你们听到她那笑姿了吗？——爱这世界爱生活！
+可能是因为 Web，PWA 版本的 TikTok 在区域限制上似乎要比 APP 更为宽松一些，可以使用很多第三方账号验证成功登录，而我之前在 APP 上的多次尝试均失败。内容的话，基本与出口 IP 所在的区域一致，且并没有按区域完全封锁内容，只不过发现所推荐的内容是基于你的 IP 所在，偶尔能刷到区域外的火热视频，还可以通过搜索发现各区域的账号并关注。这就意味着，你能够通过 PWA 版本的 TikTok 看见这个纷繁熟悉又陌生的世界，这个居住其中却似被隔绝之外的世界，这个如此残酷又些许美好的世界。视频虽短、音乐虽短，带给大脑的冲击却很强烈，感受却很真实直接，千年文字和百年电视，你们听到她那笑姿了吗？——爱这世界爱生活！
 
 我还是更喜欢 Web，万维网（World Wide Web）更符合互联网的本义，节点连成网络，网络联接世界！浏览器不是一个平台，它是一个窗口，通过这个由世界组织定义的[层层](https://github.com/reuixiy/io-oi.me/issues/147)窗口，我能够看到这个世界！看到这个理念！
 
@@ -82,5 +82,5 @@ _That is the Purpose of LIFE_.
 
 ---
 
-[^1]: 不同系统不同浏览器上，安装流程可能稍有不同，目前在 iOS 使用 Safari 浏览器访问支持 PWA 的网站后，点击「分享」按钮，下滑点击「Add to Home Screen」加号图标即可安装。
+[^1]: 不同系统不同浏览器上，安装流程可能稍有不同，目前在 iOS 使用 Safari 浏览器访问支持 PWA 的网站后，点击「分享」按钮，上滑点击「Add to Home Screen」加号图标即可安装。
 [^2]: <iframe src="https://embed.music.apple.com/us/album/masih-mencintainya/838036591?i=838036594&amp;app=music&amp;itsct=music_box_player&amp;itscg=30200&amp;ct=songs_masih_mencintainya&amp;ls=1" height="150px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent;"></iframe>
