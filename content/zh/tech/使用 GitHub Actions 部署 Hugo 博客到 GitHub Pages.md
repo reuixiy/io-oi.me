@@ -118,7 +118,7 @@ gitinfo = true
 
 ## More
 
-1. 如果你不想公开你的博客源码，可以新建一个私有仓库作为源码仓库，也支持 GitHub Actions。[^1]
+1. 如果你不想公开你的博客源码，可以新建一个私有仓库作为源码仓库，也支持 GitHub Actions。（**暂不支持**）[^1]
 
 2. 添加徽章（Badge）到 README.md
 
