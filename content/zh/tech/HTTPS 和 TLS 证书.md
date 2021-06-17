@@ -68,7 +68,7 @@ cd acme.sh
 
 # 申请证书（注意将 example.com 修改为自己要申请证书的域名）
 ./acme.sh --issue -d example.com --dns \
- --yes-I-know-dns-manual-mode-enough-go-ahead-please
+  --yes-I-know-dns-manual-mode-enough-go-ahead-please
 ```
 
 网络正常的情况下，稍等片刻，会输出一条 TXT 类型的 DNS 记录，需要我们手动将之增加到域名的 DNS 记录列表。
@@ -79,7 +79,7 @@ cd acme.sh
 # 更新证书（注意将 example.com 修改为自己要申请证书的域名）
 # 特别提醒：不要使用自己已上线的域名来实验
 ./acme.sh --renew -d example.com --dns \
- --yes-I-know-dns-manual-mode-enough-go-ahead-please
+  --yes-I-know-dns-manual-mode-enough-go-ahead-please
 ```
 
 稍等片刻，TLS 证书应该就已经申请成功了！导出证书所需要的文件应该就会放在 `~/.acme.sh/example.com/`（比如）。
@@ -93,8 +93,8 @@ cd acme.sh
 ```sh
 # 导出私钥和证书（注意将 example.com 修改为相应域名，下同）
 ./acme.sh --install-cert -d example.com \
---key-file       cert.key \
---fullchain-file cert.pem
+  --key-file       cert.key \
+  --fullchain-file cert.pem
 ```
 
 接下来，将证书和私钥..移动..到 `/etc/nginx/`：
