@@ -216,6 +216,11 @@ blockquote.quote {
             -moz-hyphens: auto;
         }
     }
+    &.italic {
+        p {
+            font-style: italic;
+        }
+    }
 }
 
 @media (max-width: $maxWidth) {
