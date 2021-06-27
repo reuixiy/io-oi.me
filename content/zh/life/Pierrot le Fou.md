@@ -38,3 +38,11 @@ Ambition. Hope... Movement, accidents. What else? I don’t know. Everything.
 You see? I was right five years ago. We don’t understand each other. What can I do? I don’t know what to do.
 
 {{< /quote >}}
+
+{{< quote en italic >}}
+
+How’s the old man?
+
+Not bad. I’v found an idea for a novel. I won’t describe people’s lives, but life itself, just life. Everything that takes place between people: space, sounds and colours. It should be possible. Joyce tried to do it, but I should be able to improve on him.
+
+{{< /quote >}}
