@@ -64,7 +64,7 @@ https://zn.amorgan.xyz/io-oi.bit/
 
 然而，随着去中心化的互联网的发展，我觉得技术问题将逐渐变得不那么重要，主要的问题将是与政府的冲突。冲突何在？政府的职责之一就是监管，不知为什么，个人总感觉这是去中心化的死对头。
 
-最后，安利一篇我在零网看到的一篇很好的[文章](http://127.0.0.1:43110/19fZz85PJXLAuwpGWe2fLEnU6Z1heprFFJ/?Post:24)。此外，对于去中心化，我在我的另一个博客写了一篇文章——《[集权管理与去中心化](https://yixiuer.me/original/centralization-and-decentralization/)》。
+最后，安利一篇我在零网看到的一篇很好的[文章](http://127.0.0.1:43110/19fZz85PJXLAuwpGWe2fLEnU6Z1heprFFJ/?Post:24)。此外，对于去中心化，我在我的另一个博客写了一篇文章——《[集权管理与去中心化](https://yixiuer.me/idea/centralization-and-decentralization/)》。
 
 ---
 
