@@ -474,7 +474,7 @@ $ sudo pacman -S fcitx-im fcitx-configtool
 ```
 
 1. 默认回车，全部安装。
-2. GNOME 设置界面 > Region & Language > Input Sources，删除 English。
+2. GNOME 设置界面 > Keyboard > Input Sources，删除 English。
 3. 打开终端，输入 `fcitx-configtool` 回车后出现一个设置界面，左下角 `+` 添加 Pinyin，关闭界面。
 
 这样应该就能输入中文了，任意一个窗口，单击左 shift 键切换即可输入。
