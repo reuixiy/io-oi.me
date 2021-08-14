@@ -1,5 +1,5 @@
 +++
-title = "Nike - Dream Crazy"
+title = "Nike — Dream Crazy"
 tags = ["never", "memories", "introspection"]
 date = "2018-09-08T11:07:08+08:00"
 slug = "nike-dream-crazy"

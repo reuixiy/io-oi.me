@@ -17,7 +17,7 @@ slug = "my-gnome"
 
 ![my-gnome.png](/images/my-gnome.png)
 
-以上是我目前总览模式（Overview mode）下的 GNOME 界面，可以对比[一个标准的 GNOME 界面](https://en.wikipedia.org/wiki/GNOME_Shell#Design_components)来说说我的定制。上方是自动隐藏的顶栏，左边是自动隐藏的工作区列表，右边是自动隐藏的 Dock，没有底栏。目前在 Overview 下它们是都显示的，但当切换到一个最大化的窗口——比如上图左上方的 Chrome 或上图下方正在编辑此文章的 [Code - OSS](https://github.com/microsoft/vscode/wiki/Differences-between-the-repository-and-Visual-Studio-Code)[^1]——时，整个屏幕是只有这个最大化的窗口的，上左右的它们都是自动隐藏的，只有当鼠标与相应边界接触并移动一定距离时，才会显示。为什么要这样定制呢？我的理念如下：
+以上是我目前总览模式（Overview mode）下的 GNOME 界面，可以对比[一个标准的 GNOME 界面](https://en.wikipedia.org/wiki/GNOME_Shell#Design_components)来说说我的定制。上方是自动隐藏的顶栏，左边是自动隐藏的工作区列表，右边是自动隐藏的 Dock，没有底栏。目前在 Overview 下它们是都显示的，但当切换到一个最大化的窗口——比如上图左上方的 Chrome 或上图下方正在编辑此文章的 [Code — OSS](https://github.com/microsoft/vscode/wiki/Differences-between-the-repository-and-Visual-Studio-Code)[^1]——时，整个屏幕是只有这个最大化的窗口的，上左右的它们都是自动隐藏的，只有当鼠标与相应边界接触并移动一定距离时，才会显示。为什么要这样定制呢？我的理念如下：
 
 1. 减少干扰，所以得藏。
 
@@ -64,6 +64,6 @@ slug = "my-gnome"
 
 ---
 
-[^1]: 为了方便，下文都将 Code - OSS 误称为 VS Code。
+[^1]: 为了方便，下文都将 Code — OSS 误称为 VS Code。
 [^2]: 很多软件（特别是编辑器）都有这样的「免干扰模式」——全屏、居中、左右留白，比如：Sublime Text 的 Distraction Free Mode（`shift` + `f11`）、VS Code 的 Zen Mode（`ctrl` + `k`，`z`）……
 [^3]: 我的 VS Code 其实也是如此，将侧栏定制在右边。

@@ -1,5 +1,5 @@
 +++
-title = "Coldplay - Lost+ ft. Jay-Z"
+title = "Coldplay — Lost+ ft. Jay-Z"
 date = "2017-04-28T07:37:21+08:00"
 tags = ["coldplay"]
 description = "Just because I’m losing, doesn’t mean I’m lost!"
@@ -10,7 +10,7 @@ slug = "coldplay-lost+"
 
 <video src="QmXQPq7Ux74iUZyWBrne4VMjYypD8xnFMRsKHQb3m6xmRe"></video>
 
-Coldplay - Lost+ ft. Jay-Z  
+Coldplay — Lost+ ft. Jay-Z  
 字幕制作：Worm-35（网易云音乐账号）
 
 Okay!  

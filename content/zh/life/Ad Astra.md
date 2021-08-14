@@ -23,6 +23,6 @@ slug = "ad-astra"
 [^2]: Bilibili: https://www.bilibili.com/video/av14893466/  
 Torrent: https://pirateproxy.live/torrent/5161496/  
 Subtitle: http://subhd.tv/ar0/326078
-[^3]: Vangelis - [Heaven and Hell](https://music.163.com/song?id=2071005)  
-Vangelis - [Alpha](https://music.163.com/song?id=21994202)  
-Vangelis - [Cosmos](https://music.163.com/album?id=208529)
+[^3]: Vangelis — [Heaven and Hell](https://music.163.com/song?id=2071005)  
+Vangelis — [Alpha](https://music.163.com/song?id=21994202)  
+Vangelis — [Cosmos](https://music.163.com/album?id=208529)
