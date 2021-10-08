@@ -2,7 +2,7 @@
 title = "View From the Top: Craig Federighi"
 issueDate = "2021-07-18T19:46:05+08:00"
 date = "2021-09-23T00:24:21+08:00"
-tags = ["notes"]
+tags = ["notes", "aphorism"]
 description = "苹果公司主管 macOS 和 iOS 的软件工程师 Craig Federighi 于 2019 年 11 月 21 日在伯克利的《Questionable Advice from One Very Lucky Berkeley Engineer》演讲和对话问答"
 dropCap = false
 +++
