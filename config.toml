@@ -1486,13 +1486,13 @@ uglyURLs = false
     # tag = "tags"
 [languages.en.menu]
     # [[languages.en.menu.home]]
-    #     pageref = "/en/about/"
+    #     pageref = "/"
     #     weight = 3
     #     pre = "internal"
     #     post = "user-circle"
     #     identifier = "about"
     [[languages.en.menu.main]]
-        pageref = "/en/about/"
+        pageref = "/about/"
         name = "about"
         weight = 1
         pre = "internal"
