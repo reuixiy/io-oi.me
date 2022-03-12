@@ -97,7 +97,7 @@ gitinfo = true
 
 原生的 TV 里面也有一些很棒的内容，会偶尔浏览一下。推荐两个体验很棒的视频：一是 VR 动画 [Namoo](https://www.oculus.com/experiences/media/227106667628368/393597009229472/)——春夏秋冬，生命之树，一个轮回；二是 VR 纪录片 [Alex Honnold: The Soloist VR](https://www.oculus.com/experiences/media/471583781115150/)，讲述霍诺德的徒手攀岩，十分震慑心灵。
 
-游戏尝试过非常流行的节奏光剑 [Beat Saber](https://www.oculus.com/experiences/quest/1758986534231171)，还有一个第一人称射击游戏 [Gun Raiders](https://www.oculus.com/experiences/quest/3982869578392875)，与我之前 Linux 中玩过的 [Xonotic](/tech/hello-arch-linux/#原生) 有点像，不过 VR 中被刀杀死的体验过于难受，因为里面有很多玩家是小孩，且都开着麦，凉凉马上听到嘲讽。
+游戏尝试过非常流行的节奏光剑 [Beat Saber](https://www.oculus.com/experiences/quest/1758986534231171)，还有一个第一人称射击游戏 [Gun Raiders](https://www.oculus.com/experiences/quest/3982869578392875)，与我之前 Linux 中玩过的 [Xonotic](/tech/hello-arch-linux/#原生) 有点像，不过 VR 中被刀刺杀的体验过于难受，因为里面有很多玩家是小孩，且都开着麦，凉凉马上听到嘲讽。
 
 最后推荐一下新出的 [Distict M](https://www.oculus.com/experiences/quest/3999549193446143/)，一个新颖佛系的第三人称溜冰游戏！
 
