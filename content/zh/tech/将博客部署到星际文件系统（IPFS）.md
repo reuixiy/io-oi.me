@@ -438,7 +438,7 @@ $ ipfs repo gc
 
 但没有什么是完美的🙊，通过这篇文章的方法将博客部署到 IPFS 上也是如此，目前已知的问题：
 
-1. 无法定制 404 页面
+1. 无法定制 404 页面[^14]
 2. Cloudflare 上看不到浏览统计信息；不支持强制跳转到 HTTPS
 3. Cloudflare 的 IPFS Gateway 会 403 视频
 
@@ -494,3 +494,4 @@ $ ipfs repo gc
 [^11]: 如果你没有自定义 Netlify 的子域名，那么这个是默认的一个很丑的字符串。
 [^12]: 用你的[添加](#添加)后得到的 Hash 值替换 `Hash`，你也可以将 `cloudflare-ipfs.com` 替换为任何 [IPFS Gateway](https://ipfs.github.io/public-gateway-checker/) 地址。
 [^13]: 另一个解决方案就是 [DNSLink](https://dnslink.io/)，我在上文提到过，它目前可用于生产环境，但依赖于现有的中心化的域名系统。
+[^14]: https://github.com/reuixiy/io-oi.me/issues/223
