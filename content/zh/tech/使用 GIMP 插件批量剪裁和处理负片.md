@@ -3,9 +3,10 @@ title = "使用 GIMP 插件批量剪裁和处理负片"
 date = "2023-05-01T23:37:08+08:00"
 tags = ["gimp", "film", "photograph"]
 slug = "batch-crop-and-process-negatives-with-gimp"
+gitinfo = true
 +++
 
-本篇技术博客文章由 ChatGPT（GPT-4）编写。本文将介绍如何使用 GIMP 插件来批量剪裁、处理负片，插件支持 .jpg 和 .jpeg 文件格式，用户可以选择是否对图像进行去色处理。
+本篇技术博客文章由 ChatGPT（GPT-4）编写。本文将介绍如何使用 GIMP 插件来批量剪裁、处理负片，插件支持 .jpg 和 .jpeg 文件格式，用户可以选择是否对图像进行剪裁、去色处理。
 
 如果您曾经需要手动剪裁和处理多张负片，您就知道这需要花费大量的时间和精力。幸运的是，有了 Batch Crop and Process Negatives GIMP 插件，您可以自动化该过程，节省大量时间和精力。
 
@@ -20,7 +21,7 @@ slug = "batch-crop-and-process-negatives-with-gimp"
 from gimpfu import *
 import os
 
-def batch_crop_and_process_negatives(input_directory, output_directory, convert_to_bw, x, y, width, height):
+def batch_crop_and_process_negatives(input_directory, output_directory, convert_to_bw, x=0, y=0, width=0, height=0):
     # 获取输入文件夹中的所有JPG文件
     input_files = [f for f in os.listdir(input_directory) if f.lower().endswith((".jpg", ".jpeg"))]
 
@@ -30,8 +31,10 @@ def batch_crop_and_process_negatives(input_directory, output_directory, convert_
         image = pdb.gimp_file_load(image_path, image_path)
         drawable = pdb.gimp_image_get_active_layer(image)
 
-        # 剪裁图像
-        pdb.gimp_image_crop(image, width, height, x, y)
+        # 判断是否需要剪裁
+        if width > 0 and height > 0:
+            # 剪裁图像
+            pdb.gimp_image_crop(image, width, height, x, y)
 
         # 是否去色
         if convert_to_bw:
@@ -65,8 +68,8 @@ register(
         (PF_BOOL, "convert_to_bw", "Convert to black and white", False),
         (PF_INT, "x", "Crop X offset", 0),
         (PF_INT, "y", "Crop Y offset", 0),
-        (PF_INT, "width", "Crop width", 100),
-        (PF_INT, "height", "Crop height", 100),
+        (PF_INT, "width", "Crop width", 0),
+        (PF_INT, "height", "Crop height", 0),
     ],
     [],
     batch_crop_and_process_negatives,
@@ -101,7 +104,9 @@ main()
 
 ## 获取剪裁参数
 
-要确定剪裁参数（Crop X offset、Crop Y offset、Crop width 和 Crop height），您可以先在 GIMP 中手动剪裁一张图片，然后获取所需的参数值。
+剪裁是可选的，剪裁参数（Crop X offset、Crop Y offset、Crop width、Crop height）的默认值为 0，如果您不输入具体参数值，插件将不会对图像进行剪裁。
+
+要确定剪裁参数，您可以先在 GIMP 中手动剪裁一张图片，然后获取所需的参数值。
 
 1. 在 GIMP 中打开一张需要剪裁的图片。
 2. 选择「矩形选择工具」（快捷键 `R`）。
