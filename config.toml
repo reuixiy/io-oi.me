@@ -1340,7 +1340,7 @@ uglyURLs = false
     # 多语言
 
     # 是否开启多语言按钮
-    enableLangToggle = true
+    enableLangToggle = false
 
     # 是否在首页隐藏多语言按钮
     hideLangToggleInHome = false
@@ -1502,13 +1502,13 @@ uglyURLs = false
 
 # 中文
 [languages.zh]
-    languageName = "🇨🇳"
+    languageName = "简体中文"
     contentDir = "content/zh"
     weight = 1
 
 # 英文
 [languages.en]
-    languageName = "🇺🇸"
+    languageName = "English (US)"
     contentDir = "content/en"
     weight = 2
     languageCode = "en-US"
