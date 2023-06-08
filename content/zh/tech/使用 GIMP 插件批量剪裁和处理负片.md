@@ -10,6 +10,8 @@ gitinfo = true
 
 如果您曾经需要手动剪裁和处理多张负片，您就知道这需要花费大量的时间和精力。幸运的是，有了 Batch Crop and Process Negatives GIMP 插件，您可以自动化该过程，节省大量时间和精力。
 
+**更新**：可以使用 [digiKam](https://www.digikam.org) 批量处理 RAW 格式的负片，具体方法请参考[使用 digiKam 批量处理 RAW 格式的负片](https://t.me/yixiuer/1171)。
+
 ![color-film-strips-under-sunlight.png](/images/color-film-strips-under-sunlight.png "(Midjourney) Color film strips under the sunlight, half negative color, half positive color, nostalgic, overexposed. --ar 3:2 --v 5")
 
 ## 安装
