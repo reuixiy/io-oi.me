@@ -1535,6 +1535,8 @@ uglyURLs = false
     languageName = "简体中文"
     contentDir = "content/zh"
     weight = 1
+[languages.zh.params]
+    contentDir = "content/zh"
 
 # 英文
 [languages.en]
@@ -1568,6 +1570,7 @@ uglyURLs = false
         weight = 3
         identifier = "lang-switcher"
 [languages.en.params]
+    contentDir = "content/en"
     homePoetry = ["In the dark night", "Longing for a light of care", "In the daylight", "Desiring for the swallow of a black hole", "’Cause curiosity—seeks for what’s in the darkness"]
     siteDescription = "Blog of reuixiy in English."
     listDateFormat = "January 2"
