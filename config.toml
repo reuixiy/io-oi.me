@@ -1188,6 +1188,7 @@ uglyURLs = false
     repoURL = "https://github.com/reuixiy/io-oi.me"
     # 编辑地址
     repoEditURL = "https://github.com/reuixiy/io-oi.me/blob/master"
+    repoEditURLSuffix = "?plain=1"
 
     # Git 的图标
     gitIcon = "code-branch"
