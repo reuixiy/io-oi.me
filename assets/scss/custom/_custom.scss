@@ -87,6 +87,11 @@
     letter-spacing: -0.1em;
 }
 
+.footer-inner {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 .viva-la-vida {
     margin-top: 50px;
     text-align: center;
