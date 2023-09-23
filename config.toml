@@ -283,8 +283,8 @@ uglyURLs = false
         weight = 2
         pre = "external"
     [[menu.socials]]
-        url = "https://twitter.com/reuixiy"
-        name = "Twitter"
+        url = "https://reuixiy.notion.site/2f10796bae1a4bddb1276a51d3f2118d"
+        name = "Others"
         weight = 3
         pre = "external"
 
