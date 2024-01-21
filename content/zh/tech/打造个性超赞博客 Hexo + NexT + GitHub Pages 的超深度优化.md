@@ -14,7 +14,7 @@ aliases = ["/technology/computer/computer-aided-art/2017/06/09/hexo-next-optimiz
 
 注意：NexT 主题已经更新到 [v6](https://github.com/theme-next/hexo-theme-next)，所以文章中的有些内容可能 out 了，建议大家先浏览..新版本..主题的[官方文档](https://theme-next.org/docs/)，对此请大家多留意哈～🐒
 
-说明：博客近期改版。文章较长，但目录和标题是相互链接的，可..双向..跳转。
+说明：文章较长，但目录和标题是相互链接的，可..双向..跳转。
 
 ---
 
