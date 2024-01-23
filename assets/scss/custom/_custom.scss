@@ -7,7 +7,7 @@
 }
 
 .list-title, .term-title, .list-year, .list-month {
-    font-family: 'glyph-correction', 'Cinzel Decorative', 'Noto Serif SC', serif;
+    font-family: 'glyph-correction', 'Cinzel Decorative', 'Noto Serif TC', 'Noto Serif SC', serif;
 }
 
 .brand {
@@ -179,7 +179,7 @@ article:lang(en-US) p {
 
     font-size: var(--font-size);
     line-height: var(--line-height);
-    font-family: 'Amstelvar', 'Noto Serif SC', serif;
+    font-family: 'Amstelvar', 'Noto Serif TC', 'Noto Serif SC', serif;
     font-variation-settings: normal;
 }
 
@@ -191,7 +191,7 @@ article:lang(en-US) .drop-cap {
 }
 
 .post-title {
-    font-family: 'glyph-correction', 'Amstelvar', 'Noto Serif SC', serif;
+    font-family: 'glyph-correction', 'Amstelvar', 'Noto Serif TC', 'Noto Serif SC', serif;
     font-variation-settings:
         'wght' 550,
         'opsz' 60,
@@ -237,7 +237,7 @@ blockquote.quote {
         p {
             line-height: 1.618;
             text-align: left;
-            font-family: 'Amstelvar', 'Noto Serif SC', serif;
+            font-family: 'Amstelvar', 'Noto Serif TC', 'Noto Serif SC', serif;
             font-variation-settings: normal;
         }
     }

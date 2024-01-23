@@ -6,7 +6,7 @@ title = "reuixiy"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
-copyright = "在保留本文作者及本文链接的前提下，非商业用途随意转载分享。"
+copyright = "在保留本文作者及本文連結的前提下，非商業用途隨意轉載分享。"
 
 # 主题选择
 theme = "meme"
@@ -238,14 +238,14 @@ uglyURLs = false
         identifier = "life"
     [[menu.main]]
         pageref = "/tech/"
-        name = "技术"
+        name = "技術"
         weight = 2
         pre = "internal"
         post = "wpexplorer"
         identifier = "tech"
     [[menu.main]]
         pageref = "/about/"
-        name = "关于"
+        name = "關於"
         weight = 3
         pre = "internal"
         post = "user-circle"
@@ -295,13 +295,13 @@ uglyURLs = false
         weight = 1
         pre = "internal"
     [[menu.links]]
-        pageref = "/tags/"
-        name = "Tags"
+        pageref = "/coldplay/"
+        name = "Coldplay"
         weight = 2
         pre = "internal"
     [[menu.links]]
-        pageref = "/coldplay/"
-        name = "Coldplay"
+        pageref = "/tags/"
+        name = "Tags"
         weight = 3
         pre = "internal"
 
@@ -388,7 +388,7 @@ uglyURLs = false
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = ["暗夜中", "渴望一束光的关怀", "在白天", "却更渴望黑洞的吞噬", "因为好奇心，想看看黑暗中有什么"]
+    homePoetry = ["暗夜中", "渴望一束光的關懷", "在白天", "卻更渴望黑洞的吞噬", "因為好奇心，想看看黑暗中有什麼"]
     # 底部链接的内间距，单位：em
     homeLinksPadding = 1
 
@@ -418,7 +418,7 @@ uglyURLs = false
     # 说明：用于 JSON-LD、Open Graph
 
     # 站点的描述
-    siteDescription = "这是 reuixiy 的生活与技术博客！怎么记住 reuixiy 呢？其实就是「一休儿」的拼音，只不过顺序是从右往左……"
+    siteDescription = "這是 reuixiy 的生活與技術博客！怎麽記住 reuixiy 呢？其實就是「一休兒」的拼音，只不過順序是從右往左……"
     # 说明：用于 HTML 的头部元数据、JSON-LD、
     #      Open Graph、Atom、RSS
 
@@ -1071,11 +1071,11 @@ uglyURLs = false
     # 菜单栏
     fontFamilyMenu = ""
     # 文章标题、文章副标题、列表标题、列表的年份和月份标题、相关文章标题、文章上下篇标题、表格的表头、定义列表中的术语
-    fontFamilyTitle = "'Noto Serif SC', 'Amstelvar', serif"
+    fontFamilyTitle = "'Noto Serif TC', 'Noto Serif SC', 'Amstelvar', serif"
     # 分节标题、目录标题
-    fontFamilyHeadings = "'Noto Serif SC', 'Amstelvar', serif"
+    fontFamilyHeadings = "'Noto Serif TC', 'Noto Serif SC', 'Amstelvar', serif"
     # 代码、上标、文章元信息、文章更新徽章、文章的 Git 版本信息、极简页脚、不蒜子站点浏览计数
-    fontFamilyCode = "'Source Code Pro', 'Noto Serif SC', monospace"
+    fontFamilyCode = "'Source Code Pro', 'Noto Serif TC', 'Noto Serif SC', monospace"
     # 引用
     fontFamilyQuote = ""
     # 文章目录
@@ -1083,12 +1083,12 @@ uglyURLs = false
     # 说明文字
     fontFamilyCaption = ""
     # 页脚
-    fontFamilyFooter = "'Source Code Pro', 'Noto Serif SC', monospace"
+    fontFamilyFooter = "'Source Code Pro', 'Noto Serif TC', 'Noto Serif SC', monospace"
     # 主体
-    fontFamilyBody = "'Amstelvar', 'Noto Serif SC', serif"
+    fontFamilyBody = "'Amstelvar', 'Noto Serif TC', 'Noto Serif SC', serif"
 
     # 网络字体链接
-    fontsLink = "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel+Decorative:wght@700&display=swap"
+    fontsLink = "https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;700&family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel+Decorative:wght@700&display=swap"
     # 说明：要想读者一定体验到你设置的字体，最好
     #      采用网络字体。MemE 主题目前仅支持
     #      Google Fonts 的链接，请前往
