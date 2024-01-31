@@ -3,7 +3,7 @@
 
 baseURL = "https://io-oi.me/"
 title = "reuixiy"
-languageCode = "zh-CN"
+languageCode = "zh-Hant"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
 copyright = "在保留本文作者及本文連結的前提下，非商業用途隨意轉載分享。"
