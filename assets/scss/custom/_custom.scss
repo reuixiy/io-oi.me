@@ -169,11 +169,11 @@ body {
         'YTLC' var(--text-YTLC);
 }
 
-html:lang(en-US) body {
+html:lang(en) body {
     font-variation-settings: normal;
 }
 
-article:lang(en-US) p {
+article:lang(en) p {
     --font-size: 18px;
     --line-height: 1.618;
 
@@ -183,7 +183,7 @@ article:lang(en-US) p {
     font-variation-settings: normal;
 }
 
-article:lang(en-US) .drop-cap {
+article:lang(en) .drop-cap {
     font-size: 3em;
     margin-right: 16px;
     margin-top: 15px !important;
