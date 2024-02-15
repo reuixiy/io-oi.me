@@ -418,7 +418,7 @@ uglyURLs = false
     # 說明：用於 JSON-LD、Open Graph
 
     # 站點的描述
-    siteDescription = "這是 reuixiy 的生活與技術博客！怎麽記住 reuixiy 呢？其實就是「一休兒」的拼音，只不過順序是從右往左……"
+    siteDescription = "這是一休兒之文術網誌！怎麽記住 reuixiy 呢？其實就是「一休兒」之拼音，不過方向是自右往左！"
     # 說明：用於 HTML 的頭部元資料、JSON-LD、
     #      Open Graph、Atom、RSS
 
