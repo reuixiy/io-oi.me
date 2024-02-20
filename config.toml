@@ -245,7 +245,7 @@ uglyURLs = false
         identifier = "tech"
     [[menu.main]]
         pageref = "/about/"
-        name = "關於"
+        name = "述身"
         weight = 3
         pre = "internal"
         post = "user-circle"
