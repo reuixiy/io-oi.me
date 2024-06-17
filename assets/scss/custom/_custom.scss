@@ -195,10 +195,12 @@ article:lang(en) .drop-cap {
 
 .post-title {
     font-family: 'glyph-correction', 'Amstelvar', 'Noto Serif TC', 'Noto Serif SC', serif;
-    font-variation-settings:
-        'wght' 550,
-        'opsz' 60,
-        'YOPQ' 90;
+    // Comment out due to wght affects Noto Serif TC and Noto Serif SC unexpectedly.
+    // Previously, it only affects Amstelvar.
+    // font-variation-settings:
+    //     'wght' 550,
+    //     'opsz' 60,
+    //     'YOPQ' 90;
 }
 
 .list-item-time {
