@@ -982,7 +982,7 @@ uglyURLs = false
     enableCaption = true
 
     # 說明文字的字首
-    captionPrefix = "◎ "
+    captionPrefix = "※ "
 
 
     ######################################
