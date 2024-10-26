@@ -7,7 +7,7 @@
 }
 
 .list-title, .term-title, .list-year, .list-month {
-    font-family: 'glyph-correction', 'Cinzel Decorative', 'Noto Serif TC', 'Noto Serif SC', serif;
+    font-family: 'glyph-correction', 'Cinzel Decorative', 'I.MingCP', serif;
 }
 
 .brand {
@@ -41,14 +41,18 @@
     }
 }
 
-[data-theme="dark"] {
-    .theme-icon-dark, #lang-switcher, .footer-icon {
-        opacity: 0.75;
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme]) {
+        .theme-icon-dark {
+            opacity: 0.75;
+        }
     }
 }
 
-#lang-switcher {
-    margin-left: 0.3em;
+[data-theme="dark"] {
+    .theme-icon-dark {
+        opacity: 0.75;
+    }
 }
 
 @media (max-width: $maxWidth) {
@@ -63,20 +67,6 @@
     .menu-item-name {
         font-size: 80%;
     }
-
-    :root {
-        .theme-icon-light {
-            display: inline;
-        }
-    }
-    [data-theme="dark"] {
-        .theme-icon-dark {
-            display: inline !important;
-        }
-    }
-    #lang-switcher {
-        margin: 0;
-    }
 }
 
 .nav-toggle {
@@ -85,11 +75,6 @@
 
 .footer {
     letter-spacing: -0.1em;
-}
-
-.footer-inner {
-    display: flex;
-    flex-direction: column-reverse;
 }
 
 .viva-la-vida {
@@ -138,8 +123,16 @@ hr.coldplay {
 }
 
 
-// https://github.com/TypeNetwork/Amstelvar
+// https://github.com/ichitenfont/I.Ming
+@font-face {
+    font-family: 'I.MingCP';
+    font-display: swap;
+    src: url('#{$baseRelURL}/fonts/I.MingCP-8.10.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
 
+// https://github.com/TypeNetwork/Amstelvar
 @font-face {
     font-family: 'Amstelvar';
     font-display: swap;
@@ -182,7 +175,7 @@ article:lang(en) p {
 
     font-size: var(--font-size);
     line-height: var(--line-height);
-    font-family: 'Amstelvar', 'Noto Serif TC', 'Noto Serif SC', serif;
+    font-family: 'Amstelvar', 'I.MingCP', serif;
     font-variation-settings: normal;
 }
 
@@ -195,12 +188,10 @@ article:lang(en) .drop-cap {
 
 .post-title {
     font-family: 'glyph-correction', 'Amstelvar', 'Noto Serif TC', 'Noto Serif SC', serif;
-    // Comment out due to wght affects Noto Serif TC and Noto Serif SC unexpectedly.
-    // Previously, it only affects Amstelvar.
-    // font-variation-settings:
-    //     'wght' 550,
-    //     'opsz' 60,
-    //     'YOPQ' 90;
+    font-variation-settings:
+        'wght' 550,
+        'opsz' 60,
+        'YOPQ' 90;
 }
 
 .list-item-time {
