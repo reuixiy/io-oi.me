@@ -4,6 +4,10 @@
 
 .post-body {
     margin-top: 4em !important;
+
+    p strong {
+        font-family: $fontFamilyTitle;
+    }
 }
 
 .list-title, .term-title, .list-year, .list-month {
