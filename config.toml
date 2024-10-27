@@ -1090,7 +1090,7 @@ uglyURLs = false
     ######################################
     ## 字號（單位：px）
 
-    fontSize = 16
+    fontSize = 18
 
     ######################################
     ## 製表符的寬度
@@ -1570,7 +1570,7 @@ uglyURLs = false
         # 推特
         twitter = "reuixiy"
         # Fediverse
-        fediverse = "@reuixiy@bird.makeup"
+        fediverse = ""
 
 
 
