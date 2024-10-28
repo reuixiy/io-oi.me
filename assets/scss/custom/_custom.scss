@@ -9,9 +9,18 @@
         font-family: $fontFamilyTitle;
     }
 }
+.emphasis-point {
+    font-family: 'I.MingCP', serif;
+}
+em {
+    font-family: 'Amstelvar', serif;
+}
 
 .list-title, .term-title, .list-year, .list-month {
     font-family: 'glyph-correction', 'Cinzel Decorative', 'I.MingCP', serif;
+}
+.list-item-time {
+    font-feature-settings: 'tnum';
 }
 
 .brand {
@@ -52,7 +61,6 @@
         }
     }
 }
-
 [data-theme="dark"] {
     .theme-icon-dark {
         opacity: 0.75;
@@ -126,7 +134,6 @@ hr.coldplay {
     }
 }
 
-
 // https://github.com/ichitenfont/I.Ming
 @font-face {
     font-family: 'I.MingCP';
@@ -156,40 +163,6 @@ hr.coldplay {
     font-style: italic;
 }
 
-:root {
-    --text-wdth: 90;
-    --text-opsz: 40;
-    --text-YTLC: 460;
-}
-
-body {
-    font-variation-settings:
-        'wdth' var(--text-wdth),
-        'opsz' var(--text-opsz),
-        'YTLC' var(--text-YTLC);
-}
-
-html:lang(en) body {
-    font-variation-settings: normal;
-}
-
-article:lang(en) p {
-    --font-size: 18px;
-    --line-height: 1.618;
-
-    font-size: var(--font-size);
-    line-height: var(--line-height);
-    font-family: 'Amstelvar', 'I.MingCP', serif;
-    font-variation-settings: normal;
-}
-
-article:lang(en) .drop-cap {
-    font-size: 3em;
-    margin-right: 16px;
-    margin-top: 15px !important;
-    line-height: calc(var(--font-size) * var(--line-height));
-}
-
 .post-title {
     font-family: 'glyph-correction', 'Amstelvar', 'Noto Serif TC', 'Noto Serif SC', serif;
     font-variation-settings:
@@ -198,10 +171,19 @@ article:lang(en) .drop-cap {
         'YOPQ' 90;
 }
 
-.list-item-time {
-    font-feature-settings: 'tnum';
-}
+article:lang(en) p {
+    --font-size: 18px;
+    --line-height: 1.618;
 
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+}
+article:lang(en) .drop-cap {
+    font-size: 3em;
+    margin-right: 16px;
+    margin-top: 15px !important;
+    line-height: calc(var(--font-size) * var(--line-height));
+}
 
 blockquote.quote {
     position: relative;
@@ -237,13 +219,12 @@ blockquote.quote {
         p {
             line-height: 1.618;
             text-align: left;
-            font-family: 'Amstelvar', 'I.MingCP', serif;
-            font-variation-settings: normal;
         }
     }
     &.italic {
         p {
             font-style: italic;
+            font-family: 'Amstelvar', 'I.MingCP', serif;
         }
     }
 }

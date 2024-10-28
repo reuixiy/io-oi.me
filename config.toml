@@ -1077,7 +1077,7 @@ uglyURLs = false
     # 頁尾
     fontFamilyFooter = "'Source Code Pro', monospace"
     # 主體
-    fontFamilyBody = "'Amstelvar', 'I.MingCP', serif"
+    fontFamilyBody = "'I.MingCP', serif"
 
     # 網路字型連結
     fontsLink = "https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700&family=Noto+Serif+SC:wght@700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel+Decorative:wght@700&display=swap"
