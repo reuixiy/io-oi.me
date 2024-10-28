@@ -103,7 +103,7 @@ Optical Size | `opsz`
 
 **Note**: font characteristics set using `font-variation-settings` will always override those set using the corresponding basic font properties, e.g. `font-weight`, no matter where they appear in the cascade. In some browsers, this is currently only true when the `@font-face` declaration includes a `font-weight` range.
 
-— *https://developer.mozilla.org/en-US/docs/Web/CSS/font-variation-settings*
+—*https://developer.mozilla.org/en-US/docs/Web/CSS/font-variation-settings*
 
 {{< /quote >}}
 

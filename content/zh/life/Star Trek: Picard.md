@@ -52,7 +52,7 @@ indent = true
 
 > *Susan*: Same old Reed, always stretching, reaching for the stars, with the weight of the world on his back.
 >
-> — [*Fantastic Four*](https://en.wikipedia.org/wiki/Fantastic_Four_(2005_film))
+> —[*Fantastic Four*](https://en.wikipedia.org/wiki/Fantastic_Four_(2005_film))
 
 「你一点儿也没变，肩负着全世界，总想着伸手去触摸星辰。」是啊！这就是灵魂的远方！也许，当我年纪再大点，当我看到的全是回忆，当沉重的回忆将我的视线紧紧拖在身后时，就是灵魂拯救心灵的时候了。
 

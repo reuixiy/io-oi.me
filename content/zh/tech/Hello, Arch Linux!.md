@@ -17,13 +17,13 @@ aliases = ["/technology/computer/system-software/2018/12/11/hello-arch-linux.htm
 
 > A simple, lightweight linux distribution.
 >
-> — *archlinux*
+> —*archlinux*
 
 以及 KISS (Keep It Simple, Stupid!) 原则，以及：
 
 > Arch Linux focus on elegance, code correctness, minimalist system and simplicity.
 >
-> — *https://itsfoss.com/install-arch-linux/*
+> —*https://itsfoss.com/install-arch-linux/*
 
 更多可阅读：
 

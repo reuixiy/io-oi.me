@@ -26,7 +26,7 @@ slug = "titanic"
 
 [...] the longing for love, the search for knowledge, and unbearable pity for the suffering of mankind.
 
-— *Bertrand Russell: What I Have Lived For*
+—*Bertrand Russell: What I Have Lived For*
 
 {{< /quote >}}
 

@@ -67,7 +67,7 @@ Hugo 中是不区分站点和主题的配置文件的，Hugo 中只有一个位�
 
 Hugo includes support for user-defined taxonomies to help you demonstrate logical relationships between content for the end users of your website.
 
-— *https://gohugo.io/content-management/taxonomies/*
+—*https://gohugo.io/content-management/taxonomies/*
 
 {{< /quote >}}
 
