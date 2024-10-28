@@ -1,8 +1,10 @@
 +++
-title = "获取 GitHub 上 JSON 数据的三种方式"
+title = "获取 GitHub 上 JSON 数据的四种方式"
 date = "2021-11-24T00:02:17+08:00"
 tags = ["web"]
-slug = "fetch-json-data-on-github-in-three-approaches"
+slug = "fetch-json-data-on-github-in-four-approaches"
+aliases = ["fetch-json-data-on-github-in-three-approaches"]
+gitinfo = true
 +++
 
 JSON 是 Web 中数据表示和传输最通用的格式，GitHub 是程序员所热爱的极乐开源社区，有时候我们在仓库存放一些 `.json` 文件，或者通过 GitHub Actions 自动构建输出一些 `.json` 文件，作为一个轻量数据源，那么我们如何去获取呢？
@@ -47,7 +49,19 @@ async function getFooBar() {
 ```js
 // 3. github.io
 
-`https://<username>.github.io/<repository>/${FILE_PATH}`
+`https://<username>.github.io/${REPO}/${FILE_PATH}`
+
+// https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages
 ```
 
-这种方式就是将 `.json` 文件部署到 GitHub Pages，可访问性和速度都不错，参考 https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages
+这种方式就是将 `.json` 文件部署到 GitHub Pages，可访问性和速度都不错。
+
+```js
+// 4. cdn.jsdelivr.net
+
+`https://cdn.jsdelivr.net/gh/${REPO}/${FILE_PATH}`
+
+// https://www.jsdelivr.com/github
+```
+
+这种方式使用了 jsDelivr 的服务，无需部署到 GitHub Pages。
