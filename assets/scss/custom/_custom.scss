@@ -14,6 +14,7 @@
 }
 em {
     font-family: 'Amstelvar', serif;
+    font-variation-settings: 'wght' 280;
 }
 
 .list-title, .term-title, .list-year, .list-month {
@@ -225,6 +226,7 @@ blockquote.quote {
         p {
             font-style: italic;
             font-family: 'Amstelvar', 'I.MingCP', serif;
+            font-variation-settings: 'wght' 280;
         }
     }
 }
