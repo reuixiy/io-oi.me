@@ -484,7 +484,7 @@ uglyURLs = false
     # 列表頁面
 
     # 寬度
-    listWidth = 36
+    listWidth = 34
     # 說明：如果留空（""），則用 42 作為預設值
     #      單位：em
 
@@ -843,7 +843,7 @@ uglyURLs = false
     # 注意：只支援 HSL 顏色值
 
     # 文章的內容寬度
-    postWidth = 36
+    postWidth = 34
     # 說明：如果留空（""），則用 42 作為預設值
     #      單位：em
 
