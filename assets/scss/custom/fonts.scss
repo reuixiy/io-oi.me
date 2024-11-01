@@ -1,0 +1,28 @@
+// https://github.com/ichitenfont/I.Ming
+@font-face {
+  font-family: 'I.MingCP';
+  font-display: swap;
+  src: url('https://cdn.jsdelivr.net/gh/reuixiy/io-oi.me/static/fonts/I.MingCP-8.10.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+// https://github.com/TypeNetwork/Amstelvar
+@font-face {
+  font-family: 'Amstelvar';
+  font-display: swap;
+  src: url('/fonts/Amstelvar-Roman-VF.woff2') format('woff2-variations'),
+       url('/fonts/Amstelvar-Roman-VF.woff2') format('woff2');
+  font-weight: 100 900;
+  font-stretch: 50% 125%;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Amstelvar';
+  font-display: swap;
+  src: url('/fonts/Amstelvar-Italic-VF.woff2') format('woff2-variations'),
+       url('/fonts/Amstelvar-Italic-VF.woff2') format("woff2");
+  font-weight: 100 900;
+  font-stretch: 50% 125%;
+  font-style: italic;
+}
