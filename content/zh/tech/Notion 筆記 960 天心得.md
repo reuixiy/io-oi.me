@@ -8,6 +8,8 @@ dropCap = false
 
 「⋯⋯要重拾細膩思維，再創構建之樹——🍀。」這就是[一休兒之學習筆記](https://reuixiy.notion.site/bfba6436c19f4172ae88b0c509f55452)的起源——2021 年 10 月 12 日發佈的《[△](/life/tetrahedron/)》；2022 年 3 月 15 日，我在《[跑步、買菜、早餐](/life/running-grocery-shopping-making-breakfast/)》提出 Mission Control Center 設想；2022 年 3 月 18 日，我正式《[嘗試筆記應用 Notion](https://github.com/reuixiy/reuixiy/issues/9)》；2022 年 3 月 20 日，我開始《[遷移到 Notion Database](https://reuixiy.notion.site/2948171972a045ddb3a109c7303bd452)》；2024 年 11 月 1 日，使用 Notion 筆記 960 天後，我想分享一下我的心得，希望我的探索經驗對你有所啟發、有所幫助。
 
+**公告**：一休兒正在考慮上線此模板（付費），歡迎[留言](https://t.me/yixiuer/2019)支援！
+
 ---
 
 現在回首，「學習」確實已經實現了我早期的願景，這兩年多來，有序我的知識、豐富我的生活、清晰我的目標、啟發我的創作，確確實實對我有非常大的幫助和改變。
