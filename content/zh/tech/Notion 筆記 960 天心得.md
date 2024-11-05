@@ -10,7 +10,7 @@ dropCap = false
 
 **公告**：一休兒正在考慮上線此模板（付費），歡迎[留言](https://t.me/yixiuer/2019)支援！
 
-**評論**：《[ChatGPT 評 Notion 筆記 960 天心得](/tech/critical-review-of-notion-960-days)》
+**評論**：《[ChatGPT 評 Notion 筆記 960 天心得](/tech/critical-review-of-notion-960-days/)》
 
 ---
 
