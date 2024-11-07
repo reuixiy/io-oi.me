@@ -5,7 +5,7 @@ tags = ["introspection", "blogging"]
 slug = "where-it-all-begins"
 +++
 
-繼[多學多見](/life/to-learn-and-to-see/)、[痛苦化作動力](/life/pain-as-the-efficient-cause/)，我今天又回顧了 [io-oi.me](https://io-oi.me) 更多大學時期的文章，發現其中也有許多閃耀之處，比如：
+繼[多聞多見](/life/to-learn-and-to-see/)、[痛苦化作動力](/life/pain-as-the-efficient-cause/)，我今天又回顧了 [io-oi.me](https://io-oi.me) 更多大學時期的文章，發現其中也有許多閃耀之處，比如：
 
 - [人生第一次演講：尼采](/life/the-first-speech-friedrich-nietzsche/)（2016）
 - [過去和未來](/life/notnow/)（2017）
