@@ -2,6 +2,7 @@
 node_modules
 public
 resources
-videos
+backup
+static/videos-backup
 .env
 .hugo_build.lock

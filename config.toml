@@ -1019,7 +1019,8 @@ uglyURLs = false
     enableVideoHost = true
 
     # 影片外鏈地址
-    videoHostURL = "https://gateway.pinata.cloud/ipfs/"
+    # videoHostURL = "https://gateway.pinata.cloud/ipfs/"
+    videoHostURL = "/videos-backup/"
 
 
     ######################################
