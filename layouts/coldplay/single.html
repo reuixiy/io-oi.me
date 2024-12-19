@@ -9,7 +9,7 @@
                 {{ end }}
                 <div class="post-body">
                     <hr class="coldplay" />
-                    <video src="{{ printf `%s%s` .Site.Params.videoHostURL (index $.Site.Data.VIDEOS .Params.video) }}" type="video/mp4" controls></video>
+                    <video src="{{ printf `%s%s` .Site.Params.videoHostURL .Params.video }}" type="video/mp4" controls></video>
                     <div style="text-align: center">❤ evoL ni eveileB</div>
                     <hr class="coldplay" />
                     <div class="coldplay-footer">— {{ with .Params.info }}{{ $raw := . }}{{ partial "utils/markdownify.html" (dict "$" $ "raw" $raw "isContent" false) }} | {{ end }}more @ <a href="/coldplay/">Coldplay</a></div>

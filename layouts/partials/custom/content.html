@@ -3,15 +3,9 @@
 
 <!-- Video Helper -->
 {{- if $.Site.Params.enableVideoHelper -}}
-    {{- $temps := findRE `<(video)\s+[^>]*?src="/?([^":]+)` $Content | uniq -}}
-    {{- with $temps -}}
-        {{- range . -}}
-            {{- $url := replaceRE `<(video)\s+[^>]*?src="/?([^":]+)` `$2` . -}}
-            {{- $prefix := replaceRE `(<(video)\s+[^>]*?src=")/?([^":]+)` `$1` . -}}
-            {{- $replacement := (printf `%s%s%s" controls type="video/mp4` $prefix $.Site.Params.videoHostURL (index $.Site.Data.VIDEOS $url)) -}}
-            {{- $Content = replace $Content . $replacement -}}
-        {{- end -}}
-    {{- end -}}
+    {{- $regex := `(<video[^>]+)` -}}
+        {{- $replacement := `$1 type="video/mp4" controls` -}}
+    {{- $Content = $Content | replaceRE $regex $replacement -}}
 {{- end -}}
 
 {{- return $Content -}}
