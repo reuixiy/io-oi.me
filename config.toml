@@ -419,7 +419,7 @@ uglyURLs = false
     # 注意：請保持此格式，更改數字
 
     # 站點的推特帳號
-    siteTwitter = "reuixiy"
+    siteTwitter = "yixiuer"
     # 說明：用於 Twitter Cards
 
 
@@ -1569,7 +1569,7 @@ uglyURLs = false
         # 網站（預設值：baseURL）
         website = "https://io-oi.me/"
         # 推特
-        twitter = "reuixiy"
+        twitter = "yixiuer"
         # Fediverse
         fediverse = ""
 
