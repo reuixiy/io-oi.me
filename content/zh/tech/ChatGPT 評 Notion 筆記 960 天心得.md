@@ -1,7 +1,7 @@
 +++
 title = "ChatGPT 評 Notion 筆記 960 天心得"
 date = "2024-11-06T01:46:14+08:00"
-tags = ["critique", "chatgpt"]
+tags = ["critique", "chatgpt", "aigc"]
 slug = "critical-review-of-notion-960-days"
 dropCap = false
 +++

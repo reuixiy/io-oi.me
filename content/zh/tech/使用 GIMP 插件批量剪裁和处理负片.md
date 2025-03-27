@@ -1,7 +1,7 @@
 +++
 title = "使用 GIMP 插件批量剪裁和处理负片"
 date = "2023-05-01T23:37:08+08:00"
-tags = ["gimp", "film", "photograph", "chatgpt"]
+tags = ["gimp", "film", "photography", "chatgpt", "aigc"]
 slug = "batch-crop-and-process-negatives-with-gimp"
 gitinfo = true
 +++
