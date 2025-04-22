@@ -540,7 +540,7 @@ uglyURLs = false
     # Atom & RSS
 
     # 是否包括全文內容
-    includeContent = true
+    includeContent = false
     # 說明：如果否，則只會包含文章的摘要。關於摘
     #      要，Hugo 能按你設定的字數限制自動截
     #      取，你也可以在文章中透過
@@ -552,6 +552,10 @@ uglyURLs = false
     #      題自定義的 Atom 和 RSS 的模板中，
     #      有一個比手動指定更高的優先順序——
     #      Front Matter 中的 `description`。
+
+    # 客製頁尾（支援 Template 與 Markdown 語法）
+    feedFooter = """> 閱讀全文：<{{ .Permalink }}>  
+> 网誌公告：一休兒現已開通郵件訂閱，歡迎[透過 Substack 訂閱](https://yixiuer.substack.com)支援我的創作！"""
 
 
     ######################################
