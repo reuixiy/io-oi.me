@@ -1,7 +1,7 @@
 +++
 title = "CS50 Lecture by Mark Zuckerberg"
 date = "2021-07-18T22:46:45+08:00"
-tags = ["notes"]
+tags = ["notes", "startups"]
 description = "Facebook 创始人马克·扎克伯格 2005 年 12 月 7 日（21 岁）在哈佛 CS50 的客座讲述"
 dropCap = false
 +++
