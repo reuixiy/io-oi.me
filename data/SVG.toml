@@ -2,3 +2,4 @@ brand = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66.146 26.458" cla
 
 sun = '<span class="icon">🌞</span>'
 moon = '<span class="icon">🌙</span>'
+desktop = '<span class="icon">🌌</span>'
