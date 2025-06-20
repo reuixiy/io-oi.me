@@ -1,14 +1,12 @@
+{{/*  Used for LOGO only  */}}
 {{ $linkLato := "https://fonts.googleapis.com/css2?family=Lato:wght@700&text=reuixiy&display=swap" }}
 
-{{/*  Used for LOGO only  */}}
 <link rel="stylesheet" href="{{ $linkLato }}" media="print" onload="this.media='all'" />
 <noscript><link rel="stylesheet" href="{{ $linkLato }}" /></noscript>
 
-{{/*  Load self-hosted fonts async  */}}
-{{- $path := (strings.TrimPrefix "/" (printf `%s/css/fonts.min.css` .Site.LanguagePrefix)) -}}
-{{- $options := (dict "targetPath" $path "outputStyle" "compressed") -}}
+{{/*  Load custom fonts async  */}}
+{{- $fontsLink := "https://cdn.jsdelivr.net/gh/reuixiy/fonts@build/css/fonts.min.css" -}}
 
-{{- $style := resources.Get "scss/custom/fonts.scss" | resources.ExecuteAsTemplate (printf "%s/styles/fonts-rendered.scss" .Lang) . | toCSS $options -}}
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
-<link rel="stylesheet" href="{{ $style.RelPermalink }}" media="print" onload="this.media='all'" />
-<noscript><link rel="stylesheet" href="{{ $style.RelPermalink }}" /></noscript>
+<link rel="stylesheet" href="{{ $fontsLink }}" media="print" onload="this.media='all'" />
+<noscript><link rel="stylesheet" href="{{ $fontsLink }}" /></noscript>
