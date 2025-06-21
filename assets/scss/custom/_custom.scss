@@ -9,12 +9,12 @@
         font-family: $fontFamilyTitle;
     }
 }
-.emphasis-point {
-    font-family: 'I.MingCP', serif;
-}
 em {
     font-family: 'Amstelvar', serif;
     font-variation-settings: 'wght' 280;
+}
+.emphasis-point {
+    font-family: $fontFamilyBody;
 }
 * {
     font-feature-settings: 'halt';
