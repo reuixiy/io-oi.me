@@ -16,6 +16,14 @@ em {
 .emphasis-point {
     font-family: $fontFamilyBody;
 }
+.safari-only {
+    /* Safari-only fixes */
+    .emphasis-point {
+        text-decoration-line: underline;
+        text-decoration-style: dashed;
+        text-underline-offset: 0.25em;
+    }
+}
 * {
     font-feature-settings: 'halt';
 }
