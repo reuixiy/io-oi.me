@@ -1000,10 +1000,10 @@ uglyURLs = false
     #      (~/blog/static/images/meme.jpg)
 
     # 是否開啟
-    enableImageHost = false
+    enableImageHost = true
 
     # 圖片外鏈地址
-    imageHostURL = "https://example.com/"
+    imageHostURL = "https://cdn.jsdelivr.net/gh/reuixiy/io-oi.me/static/"
 
     # 是否將 HTML 的頭部元資料中的圖片連結也替換為外鏈
     headAlso = false
@@ -1512,11 +1512,11 @@ uglyURLs = false
     # 404 頁面
 
     # 影片封面
-    fofPoster = "./images/flying-clouds-720p.jpg"
+    fofPoster = "https://cdn.jsdelivr.net/gh/reuixiy/io-oi.me/static/images/flying-clouds-720p.jpg"
 
     # 影片地址
-    fofVideoWebm = "/videos/flying-clouds-720p.webm"
-    fofVideoMp4 = "/videos/flying-clouds-720p.mp4"
+    fofVideoWebm = "https://cdn.jsdelivr.net/gh/reuixiy/io-oi.me/static/videos/flying-clouds-720p.webm"
+    fofVideoMp4 = "https://cdn.jsdelivr.net/gh/reuixiy/io-oi.me/static/videos/flying-clouds-720p.mp4"
     # 說明：影片地址可留空（""）
 
 
