@@ -42,45 +42,45 @@ _That is the Purpose of LIFE_.
 
 在 TikTok，我惊叹了世界的圣美和奇异：
 
-<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@juliiathompson/video/6964236511701175557" data-video-id="6964236511701175557" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@juliiathompson" href="https://www.tiktok.com/@juliiathompson">@juliiathompson</a> <p>sometimes it’s the old, shakey videos that remind you of the best times of your life. The imperfect moments are the ones that make us feel most alive.</p> <a target="_blank" title="♬ original sound - MB🥷" href="https://www.tiktok.com/music/original-sound-6853896721416588037">♬ original sound - MB🥷</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+{{< tiktok 6964236511701175557 >}}
 
-<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@pythoncoun/video/6970270888348372230" data-video-id="6970270888348372230" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@pythoncoun" href="https://www.tiktok.com/@pythoncoun">@pythoncoun</a> <p>Whale feeding <a title="tiktok" target="_blank" href="https://www.tiktok.com/tag/tiktok">##tiktok</a> <a title="whale" target="_blank" href="https://www.tiktok.com/tag/whale">##whale</a></p> <a target="_blank" title="♬ original sound - user99961825434" href="https://www.tiktok.com/music/original-sound-6970270699265051398">♬ original sound - user99961825434</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+{{< tiktok 6970270888348372230 >}}
 
 在 TikTok，我恍惚了「在金字塔的中上才能领略资本的魅力」：
 
-<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@_angbernal/video/6935224114957290758" data-video-id="6935224114957290758" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@_angbernal" href="https://www.tiktok.com/@_angbernal">@_angbernal</a> <p><a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp">##fyp</a> <a title="ny" target="_blank" href="https://www.tiktok.com/tag/ny">##ny</a></p> <a target="_blank" title="♬ original sound - favsoundds " href="https://www.tiktok.com/music/original-sound-6780641923557313285">♬ original sound - favsoundds </a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+{{< tiktok 6935224114957290758 >}}
 
 在 TikTok，我体验了微观视界的无限自然：
 
-<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@newuk001/video/6966560509969648901" data-video-id="6966560509969648901" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@newuk001" href="https://www.tiktok.com/@newuk001">@newuk001</a> <p><a title="shooting" target="_blank" href="https://www.tiktok.com/tag/shooting">##Shooting</a> <a title="tips" target="_blank" href="https://www.tiktok.com/tag/tips">##Tips</a> <a title="foryou" target="_blank" href="https://www.tiktok.com/tag/foryou">##foryou</a> <a title="viral" target="_blank" href="https://www.tiktok.com/tag/viral">##viral</a> <a title="fypシ" target="_blank" href="https://www.tiktok.com/tag/fyp%E3%82%B7">##fypシ</a></p> <a target="_blank" title="♬ Can We Kiss Forever? - Kina" href="https://www.tiktok.com/music/Can-We-Kiss-Forever-6733128484777921281">♬ Can We Kiss Forever? - Kina</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+{{< tiktok 6966560509969648901 >}}
 
-<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@newuk001/video/6969532685991546118" data-video-id="6969532685991546118" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@newuk001" href="https://www.tiktok.com/@newuk001">@newuk001</a> <p><a title="shooting" target="_blank" href="https://www.tiktok.com/tag/shooting">##Shooting</a> <a title="tips" target="_blank" href="https://www.tiktok.com/tag/tips">##Tips</a> <a title="foryou" target="_blank" href="https://www.tiktok.com/tag/foryou">##foryou</a> <a title="viral" target="_blank" href="https://www.tiktok.com/tag/viral">##viral</a> <a title="fypシ" target="_blank" href="https://www.tiktok.com/tag/fyp%E3%82%B7">##fypシ</a></p> <a target="_blank" title="♬ Can We Kiss Forever? - Kina" href="https://www.tiktok.com/music/Can-We-Kiss-Forever-6733128484777921281">♬ Can We Kiss Forever? - Kina</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+{{< tiktok 6969532685991546118 >}}
 
 在 TikTok，我再次着迷了猫咪的魔力，
 
-<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@mike.around.the.world/video/6967704281130470658" data-video-id="6967704281130470658" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@mike.around.the.world" href="https://www.tiktok.com/@mike.around.the.world">@mike.around.the.world</a> <p>Подпишись на мой блог о путешествиях!❤️</p> <a target="_blank" title="♬ оригинальный звук - Mikhail Zarubin" href="https://www.tiktok.com/music/оригинальный-звук-6967704231546063617">♬ оригинальный звук - Mikhail Zarubin</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+{{< tiktok 6967704281130470658 >}}
 
-<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@sava_zloy_cat/video/6971074148080651522" data-video-id="6971074148080651522" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@sava_zloy_cat" href="https://www.tiktok.com/@sava_zloy_cat">@sava_zloy_cat</a> <p>У Савы опять приступ🙈 🚨🚨🚨<a title="petstiktok" target="_blank" href="https://www.tiktok.com/tag/petstiktok">##petstiktok</a> <a title="абиссин" target="_blank" href="https://www.tiktok.com/tag/%D0%B0%D0%B1%D0%B8%D1%81%D1%81%D0%B8%D0%BD">##абиссин</a> <a title="abissinian" target="_blank" href="https://www.tiktok.com/tag/abissinian">##abissinian</a> <a title="абиссинец" target="_blank" href="https://www.tiktok.com/tag/%D0%B0%D0%B1%D0%B8%D1%81%D1%81%D0%B8%D0%BD%D0%B5%D1%86">##абиссинец</a> <a title="хочуврекомендации" target="_blank" href="https://www.tiktok.com/tag/%D1%85%D0%BE%D1%87%D1%83%D0%B2%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D0%B8">##хочуврекомендации</a></p> <a target="_blank" title="♬ оригинальный звук - Sava_zloy_cat" href="https://www.tiktok.com/music/оригинальный-звук-6971074076932573954">♬ оригинальный звук - Sava_zloy_cat</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+{{< tiktok 6971074148080651522 >}}
 
 和狗狗的傻萌：
 
-<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@my_aussie_gal/video/6973393457595354373" data-video-id="6973393457595354373" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@my_aussie_gal" href="https://www.tiktok.com/@my_aussie_gal">@my_aussie_gal</a> <p>This was a lot of fun😂❤️</p> <a target="_blank" title="♬ 原聲 - 喵喵也想當野王(⁎˃ᆺ˂) - YTの涼涼---主推VT香草奈若＆平平子" href="https://www.tiktok.com/music/原聲-喵喵也想當野王-⁎˃ᆺ˂-6925775280464268034">♬ 原聲 - 喵喵也想當野王(⁎˃ᆺ˂) - YTの涼涼---主推VT香草奈若＆平平子</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+{{< tiktok 6973393457595354373 >}}
 
 在 TikTok，我发现了火热背景音乐原版里的情深似海（存于画外[^2]）：
 
-<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@vtkh2004/video/6955052891673611521" data-video-id="6955052891673611521" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@vtkh2004" href="https://www.tiktok.com/@vtkh2004">@vtkh2004</a> <p>Ngáo ngơ</p> <a target="_blank" title="♬ nhạc nền  - Vũ Thị Khánh Huyền" href="https://www.tiktok.com/music/nhạc-nền-Vũ-Thị-Khánh-Huyền-6955052896702565122">♬ nhạc nền  - Vũ Thị Khánh Huyền</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+{{< tiktok 6955052891673611521 >}}
 
-<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@blink031497/video/6967999551240244481" data-video-id="6967999551240244481" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@blink031497" href="https://www.tiktok.com/@blink031497">@blink031497</a> <p>💞<a title="lisa" target="_blank" href="https://www.tiktok.com/tag/lisa">##lisa</a> <a title="blackpink" target="_blank" href="https://www.tiktok.com/tag/blackpink">##blackpink</a></p> <a target="_blank" title="♬ nhạc nền  - Vũ Thị Khánh Huyền" href="https://www.tiktok.com/music/nhạc-nền-Vũ-Thị-Khánh-Huyền-6955052896702565122">♬ nhạc nền  - Vũ Thị Khánh Huyền</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+{{< tiktok 6967999551240244481 >}}
 
 在 TikTok，我看到了同一音姿的不同意境：
 
-<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@m11132426/video/6965703702975941890" data-video-id="6965703702975941890" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@m11132426" href="https://www.tiktok.com/@m11132426">@m11132426</a> <p><a title="ウィンクハート" target="_blank" href="https://www.tiktok.com/tag/%E3%82%A6%E3%82%A3%E3%83%B3%E3%82%AF%E3%83%8F%E3%83%BC%E3%83%88">##ウィンクハート</a></p> <a target="_blank" title="♬ Unlock it (Lock It) [Jeff Prior Mix] - Charli XCX" href="https://www.tiktok.com/music/Unlock-it-Lock-It-6928827743895292677">♬ Unlock it (Lock It) [Jeff Prior Mix] - Charli XCX</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+{{< tiktok 6965703702975941890 >}}
 
-<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@bretmanrock/video/6939721692486978822" data-video-id="6939721692486978822" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@bretmanrock" href="https://www.tiktok.com/@bretmanrock">@bretmanrock</a> <p>Tiktok y’all better know Tora when you see her</p> <a target="_blank" title="♬ Unlock it (Lock It) [Jeff Prior Mix] - Charli XCX" href="https://www.tiktok.com/music/Unlock-it-Lock-It-6928827743895292677">♬ Unlock it (Lock It) [Jeff Prior Mix] - Charli XCX</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+{{< tiktok 6939721692486978822 >}}
 
 世界有理性的人生和快意的人生，当它们同时被命运混沌所停止的时候，谁的道德价值是更高级的呢？谁的人生是更高尚或更可笑的呢？意识停止，判断者是谁呢？
 
 ---
 
 [^1]: 不同系统不同浏览器上，安装流程可能稍有不同，目前在 iOS 使用 Safari 浏览器访问支持 PWA 的网站后，点击「分享」按钮，上滑点击「Add to Home Screen」加号图标即可安装。
-[^2]: <iframe src="https://embed.music.apple.com/us/album/masih-mencintainya/838036591?i=838036594&amp;app=music&amp;itsct=music_box_player&amp;itscg=30200&amp;ct=songs_masih_mencintainya&amp;ls=1" height="150px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent;"></iframe>
+[^2]: {{< apple-music "masih-mencintainya/1737339168?i=1737339169" >}}
