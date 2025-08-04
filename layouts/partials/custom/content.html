@@ -9,7 +9,9 @@
 {{- end -}}
 
 <!-- Add Substack embed at the end of content -->
-{{- $SubstackEmbed := `<iframe src="https://yixiuer.substack.com/embed" class="substack-embed"></iframe>` -}}
-{{- $Content = printf `%s%s` $Content $SubstackEmbed -}}
+{{- if eq hugo.Environment "production" -}}
+    {{- $SubstackEmbed := `<iframe src="https://yixiuer.substack.com/embed" class="substack-embed"></iframe>` -}}
+    {{- $Content = printf `%s%s` $Content $SubstackEmbed -}}
+{{- end -}}
 
 {{- return $Content -}}
