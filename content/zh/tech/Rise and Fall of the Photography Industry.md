@@ -36,3 +36,5 @@ Everything is a fight. We fight on the market with our competitors, the change o
 {{< /quote >}}
 
 「生於憂患，死於安樂。」唯有不斷競爭創新，才能贏得滿意勝利。現代世界相對文明，適者生存不再等同弱肉強食，但唯有充分的競爭意識，才能贏得這場開放的競技運動。正如古希臘思想中的阿睿提（[Arete](https://reuixiy.notion.site/168c9131ed4f80d2b163de946715ab6b)），即追求卓越，「充分發揮箇人潛力的行為。卓越者是最有效的，他們使用所有的能力——力量、勇敢和智慧——來取得真正的成果。」——也即我們生命存在之魅力所在。[*](https://reuixiy.notion.site/24bc9131ed4f806ab22cd19358ad7d03)
+
+{{< apple-music "titans/158043498?i=158043634" >}}
