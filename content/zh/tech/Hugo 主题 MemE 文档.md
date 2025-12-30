@@ -106,12 +106,12 @@ MemE 主题践行极简主义，没有使用现有的流行前端库，主题的
 
 安装完 Hugo 和 MemE 后，再进行以下两步操作——替换 `config.toml` 和新建文章，以为博客的起飞做准备😺～
 
-1️⃣ 替换 `config.toml`
+1️⃣ 替换 `hugo.toml`
 
 对于简体中文用户，你可以通过文件浏览器打开站点文件夹，然后将 Hugo 默认生成的 `config.toml` 删除，再进入 `themes/meme/config-examples/zh-cn/` 目录，将 MemE 提供的 `config.toml` ..复制..到站点根目录下。当然，你也可以直接通过终端：
 
 ```sh
-~/blog $ rm config.toml && cp themes/meme/config-examples/zh-cn/config.toml config.toml
+~/blog $ rm config.toml && cp themes/meme/config-examples/zh-cn/hugo.toml hugo.toml
 ```
 
 2️⃣ 新建文章
